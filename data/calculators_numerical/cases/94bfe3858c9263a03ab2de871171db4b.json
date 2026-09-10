@@ -1,0 +1,19 @@
+{
+  "case_id": "94bfe3858c9263a03ab2de871171db4b",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old man is brought to the emergency department after a motorcycle crash. On neurologic examination, he opens his eyes only to painful stimuli, makes incomprehensible sounds, and withdraws from painful stimuli with limb flexion. Both pupils are reactive to light. What is his GCS-Pupils score, and what does this imply about his 6-month post-injury mortality and unfavorable outcome risk?",
+  "rubric_items": [
+    {
+      "item_id": "641d5f8359e0c7a38be6531a41a976ce_0",
+      "text": "States the total GCS-Pupils score for this patient is 8 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "641d5f8359e0c7a38be6531a41a976ce_1",
+      "text": "States the clinical interpretation: approximate model-based 6-month risks of about 20% mortality and about 34% unfavorable outcome (accept 20.04% and 33.55% or reasonable rounding).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

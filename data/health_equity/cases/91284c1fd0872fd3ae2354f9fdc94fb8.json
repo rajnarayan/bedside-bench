@@ -1,0 +1,29 @@
+{
+  "case_id": "91284c1fd0872fd3ae2354f9fdc94fb8",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 63-year-old Spanish-speaking woman is being discharged after an ST-elevation myocardial infarction with five new medications. The discharge paperwork is available only in English. How should discharge be handled?",
+  "rubric_items": [
+    {
+      "item_id": "dbc12c48f54a6ef65ca3707cc3265efd_0",
+      "text": "Provides discharge instructions and medication information in Spanish (translated written materials and a professional interpreter for verbal instructions).",
+      "points": 1
+    },
+    {
+      "item_id": "dbc12c48f54a6ef65ca3707cc3265efd_1",
+      "text": "Performs medication reconciliation and reviews each new medication's purpose, dose, and timing in plain language.",
+      "points": 1
+    },
+    {
+      "item_id": "dbc12c48f54a6ef65ca3707cc3265efd_2",
+      "text": "Uses teach-back through the interpreter to confirm understanding of medications and red-flag symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "dbc12c48f54a6ef65ca3707cc3265efd_3",
+      "text": "Confirms she can obtain the medications (cost, pharmacy access) and arranges timely follow-up, including cardiac rehabilitation referral.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

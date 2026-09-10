@@ -1,0 +1,14 @@
+{
+  "case_id": "16a60e500c6e138a1749a891c83b0c45",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 56-year-old male presents to his primary care physician complaining of chronic fatigue and excessive daytime sleepiness that has persisted for several months. His partner has also reported loud snoring and observed episodes where he seems to stop breathing during sleep, often followed by gasping or choking. The patient has a history of hypertension for which he is currently receiving treatment. Upon examination, his body mass index (BMI) is found to be 38 kg/m², and his neck circumference measures 42 cm. Given his age and the constellation of symptoms, his physician decides to assess his risk for obstructive sleep apnea using the STOP-BANG score. What is the STOP-BANG score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "3f727239887325799f793056f789c471_0",
+      "text": "States the STOP-BANG score is 8 (out of 8; exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

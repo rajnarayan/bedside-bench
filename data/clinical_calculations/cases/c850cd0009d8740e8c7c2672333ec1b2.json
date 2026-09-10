@@ -1,0 +1,14 @@
+{
+  "case_id": "c850cd0009d8740e8c7c2672333ec1b2",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A patient is taking oral morphine 90 mg per day for chronic pain and needs to be switched to oral hydromorphone. Using an oral morphine to oral hydromorphone equianalgesic ratio of 5:1, what is the equivalent total daily oral hydromorphone dose?",
+  "rubric_items": [
+    {
+      "item_id": "56c8d63189e57fc07cb740a9a73c7bb8_0",
+      "text": "States the equianalgesic total daily oral hydromorphone dose is 18 mg/day (90 mg ÷ 5; exact match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

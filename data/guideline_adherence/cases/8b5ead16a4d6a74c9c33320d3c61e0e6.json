@@ -1,0 +1,19 @@
+{
+  "case_id": "8b5ead16a4d6a74c9c33320d3c61e0e6",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 42-year-old man presents to the emergency department with a 2-day history of severe perianal pain and swelling. On examination, he is afebrile, has a localized, fluctuant, erythematous mass near the anus, but no surrounding cellulitis. He has no significant past medical history and is not immunosuppressed. Incision and drainage of the abscess is performed successfully. The surgical resident asks whether antibiotics should be prescribed routinely after the procedure.\n\nBased on current ASCRS guidelines, should this patient receive antibiotics after incision and drainage of his anorectal abscess? Justify your answer according to the guideline recommendation.",
+  "rubric_items": [
+    {
+      "item_id": "d895341884370fcfe8f13b8111e998c6_0",
+      "text": "States that antibiotics are not indicated after incision and drainage for this patient.",
+      "points": 2
+    },
+    {
+      "item_id": "d895341884370fcfe8f13b8111e998c6_1",
+      "text": "Explains that antibiotics are reserved for patients with cellulitis, systemic signs of infection, or immunosuppression, and this patient has none of these.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

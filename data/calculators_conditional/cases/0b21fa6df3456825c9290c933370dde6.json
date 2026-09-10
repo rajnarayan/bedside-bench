@@ -1,0 +1,14 @@
+{
+  "case_id": "0b21fa6df3456825c9290c933370dde6",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 60-year-old woman is evaluated by gynecologic oncology for a persistent vulvar ulcerative lesion. On examination, the primary vulvar tumor is 6 cm, extends into the upper two-thirds of the vagina, and is fixed to the pelvic bone, without invasion of the bladder or rectal mucosa. Imaging confirms these findings. Regional lymph node evaluation shows unilateral enlarged inguinofemoral nodes, and biopsy confirms metastatic regional nodal involvement. There is no distant metastasis on staging studies. Based on the AJCC 8th edition TNM classification for vulvar cancer, what stage does this patient have?",
+  "rubric_items": [
+    {
+      "item_id": "706a197fbd2a77c749038512d2b0863b_0",
+      "text": "States the clinical interpretation: Stage IVA (T3, node-positive, M0) (accept equivalent wording; the stage group Stage IVA is the essential element).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

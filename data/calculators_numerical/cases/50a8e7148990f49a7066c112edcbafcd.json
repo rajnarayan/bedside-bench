@@ -1,0 +1,19 @@
+{
+  "case_id": "50a8e7148990f49a7066c112edcbafcd",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old male was brought to the emergency department following a motorcycle accident. On initial assessment, the patient is found to have significant head trauma with visible lacerations but no immediate life-threatening external bleeding. The paramedics reported a brief loss of consciousness at the scene. Currently, in the ED, the patient opens his eyes only to painful stimuli, is making incomprehensible sounds, and demonstrates abnormal (decorticate) flexion in response to pain. The attending physician wants to assess the severity of his head injury using the Glasgow Coma Scale. What is this patient's Glasgow Coma Scale (GCS) score?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "2e5f5d63b44e99c0557dff93334ef9f8_0",
+      "text": "States the total Glasgow Coma Scale (GCS) score is 7 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "2e5f5d63b44e99c0557dff93334ef9f8_1",
+      "text": "States the clinical interpretation or risk category: severe head injury / severe traumatic brain injury / coma (or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

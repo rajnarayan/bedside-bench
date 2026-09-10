@@ -1,0 +1,34 @@
+{
+  "case_id": "d3eef816b04960805eaf23e79765133c",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 38-year-old man with opioid use disorder in a rural county wants to start buprenorphine, but the nearest addiction specialist is 150 miles away. He asks what his options are. How do you advise him?",
+  "rubric_items": [
+    {
+      "item_id": "71575f48a3c66b74fcb69bddc5a8f1e5_0",
+      "text": "States that buprenorphine can be prescribed in primary care or via telehealth and no longer requires a special federal waiver.",
+      "points": 1
+    },
+    {
+      "item_id": "71575f48a3c66b74fcb69bddc5a8f1e5_1",
+      "text": "Recommends prompt initiation of medication for opioid use disorder rather than delaying for specialist access, given its mortality benefit.",
+      "points": 1
+    },
+    {
+      "item_id": "71575f48a3c66b74fcb69bddc5a8f1e5_2",
+      "text": "Offers practical access routes: telemedicine buprenorphine programs, local primary care prescribers, or hub-and-spoke models.",
+      "points": 1
+    },
+    {
+      "item_id": "71575f48a3c66b74fcb69bddc5a8f1e5_3",
+      "text": "Includes overdose prevention: naloxone co-prescribing and counseling.",
+      "points": 1
+    },
+    {
+      "item_id": "71575f48a3c66b74fcb69bddc5a8f1e5_4",
+      "text": "Uses non-stigmatizing framing of opioid use disorder as a treatable chronic condition.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

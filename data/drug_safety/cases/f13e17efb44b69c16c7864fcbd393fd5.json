@@ -1,0 +1,29 @@
+{
+  "case_id": "f13e17efb44b69c16c7864fcbd393fd5",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "54 yo F with a history of epilepsy (on valproic acid 1000 mg daily) and bipolar disorder (on lamotrigine 100 mg BID) presents with fever and cough. CXR shows left lower lobe infiltrate. She has a sulfa allergy (rash). Hospitalist recommends switching to carbapenem (imipenem-cilastatin) for coverage, citing allergy concern with usual empiric therapy. Safe to start imipenem-cilastatin?",
+  "rubric_items": [
+    {
+      "item_id": "fc60055d52844f5b869f0221f7081255_0",
+      "text": "Recognizes the dangerous pharmacokinetic interaction between imipenem (and carbapenems in general) and valproic acid, leading to a rapid, marked drop in valproic acid levels and risk of breakthrough or refractory seizures.",
+      "points": 1
+    },
+    {
+      "item_id": "fc60055d52844f5b869f0221f7081255_1",
+      "text": "Recommends against imipenem-cilastatin in this case because concomitant carbapenem–valproate therapy should generally be avoided when effective alternatives exist, even when epilepsy is well controlled.",
+      "points": 1
+    },
+    {
+      "item_id": "fc60055d52844f5b869f0221f7081255_2",
+      "text": "Recommends an appropriate non-carbapenem antibiotic regimen and clarifies that a sulfonamide-antibiotic rash does not itself contraindicate penicillins or cephalosporins (standard pneumonia therapy such as ceftriaxone plus azithromycin may be used when otherwise appropriate).",
+      "points": 1
+    },
+    {
+      "item_id": "fc60055d52844f5b869f0221f7081255_3",
+      "text": "States that simply monitoring levels or increasing the valproate dose is not a reliable or safe way to manage this interaction.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

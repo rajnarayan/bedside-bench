@@ -1,0 +1,34 @@
+{
+  "case_id": "ac11873aa77a2eb5f84f86417dfea28a",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old man with a history of orthotopic liver transplant (three years ago, stable on tacrolimus and prednisone) presents with new-onset atrial fibrillation. His heart rate is 120 bpm, blood pressure 130/80 mmHg, and creatinine 1.1 mg/dL, and his LFTs are normal. He is not yet on anticoagulation. Cardiology recommends starting amiodarone for rhythm control. Is it safe to begin amiodarone 200 mg orally twice daily in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "b0c8b17f0f73b57e55892028bd11ead0_0",
+      "text": "Recognizes that amiodarone can increase tacrolimus exposure through CYP3A4/P-glycoprotein inhibition, increasing the risk of tacrolimus toxicity despite currently normal renal and liver tests.",
+      "points": 1
+    },
+    {
+      "item_id": "b0c8b17f0f73b57e55892028bd11ead0_1",
+      "text": "Coordinates initiation with the transplant team, obtains a baseline tacrolimus trough, and arranges close follow-up trough levels and renal-function monitoring with individualized tacrolimus dose adjustment; an empiric reduction may be appropriate depending on baseline exposure and clinical circumstances.",
+      "points": 1
+    },
+    {
+      "item_id": "b0c8b17f0f73b57e55892028bd11ead0_2",
+      "text": "Does not start amiodarone at full dose without first addressing this interaction and ensuring a safe immunosuppressant adjustment protocol.",
+      "points": 1
+    },
+    {
+      "item_id": "b0c8b17f0f73b57e55892028bd11ead0_3",
+      "text": "Assesses AF duration and cardioversion-related thromboembolic risk before initiating rhythm control (amiodarone can cause pharmacologic cardioversion), recommending guideline-concordant anticoagulation and/or pre-conversion thrombus-exclusion imaging when indicated, with appropriate post-cardioversion anticoagulation.",
+      "points": 1
+    },
+    {
+      "item_id": "b0c8b17f0f73b57e55892028bd11ead0_4",
+      "text": "Reviews baseline ECG/QTc, potassium, and magnesium, corrects electrolyte abnormalities, and plans ECG monitoring because tacrolimus and amiodarone can both prolong the QT interval.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

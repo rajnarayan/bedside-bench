@@ -1,0 +1,24 @@
+{
+  "case_id": "060fc273ab79cb9d4f7e8a9d8e253dd5",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old woman with severe rheumatoid arthritis on chronic oral prednisone (10 mg/day) and weekly methotrexate presents with new-onset fever, productive cough, and a right lower lobe infiltrate on chest X-ray. Sputum culture is pending. She is mildly hypoxic (SpO₂ 93% on room air), with a heart rate of 92 and blood pressure of 124/82. She is afebrile on arrival but reports chills at home, and she has no recent travel. She is admitted for IV ceftriaxone and azithromycin. Infectious diseases recommends switching azithromycin to moxifloxacin for broader atypical coverage. Is it appropriate to proceed?",
+  "rubric_items": [
+    {
+      "item_id": "68befa69f1bcd167c69e95e1462c1bbc_0",
+      "text": "Recognizes that systemic fluoroquinolones such as moxifloxacin increase the risk of tendinitis and tendon rupture, and that concomitant prednisone further increases this risk.",
+      "points": 1
+    },
+    {
+      "item_id": "68befa69f1bcd167c69e95e1462c1bbc_1",
+      "text": "Specifically identifies this drug interaction and recommends avoiding fluoroquinolones in this population whenever possible, favoring alternative regimens unless absolutely necessary.",
+      "points": 1
+    },
+    {
+      "item_id": "68befa69f1bcd167c69e95e1462c1bbc_2",
+      "text": "Explains that absence of current tendon pain does not eliminate fluoroquinolone-associated tendon injury risk and recommends discussing a safer antibiotic regimen with infectious diseases.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

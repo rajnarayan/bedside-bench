@@ -1,0 +1,129 @@
+{
+  "case_id": "6151ec8612ed296bffab3ab8c453bd59",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 64-year-old man with established coronary artery disease (prior myocardial infarction) has an LDL cholesterol of 128 mg/dL. He reports genuine myalgias that resolved off statin and recurred on two separate statins at low doses, without CK elevation or rhabdomyolysis. What is the appropriate approach to lipid-lowering therapy?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_0",
+      "text": "Offer a shared-decision trial of a different low-dose or intermittent statin regimen if acceptable to the patient, without delaying indicated nonstatin therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_1",
+      "text": "Add ezetimibe if statin tolerance remains limited.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_2",
+      "text": "Add a PCSK9 inhibitor if LDL remains above goal on maximally tolerated therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_3",
+      "text": "Set an LDL goal appropriate for very-high-risk secondary prevention, such as below 55–70 mg/dL.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_4",
+      "text": "Reinforce the need for ongoing lipid-lowering therapy because of his very high cardiovascular risk.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_5",
+      "text": "Consider bempedoic acid as an additional nonstatin option.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_6",
+      "text": "Evaluate for secondary or contributing causes of myalgia, including hypothyroidism, vitamin D deficiency, and drug interactions.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_7",
+      "text": "Reinforce comprehensive lifestyle measures for cardiovascular risk reduction.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_8",
+      "text": "Recheck a lipid panel after therapy changes to confirm response.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_9",
+      "text": "Continue a statin only at a dose the patient tolerates, or prescribe nonstatin-only LDL-lowering therapy if no statin regimen is tolerable.",
+      "points": 2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_10",
+      "text": "Refer to a lipid specialist if an acceptable LDL level cannot be achieved because of medication intolerance.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_11",
+      "text": "Instruct the patient to report recurrent or worsening muscle symptoms during rechallenge.",
+      "points": 1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_12",
+      "text": "Discontinue all lipid-lowering therapy because of statin intolerance.",
+      "points": -3
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_13",
+      "text": "Recommend only red yeast rice or over-the-counter supplements in place of guideline-directed therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_14",
+      "text": "Continue a full-dose statin despite intolerable, reproducible myalgias without adjustment.",
+      "points": -1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_15",
+      "text": "Dismiss the muscle symptoms because the CK level is normal.",
+      "points": -1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_16",
+      "text": "Use niacin as the primary substitute for evidence-based LDL-lowering therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_17",
+      "text": "Use fibrate monotherapy as the primary treatment for this elevated LDL level.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_18",
+      "text": "Rely on lifestyle modification alone despite established coronary artery disease.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_19",
+      "text": "Accept an LDL level of 128 mg/dL as adequate because of the muscle symptoms.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_20",
+      "text": "Defer pharmacologic LDL lowering unless the LDL level reaches 190 mg/dL.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_21",
+      "text": "Perform routine serial CK testing in the absence of new or worsening muscle symptoms.",
+      "points": -1
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_22",
+      "text": "Initiate LDL apheresis for an LDL level of 128 mg/dL without first using appropriate medications.",
+      "points": -2
+    },
+    {
+      "item_id": "60f9dda4266434f63028ce28a8bada1a_23",
+      "text": "Add gemfibrozil to a statin regimen despite the increased risk of muscle toxicity.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

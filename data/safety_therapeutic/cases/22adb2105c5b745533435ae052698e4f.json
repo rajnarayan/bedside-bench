@@ -1,0 +1,199 @@
+{
+  "case_id": "22adb2105c5b745533435ae052698e4f",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 36-year-old woman presents with a 3-month history of persistent low mood, anhedonia, poor concentration, insomnia, fatigue, and a 10-pound weight gain. Her PHQ-9 score is 17. She reports no suicidal ideation and has no prior psychiatric history. How should this be managed?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_0",
+      "text": "Identify likely major depressive disorder, confirm DSM-5-TR diagnostic criteria including functional impairment and relevant exclusions, and assess clinical severity.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_1",
+      "text": "Perform and document a structured suicide risk assessment.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_2",
+      "text": "Screen for prior manic or hypomanic episodes before starting an antidepressant.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_3",
+      "text": "Screen for alcohol and other substance use disorders.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_4",
+      "text": "Assess for recent psychosocial stressors and their relationship to the depressive episode.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_5",
+      "text": "Screen for comorbid anxiety with a validated instrument such as the GAD-7.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_6",
+      "text": "Screen for thyroid dysfunction with TSH; add or reflex to free T4 when clinically indicated.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_7",
+      "text": "Obtain a complete blood count.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_8",
+      "text": "Obtain a comprehensive metabolic panel.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_9",
+      "text": "Assess pregnancy status and reproductive plans, with pregnancy testing when indicated to guide shared medication selection.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_10",
+      "text": "Offer evidence-based first-line treatment through shared decision-making: an antidepressant at a standard starting dose (such as sertraline, escitalopram, fluoxetine, or bupropion), evidence-based psychotherapy (such as cognitive behavioral therapy or interpersonal psychotherapy), or both.",
+      "points": 3
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_11",
+      "text": "Counsel on sleep hygiene as an adjunct to depression treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_12",
+      "text": "Recommend regular aerobic exercise as an adjunct to depression treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_13",
+      "text": "Counsel that antidepressant benefit may take 4 to 6 weeks and review common adverse effects.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_14",
+      "text": "Provide urgent return precautions for emergent suicidal ideation or marked symptom worsening.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_15",
+      "text": "Schedule follow-up within 2 to 4 weeks to assess tolerability, safety, and early response.",
+      "points": 2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_16",
+      "text": "Repeat the PHQ-9 during follow-up to quantify treatment response.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_17",
+      "text": "Refer to psychiatry if symptoms persist despite an adequate initial treatment trial.",
+      "points": 1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_18",
+      "text": "Prescribe benzodiazepine monotherapy as treatment for the depressive episode.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_19",
+      "text": "Use a tricyclic antidepressant such as amitriptyline as first-line therapy.",
+      "points": -1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_20",
+      "text": "Use an MAOI such as phenelzine as first-line therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_21",
+      "text": "Use an antipsychotic such as olanzapine or aripiprazole as first-line monotherapy.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_22",
+      "text": "Prescribe a stimulant for fatigue or poor concentration before treating the depression.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_23",
+      "text": "Order routine brain imaging or EEG for uncomplicated depressive symptoms without neurologic findings.",
+      "points": -1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_24",
+      "text": "Require pharmacogenomic testing before initiating a first-line antidepressant.",
+      "points": -1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_25",
+      "text": "Order invasive or extensive neuroinflammatory testing, such as lumbar puncture or broad autoimmune serologies, without a clinical indication.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_26",
+      "text": "Refer for electroconvulsive therapy as the initial treatment for this uncomplicated moderate episode.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_27",
+      "text": "Refer for transcranial magnetic stimulation before an adequate medication or psychotherapy trial.",
+      "points": -1
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_28",
+      "text": "Arrange emergency or inpatient psychiatric evaluation despite the absence of suicidality, psychosis, mania, or inability to care for herself.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_29",
+      "text": "Defer active treatment and recommend lifestyle changes or watchful waiting alone.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_30",
+      "text": "Recommend alcohol or cannabis as a sleep aid.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_31",
+      "text": "Delay the first safety and response follow-up for six months.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_32",
+      "text": "Prescribe thyroid hormone based only on depressive symptoms without laboratory evidence of hypothyroidism.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_33",
+      "text": "Recommend combining St. John's wort with an SSRI or another serotonergic antidepressant.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_34",
+      "text": "Use zolpidem as the primary or sole treatment for this presentation.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_35",
+      "text": "Initiate lithium without evidence of bipolar disorder or treatment-resistant depression.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_36",
+      "text": "Begin high-dose combination antidepressant therapy without an adequate monotherapy trial.",
+      "points": -2
+    },
+    {
+      "item_id": "e14731979c152a7c7a4fc4156206124b_37",
+      "text": "If an antidepressant is effective, continue it at the effective dose for at least 6 months after remission before considering discontinuation.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

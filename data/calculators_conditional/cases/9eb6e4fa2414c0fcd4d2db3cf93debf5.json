@@ -1,0 +1,14 @@
+{
+  "case_id": "9eb6e4fa2414c0fcd4d2db3cf93debf5",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 28-year-old male graduate student visits the university health clinic, reporting feeling low and unmotivated. He mentions he recently moved to a new city for his studies and has been finding it difficult to make new friends and adjust to the change. During the consultation, the clinician noted signs of isolation and sought to assess his mental health further. As part of the assessment, the clinician decides to use the Single-Item Loneliness Scale to understand the extent of his loneliness. The student reports that during the past week, he felt lonely often or a moderate amount of time (3-4 days). What is the result of the Single-Item Loneliness Scale for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "41e87bdec2325392ce2855e04e86b2bc_0",
+      "text": "States that the correct answer is \"Lonely\" (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

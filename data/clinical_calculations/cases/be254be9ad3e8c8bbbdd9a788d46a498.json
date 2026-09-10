@@ -1,0 +1,19 @@
+{
+  "case_id": "be254be9ad3e8c8bbbdd9a788d46a498",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 7-year-old boy is brought to the emergency department following a fall from the top of a 6-foot slide on a playground. The accident occurred around three hours ago. Upon arrival, he is conscious and able to communicate but complains of a headache that his parents say has been getting worse since the incident. During the examination, the boy appears irritable and has vomited twice in the last hour. The physical examination reveals a large boggy hematoma on his scalp. However, there are no signs of basal skull fracture such as raccoon eyes or Battle's sign, and there is no evidence of an open or depressed skull fracture. The attending physician is considering whether a CT scan is necessary to rule out a significant brain injury. What are the CATCH rule findings in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "26797b98d848ab5fca514aac9fa7850a_0",
+      "text": "Identifies the patient as high risk under the CATCH rule because worsening headache and irritability on examination are high-risk criteria, and concludes that head CT is indicated.",
+      "points": 1
+    },
+    {
+      "item_id": "26797b98d848ab5fca514aac9fa7850a_1",
+      "text": "Identifies the large boggy scalp hematoma and the dangerous mechanism (fall of 6 feet, ≥3 feet) as additional medium-risk CATCH findings.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

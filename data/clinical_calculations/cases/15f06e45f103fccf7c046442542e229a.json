@@ -1,0 +1,14 @@
+{
+  "case_id": "15f06e45f103fccf7c046442542e229a",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A patient has an HbA1c of 7.1%. How should this be classified diagnostically?",
+  "rubric_items": [
+    {
+      "item_id": "a7aa2c51ad61f70675c63e45d6151131_0",
+      "text": "States the HbA1c of 7.1% falls in the diabetes range (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

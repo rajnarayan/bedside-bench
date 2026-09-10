@@ -1,0 +1,44 @@
+{
+  "case_id": "0589ca61832a2d6888dce99000d8d197",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Create Spanish-language patient education for a 58-year-old man with poorly controlled type 2 diabetes who is starting basal insulin for the first time.",
+  "rubric_items": [
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_0",
+      "text": "Is written in grammatically correct Spanish.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_1",
+      "text": "Explains in Spanish that basal insulin provides background glucose control and must be taken every day on the prescribed schedule, not only when glucose is high or symptoms occur; the education is self-contained in Spanish without reliance on a separate English handout.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_2",
+      "text": "Explains subcutaneous injection technique and injection-site rotation, instructs the patient to follow the prescribed dose, schedule, and any titration plan from the care team, and advises glucose monitoring according to that plan.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_3",
+      "text": "Includes red-flag symptoms that require immediate care.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_4",
+      "text": "Includes who to contact for emergencies.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_5",
+      "text": "Uses plain Spanish: medical terms are explained in everyday words, and injection, dosing, monitoring, and emergency instructions are given as short, direct sentences or steps.",
+      "points": 1
+    },
+    {
+      "item_id": "1f466b518effc8dbc68ee8bed0215540_6",
+      "text": "Explains how to recognize hypoglycemia and how to treat it (about 15 g of fast-acting carbohydrate, recheck glucose after 15 minutes, repeat if still low).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

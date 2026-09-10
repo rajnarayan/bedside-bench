@@ -1,0 +1,19 @@
+{
+  "case_id": "234c5498060e0d1894de2d479fe971f7",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old male with a significant smoking history of 40 pack-years presents to the clinic with a persistent cough and unexplained weight loss of 10 kg over the last three months. A recent chest X-ray suggested a suspicious mass in the right upper lobe, and a subsequent CT scan confirmed the presence of a 6.2 cm lesion. A biopsy was performed, confirming lung adenocarcinoma. Further staging workup, including a PET scan, showed involvement of ipsilateral mediastinal lymph nodes and a single liver metastasis. The patient's oncologist is now evaluating the extent of the disease to determine the appropriate treatment plan, including the potential for systemic therapy and radiotherapy. Based on the clinical and radiological findings, what is the TNM classification (AJCC 8th edition) and overall stage group for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "795360afd9f84efa74fa91e327e93c48_0",
+      "text": "States the TNM classification as T3 N2 M1b (accept clinical c-prefixes such as cT3 cN2 cM1b; an N2a/N2b subdivision is not required).",
+      "points": 1
+    },
+    {
+      "item_id": "795360afd9f84efa74fa91e327e93c48_1",
+      "text": "States the overall stage group as Stage IVA (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

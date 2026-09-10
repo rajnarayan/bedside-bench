@@ -1,0 +1,29 @@
+{
+  "case_id": "2fe13c503710ad92c43d9a069e686922",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 28-year-old woman, gravida 2 para 1, presents to the labor and delivery unit at 31 2/7 weeks of gestation with regular uterine contractions and cervical dilation of 3 cm. Her membranes are intact. She received a course of antenatal corticosteroids at 27 0/7 weeks due to a previous episode of threatened preterm labor, but did not deliver and her symptoms resolved at that time. She has now been admitted for preterm labor again, and the obstetric team is considering further management.\n\nAccording to current ACOG guidelines, should this patient receive a repeat course of antenatal corticosteroids at this time? Justify your answer based on the timing of her previous corticosteroid course and her current gestational age.",
+  "rubric_items": [
+    {
+      "item_id": "ff2a585910a63737033a69404bb859b0_0",
+      "text": "Recommends a single repeat course of antenatal corticosteroids at this time.",
+      "points": 2
+    },
+    {
+      "item_id": "ff2a585910a63737033a69404bb859b0_1",
+      "text": "States that she is less than 34 0/7 weeks of gestation (currently 31 2/7 weeks).",
+      "points": 1
+    },
+    {
+      "item_id": "ff2a585910a63737033a69404bb859b0_2",
+      "text": "States that she is at risk of preterm delivery within 7 days.",
+      "points": 1
+    },
+    {
+      "item_id": "ff2a585910a63737033a69404bb859b0_3",
+      "text": "States that the prior antenatal corticosteroid course was given more than 14 days ago, specifically at 27 0/7 weeks and now she is 31 2/7 weeks.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

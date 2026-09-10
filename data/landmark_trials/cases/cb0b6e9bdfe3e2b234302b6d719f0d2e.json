@@ -1,0 +1,29 @@
+{
+  "case_id": "cb0b6e9bdfe3e2b234302b6d719f0d2e",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old man with atrial fibrillation on chronic oral anticoagulation undergoes PCI with stent placement, and his cardiologist is deciding between clopidogrel plus anticoagulation alone versus adding aspirin as triple therapy.\n\nBased on the WOEST trial, what did double therapy with clopidogrel (without aspirin) show about bleeding compared with triple therapy in anticoagulated patients undergoing PCI? Include the primary endpoint results and at least one additional safety finding.",
+  "rubric_items": [
+    {
+      "item_id": "8a6783489c4efc6f4f1108059612f642_0",
+      "text": "States that double therapy with clopidogrel without aspirin significantly reduced the primary endpoint of any bleeding at 1 year compared with triple therapy in anticoagulated patients undergoing PCI.",
+      "points": 2
+    },
+    {
+      "item_id": "8a6783489c4efc6f4f1108059612f642_1",
+      "text": "Reports the primary endpoint rates as 19.4% with double therapy versus 44.4% with triple therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "8a6783489c4efc6f4f1108059612f642_2",
+      "text": "Reports the effect estimate for the primary endpoint as HR 0.36 with 95% CI 0.26-0.50 and p<0.0001.",
+      "points": 1
+    },
+    {
+      "item_id": "8a6783489c4efc6f4f1108059612f642_3",
+      "text": "Reports at least one accurate additional WOEST safety finding, such as fewer multiple bleeding events (2.2% vs 12.0%), fewer patients requiring transfusion (3.9% vs 9.5%; OR 0.39, p=0.011), or no observed increase in thrombotic events with double therapy; other accurately reported secondary safety outcomes also qualify.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,139 @@
+{
+  "case_id": "9c7757166e2127c4a4954c36a373d4a3",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 42-year-old woman develops sudden left-sided neck pain and a new unilateral headache several hours after forceful cervical manipulation. The next morning, her partner notices that her left eyelid droops and the left pupil is smaller. She has no limb weakness, aphasia, or loss of consciousness, and her noncontrast head CT at an urgent care center is normal. She is told this may be a migraine and asks whether outpatient observation is sufficient.\n\nProvide a comprehensive stepwise management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_0",
+      "text": "Send the patient immediately to an emergency department or stroke-capable center for suspected cervical artery dissection.",
+      "points": 3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_1",
+      "text": "Obtain urgent neurology or stroke-team consultation.",
+      "points": 3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_2",
+      "text": "Perform and document a complete neurologic examination including cranial nerves, visual fields, cerebellar testing, gait, and a standardized stroke assessment.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_3",
+      "text": "Recognize painful partial Horner syndrome after neck trauma or manipulation as a red flag for internal carotid artery dissection.",
+      "points": 3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_4",
+      "text": "Obtain urgent CT angiography of the head and neck from the aortic arch through the intracranial circulation.",
+      "points": 3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_5",
+      "text": "Use contrast-enhanced MRA of the head and neck with fat-suppressed vessel-wall imaging when CTA is contraindicated or further characterization is needed.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_6",
+      "text": "Obtain brain MRI with diffusion-weighted imaging to assess for acute ischemic injury when available without delaying vascular imaging or emergency treatment.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_7",
+      "text": "Review the noncontrast head CT for hemorrhage while recognizing that a normal result does not exclude arterial dissection or ischemic stroke.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_8",
+      "text": "Assess eligibility for intravenous thrombolysis if a disabling acute ischemic deficit develops within an appropriate treatment window.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_9",
+      "text": "Assess urgently for mechanical thrombectomy if imaging identifies an eligible intracranial large-vessel occlusion.",
+      "points": 3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_10",
+      "text": "Initiate antithrombotic therapy after intracranial hemorrhage and major contraindications have been excluded and in consultation with neurology.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_11",
+      "text": "Individualize the choice of antiplatelet therapy versus anticoagulation according to infarct burden, bleeding risk, intraluminal thrombus, anatomy, and specialist judgment.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_12",
+      "text": "Continue antithrombotic treatment for the specialist-recommended course, commonly three to six months, with reassessment before discontinuation.",
+      "points": 1
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_13",
+      "text": "Admit or observe the patient in a monitored setting when dissection is confirmed, neurologic symptoms evolve, or imaging and treatment decisions remain incomplete.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_14",
+      "text": "Provide frequent neurologic reassessment because ischemic complications may occur after the initial pain and Horner syndrome.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_15",
+      "text": "Advise avoidance of further cervical manipulation, high-velocity neck movement, and activities posing substantial neck trauma risk during healing.",
+      "points": 2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_16",
+      "text": "Arrange follow-up vascular imaging in approximately three to six months or at the interval recommended by the treating specialist.",
+      "points": 1
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_17",
+      "text": "Arrange outpatient neurology or vascular follow-up after the acute evaluation to guide antithrombotic duration and activity restrictions.",
+      "points": 1
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_18",
+      "text": "Reserve evaluation for an underlying connective-tissue or arteriopathy disorder for recurrent, multifocal, spontaneous, or otherwise suggestive dissections.",
+      "points": 1
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_19",
+      "text": "Reassure the patient that a normal noncontrast head CT excludes a dangerous vascular cause.",
+      "points": -3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_20",
+      "text": "Manage the presentation as routine migraine without vascular imaging.",
+      "points": -3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_21",
+      "text": "Use carotid duplex ultrasonography alone to exclude a distal internal carotid or vertebral artery dissection.",
+      "points": -2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_22",
+      "text": "Schedule outpatient CTA several days later despite the acute painful Horner syndrome.",
+      "points": -3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_23",
+      "text": "Perform another forceful neck manipulation to treat the presumed musculoskeletal pain.",
+      "points": -3
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_24",
+      "text": "Start full-dose anticoagulation before excluding intracranial hemorrhage and assessing infarct burden.",
+      "points": -2
+    },
+    {
+      "item_id": "3fa614e650cf44a2283920d9f1824625_25",
+      "text": "Perform lumbar puncture as the primary test for suspected cervical artery dissection when vascular imaging is available.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

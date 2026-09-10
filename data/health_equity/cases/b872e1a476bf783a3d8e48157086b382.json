@@ -1,0 +1,44 @@
+{
+  "case_id": "b872e1a476bf783a3d8e48157086b382",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Explain the following labs to a patient including discussion of eGFR. 53 y/o Black male: serum Cr 3.2 mg/dL, K 5.8 mmol/L, BUN 48 mg/dL. Urine shows 3+ protein.",
+  "rubric_items": [
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_0",
+      "text": "Addresses the patient directly and avoids derogatory, blaming, or race-stereotyped language.",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_1",
+      "text": "Explains eGFR in everyday language as an estimate of how well the kidneys filter waste from the blood.",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_2",
+      "text": "Terminology used is at a level appropriate for most patients",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_3",
+      "text": "Calculates eGFR using the CKD-EPI 2021 race-neutral equation (approximately 22 mL/min/1.73 m²).",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_4",
+      "text": "Explains that previous eGFR calculation methods used race-based correction factors, but that this is no longer the standard.",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_5",
+      "text": "Summarizes that the elevated creatinine/BUN and eGFR of about 22 indicate markedly reduced kidney filtering, potassium 5.8 is high and can affect heart rhythm, and 3+ urine protein suggests kidney damage; advises prompt (same-day) contact with the care team to arrange repeat potassium/kidney testing and an ECG as indicated, emergency evaluation for palpitations, fainting, or marked weakness, and timely kidney-specialist follow-up.",
+      "points": 1
+    },
+    {
+      "item_id": "3d869ca4ee3e4f0f73647a0d1357cf42_6",
+      "text": "Explains that these results alone cannot distinguish an acute kidney problem from chronic kidney disease, since CKD requires kidney abnormalities lasting at least three months, so prior or repeat results are needed.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

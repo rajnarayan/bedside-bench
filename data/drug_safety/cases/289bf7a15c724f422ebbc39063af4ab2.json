@@ -1,0 +1,29 @@
+{
+  "case_id": "289bf7a15c724f422ebbc39063af4ab2",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 41-year-old woman with focal epilepsy maintained on valproic acid and a recent diagnosis of migraine presents with increasing migraine frequency; she has previously failed NSAIDs and triptans. The neurology consult recommends starting topiramate 25 mg nightly, titrating up to 100 mg, while continuing valproic acid. Is this a safe regimen to prescribe for migraine prophylaxis?",
+  "rubric_items": [
+    {
+      "item_id": "65c3004ad726245f2862d47ac7b3dc0c_0",
+      "text": "Recognizes that concurrent use of valproic acid and topiramate increases the risk of hyperammonemic encephalopathy, independent of hepatic function or valproic acid levels.",
+      "points": 1
+    },
+    {
+      "item_id": "65c3004ad726245f2862d47ac7b3dc0c_1",
+      "text": "Explains that encephalopathy can occur at therapeutic doses and recommends either an alternative migraine preventive or coadministration only after individualized benefit–risk assessment; if coadministration is chosen, recommends counseling about encephalopathy symptoms and prompt evaluation with ammonia testing if suggestive symptoms (lethargy, vomiting, confusion) develop.",
+      "points": 1
+    },
+    {
+      "item_id": "65c3004ad726245f2862d47ac7b3dc0c_2",
+      "text": "Recognizes that recommending the regimen without caution would be unsafe.",
+      "points": 1
+    },
+    {
+      "item_id": "65c3004ad726245f2862d47ac7b3dc0c_3",
+      "text": "Assesses pregnancy status and potential before adding topiramate and, when relevant, counsels about fetal risks and effective contraception, noting that topiramate should be avoided for migraine prophylaxis during pregnancy.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

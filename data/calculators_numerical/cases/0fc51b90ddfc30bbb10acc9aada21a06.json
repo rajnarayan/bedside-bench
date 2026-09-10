@@ -1,0 +1,19 @@
+{
+  "case_id": "0fc51b90ddfc30bbb10acc9aada21a06",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 67-year-old man is being evaluated for lower urinary tract symptoms suggestive of benign prostatic hyperplasia. Using the International Prostate Symptom Score (IPSS), he reports the following over the past month:\n\n- Incomplete emptying: less than half the time\n- Frequency (needing to urinate again less than 2 hours after finishing): about half the time\n- Intermittency (stopping and starting again several times while urinating): less than 1 time in 5\n- Urgency (difficulty postponing urination): about half the time\n- Weak stream: almost always\n- Straining: less than half the time\n- Nocturia: 4 times per night\n\nWhat is his total IPSS score, and how should his symptom severity be interpreted?",
+  "rubric_items": [
+    {
+      "item_id": "0344cc88ba1f5b49f4dc7eda0eaf70c3_0",
+      "text": "States the total International Prostate Symptom Score (IPSS) score for this patient is 20 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "0344cc88ba1f5b49f4dc7eda0eaf70c3_1",
+      "text": "States the clinical interpretation: Severe symptoms (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

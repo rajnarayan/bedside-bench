@@ -1,0 +1,119 @@
+{
+  "case_id": "b117844f90f34574aec4d82e9d7f8d1a",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 24-year-old woman requests a refill of her drospirenone/ethinyl estradiol pill, which she has taken for three years. Over the past six months she has developed episodes of shimmering zigzag lines in her vision lasting about twenty minutes, followed by a one-sided throbbing headache with nausea. She smokes three to four cigarettes on weekend nights. Her blood pressure is 118/74 mmHg. She is otherwise healthy and wants to avoid pregnancy for at least two more years.\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_0",
+      "text": "Recognize the new visual episodes as migraine with aura, which makes combined hormonal contraception an unacceptable stroke risk (US MEC category 4).",
+      "points": 3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_1",
+      "text": "Discontinue the combined oral contraceptive.",
+      "points": 3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_2",
+      "text": "Offer effective estrogen-free alternatives, such as a progestin-only pill, etonogestrel implant, or an intrauterine device.",
+      "points": 3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_3",
+      "text": "Ensure a bridging contraception plan so she is not left without effective contraception during the transition.",
+      "points": 2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_4",
+      "text": "Take a careful headache history to characterize and document the aura.",
+      "points": 2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_5",
+      "text": "Provide smoking cessation counseling, explaining that smoking further compounds vascular risk.",
+      "points": 2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_6",
+      "text": "Offer an evidence-based acute migraine treatment plan (e.g., NSAID with or without a triptan in the absence of vascular contraindications).",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_7",
+      "text": "Discuss preventive migraine therapy if attacks are frequent or disabling.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_8",
+      "text": "Counsel on stroke warning signs and when to seek emergency care.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_9",
+      "text": "Assess other vascular risk factors, including blood pressure and family history of thrombosis or stroke.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_10",
+      "text": "Arrange follow-up to confirm tolerance of the new contraceptive method and reassess headaches.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_11",
+      "text": "Document shared decision-making about contraceptive options and their effectiveness.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_12",
+      "text": "Counsel that the copper IUD is a highly effective hormone-free option if she prefers to avoid hormones entirely.",
+      "points": 1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_13",
+      "text": "Refill the combined oral contraceptive unchanged.",
+      "points": -3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_14",
+      "text": "Switch to a lower-estrogen combined pill instead of discontinuing estrogen.",
+      "points": -3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_15",
+      "text": "Substitute the transdermal patch or vaginal ring, which carry the same estrogen-related contraindication.",
+      "points": -3
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_16",
+      "text": "Advise that quitting smoking alone makes it safe to continue combined hormonal contraception.",
+      "points": -2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_17",
+      "text": "Advise stopping the pill and using no replacement or backup contraception despite ongoing pregnancy risk and her stated wish to avoid pregnancy.",
+      "points": -2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_18",
+      "text": "Add daily aspirin to offset stroke risk while continuing the combined pill.",
+      "points": -2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_19",
+      "text": "Dismiss the visual symptoms as anxiety without evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_20",
+      "text": "Order carotid ultrasound as the primary response to migraine aura in a 24-year-old.",
+      "points": -1
+    },
+    {
+      "item_id": "b117844f90f34574aec4d82e9d7f8d1a_21",
+      "text": "Prescribe an ergotamine-containing medication for her migraine attacks.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

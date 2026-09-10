@@ -1,0 +1,19 @@
+{
+  "case_id": "73ad491947daf504a1adefe9312a4f50",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old male, who works as a software engineer, presents to the sleep clinic with complaints of prolonged difficulty sleeping over the past month. He reports spending over an hour trying to fall asleep each night and often wakes up multiple times during the night. His main issues include difficulty staying asleep and waking up too early, which leaves him feeling overly fatigued during the day and affects his concentration at work. Over the past 2 weeks, he describes his troubles with falling asleep as moderate, staying asleep as severe, and waking up too early as moderate. He rates his dissatisfaction with his current sleep pattern as very dissatisfied. He mentions that his sleep problems are much noticeable to colleagues and have led to a noticeable decline in work quality. Additionally, he feels very much worried about these sleep issues and perceives them as interfering very much with his daily functioning. He frequently feels irritable and has trouble concentrating during meetings. He seeks help to understand the severity of his insomnia. What is the Insomnia Severity Index (ISI) score for this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "a774a1c269fcf11eba9903d274ca0c17_0",
+      "text": "States the total Insomnia Severity Index (ISI) score for this patient is 22 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "a774a1c269fcf11eba9903d274ca0c17_1",
+      "text": "States the clinical interpretation: Severe insomnia (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

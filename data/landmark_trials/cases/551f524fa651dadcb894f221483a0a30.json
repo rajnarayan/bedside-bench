@@ -1,0 +1,24 @@
+{
+  "case_id": "551f524fa651dadcb894f221483a0a30",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old scheduled for major noncardiac surgery asks whether personalized intraoperative blood pressure management will reduce postoperative delirium risk.\n\nBased on IMPROVE, how would you counsel this patient?",
+  "rubric_items": [
+    {
+      "item_id": "73ec14b33eee182169a8942fec2e8f61_0",
+      "text": "States that in IMPROVE, personalized intraoperative blood pressure management did not significantly reduce postoperative delirium risk.",
+      "points": 2
+    },
+    {
+      "item_id": "73ec14b33eee182169a8942fec2e8f61_1",
+      "text": "Explains that the wide confidence interval and low event rate mean there is no proven benefit for delirium prevention.",
+      "points": 1
+    },
+    {
+      "item_id": "73ec14b33eee182169a8942fec2e8f61_2",
+      "text": "Counsels the patient that personalized intraoperative blood pressure management cannot be promised to lower their delirium risk, while explaining that the trial did not prove the strategy is ineffective (absence of demonstrated benefit is not evidence of no effect).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

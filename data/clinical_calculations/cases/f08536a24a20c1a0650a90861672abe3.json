@@ -1,0 +1,14 @@
+{
+  "case_id": "f08536a24a20c1a0650a90861672abe3",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 45-year-old male with a history of heavy alcohol use presents to the emergency department 12 hours after his last drink. He reports mild nausea with no vomiting or dry heaves. On exam, he has a moderate tremor when his arms are extended, and beads of sweat are obvious on his forehead. He is mildly anxious and shows somewhat more than normal activity, but is not fidgety or restless. He denies any tactile, auditory, or visual disturbances, including itching, burning, numbness, sensitivity to sounds or light, and hallucinations. He is fully oriented to person, place, and date but cannot perform serial additions. He complains of a mild headache. What is his CIWA-Ar score for alcohol withdrawal?",
+  "rubric_items": [
+    {
+      "item_id": "2c5735689b6f24f4f30f8ae1cae14566_0",
+      "text": "States the CIWA-Ar score is 14 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

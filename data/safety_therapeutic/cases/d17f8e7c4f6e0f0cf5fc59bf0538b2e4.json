@@ -1,0 +1,204 @@
+{
+  "case_id": "d17f8e7c4f6e0f0cf5fc59bf0538b2e4",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 66-year-old man with glomerulonephritis from ANCA vasculitis (recently off prednisone after about six months of treatment starting at 60 mg daily, stopped two months ago, and currently on Avacopan) presents with osteopenia on DEXA (lowest T-score -2.4 at the femoral neck) and a moderate FRAX risk. His past surgical history includes a right inguinal hernia repair 8 years ago.\n\nHis 10-year fracture probabilities are:\nT-score: -2.4\nFRAX (without glucocorticoids): major 7.5%, hip 2.2%\nVitamin D: 5 ng/mL\nPhosphate: 4.6 mg/dL\n\nHe has CKD (current eGFR 46, was 32 before treatment with steroids), trace monoclonal gammopathy, frailty, and malnutrition but no personal or family fracture history. Should the patient start bisphosphonates?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_0",
+      "text": "Defer bisphosphonate initiation until severe vitamin D deficiency is corrected and mineral abnormalities are evaluated.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_1",
+      "text": "Replete vitamin D with ergocalciferol or cholecalciferol 50,000 IU orally weekly for 8 to 12 weeks, or a clinically equivalent loading regimen.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_2",
+      "text": "Repeat the 25-hydroxyvitamin D level after 8 to 12 weeks of repletion.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_3",
+      "text": "Review existing results and obtain missing baseline calcium, albumin, phosphate, magnesium, alkaline phosphatase, creatinine/eGFR, 25-hydroxyvitamin D, and intact PTH measurements.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_4",
+      "text": "Repeat serum calcium, phosphate, and creatinine/eGFR after 8 to 12 weeks.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_5",
+      "text": "Start cholecalciferol approximately 2,000 IU daily as maintenance after vitamin D repletion.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_6",
+      "text": "Target approximately 1,000 mg/day of total elemental calcium, preferentially from dietary sources.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_7",
+      "text": "Obtain vertebral fracture assessment by DXA or lateral thoracolumbar radiographs.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_8",
+      "text": "Recalculate FRAX using the appropriate glucocorticoid adjustment based on the prior prednisone dose and duration.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_9",
+      "text": "Start oral alendronate 70 mg weekly only if reassessment after vitamin D repletion establishes a treatment indication and renal function remains adequate.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_10",
+      "text": "Repeat DXA in 1 to 2 years.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_11",
+      "text": "Obtain SPEP, UPEP, and serum free light chains to characterize the monoclonal gammopathy.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_12",
+      "text": "Refer to hematology for further evaluation of the monoclonal gammopathy.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_13",
+      "text": "Refer to nephrology for evaluation and longitudinal monitoring of CKD-mineral and bone disorder.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_14",
+      "text": "Refer to a registered dietitian to address malnutrition and optimize protein and mineral intake.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_15",
+      "text": "Refer to physical therapy for resistance exercise, balance training, and fall-risk reduction.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_16",
+      "text": "Counsel the patient on home safety and routine fall-prevention measures.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_17",
+      "text": "Review the medication list for drugs that increase fall risk.",
+      "points": 2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_18",
+      "text": "Assess gait and balance using a validated functional assessment, such as the Timed Up and Go test.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_19",
+      "text": "Encourage adequate protein intake in view of frailty and malnutrition.",
+      "points": 1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_20",
+      "text": "Start oral alendronate immediately without first correcting the severe vitamin D deficiency.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_21",
+      "text": "Administer IV zoledronic acid before correcting vitamin D deficiency or confirming adequate renal function.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_22",
+      "text": "Initiate osteoporosis medication solely because of the reported FRAX values, which are below standard treatment thresholds.",
+      "points": -1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_23",
+      "text": "Initiate denosumab before correcting vitamin D deficiency and ensuring adequate calcium status.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_24",
+      "text": "Use denosumab as first-line therapy without a plan for antiresorptive treatment when denosumab is discontinued.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_25",
+      "text": "Prescribe teriparatide or abaloparatide for uncomplicated osteopenia without a fragility fracture or very high fracture risk.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_26",
+      "text": "Initiate romosozumab without evaluating cardiovascular contraindications.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_27",
+      "text": "Restart chronic prednisone solely to manage osteopenia.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_28",
+      "text": "Prescribe more than 1,500 mg/day of supplemental elemental calcium without accounting for CKD and phosphate abnormalities.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_29",
+      "text": "Prescribe calcitriol routinely without a PTH-based indication and mineral monitoring.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_30",
+      "text": "Recommend high-impact exercise despite frailty and an unassessed fall risk.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_31",
+      "text": "Advise bed rest or substantial avoidance of weight-bearing activity because of osteopenia.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_32",
+      "text": "Severely restrict dietary protein despite active frailty and malnutrition.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_33",
+      "text": "Order a transiliac bone biopsy as part of the initial osteopenia evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_34",
+      "text": "Dismiss the monoclonal gammopathy without appropriate laboratory characterization.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_35",
+      "text": "Order whole-body PET/CT solely for trace monoclonal gammopathy without myeloma-defining findings.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_36",
+      "text": "Perform bone marrow biopsy solely for trace monoclonal gammopathy without supporting clinical or laboratory criteria.",
+      "points": -2
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_37",
+      "text": "Order routine spine MRI to screen for occult vertebral fractures without suggestive symptoms or findings.",
+      "points": -1
+    },
+    {
+      "item_id": "25cc6b8a3c8c44f0bd9897be2bdd15e1_38",
+      "text": "Repeat DXA within 6 months to guide treatment initiation.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "a48d53c185c5bef9eb537e15160c3355",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 42-year-old patient is incidentally found to have an unruptured brain arteriovenous malformation and asks whether preventive intervention or conservative management is safer. Based on the ARUBA trial, why are the findings significant for clinical practice in unruptured brain AVMs?",
+  "rubric_items": [
+    {
+      "item_id": "f3485d1a4aff6019dbdac4d7c612b65c_0",
+      "text": "States that ARUBA found medical management to be superior to interventional therapy for the primary composite endpoint of death or stroke.",
+      "points": 2
+    },
+    {
+      "item_id": "f3485d1a4aff6019dbdac4d7c612b65c_1",
+      "text": "Reports the key results: hazard ratio 0.27 (95% CI 0.14-0.54) with event rates of 10.1% versus 30.7%, and notes that the trial was stopped early.",
+      "points": 1
+    },
+    {
+      "item_id": "f3485d1a4aff6019dbdac4d7c612b65c_2",
+      "text": "Notes that the clinical implication is to favor conservative/medical management over the follow-up horizon studied for unruptured brain AVMs.",
+      "points": 1
+    },
+    {
+      "item_id": "f3485d1a4aff6019dbdac4d7c612b65c_3",
+      "text": "Reports increased adverse events with intervention, including more strokes (45 vs 12) and more neurological deficits (14 vs 1).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

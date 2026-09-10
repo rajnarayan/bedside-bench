@@ -1,0 +1,29 @@
+{
+  "case_id": "7e2feaaa53429a425a0e18e572c5cfa8",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 48-year-old with moderate-to-severe ARDS is being ventilated with a lung-protective strategy.\n\nBased on EPVent2, should esophageal pressure-guided PEEP be used routinely in this setting?",
+  "rubric_items": [
+    {
+      "item_id": "901dc8cdc4cd4fa5cde4068dd6b76ece_0",
+      "text": "Concludes that EPVent2 does not support routine esophageal pressure-guided PEEP in moderate-to-severe ARDS.",
+      "points": 2
+    },
+    {
+      "item_id": "901dc8cdc4cd4fa5cde4068dd6b76ece_1",
+      "text": "States that in EPVent2 the primary endpoint and 28-day mortality were not different between groups, with supporting statistics.",
+      "points": 1
+    },
+    {
+      "item_id": "901dc8cdc4cd4fa5cde4068dd6b76ece_2",
+      "text": "Notes that there was no difference in ventilator-free days.",
+      "points": 1
+    },
+    {
+      "item_id": "901dc8cdc4cd4fa5cde4068dd6b76ece_3",
+      "text": "Acknowledges that rescue therapy was reduced (with numbers and P value) and that barotrauma was similar, and gives the clinical implication that this does not establish a clear patient-centered benefit supporting routine use.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

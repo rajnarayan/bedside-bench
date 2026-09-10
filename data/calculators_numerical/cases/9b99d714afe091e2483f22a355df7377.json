@@ -1,0 +1,19 @@
+{
+  "case_id": "9b99d714afe091e2483f22a355df7377",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male patient is admitted to the intensive care unit with a diagnosis of severe sepsis secondary to pneumonia. Upon examination, he is found to have signs of bleeding from his gastrointestinal tract and bruising on his extremities. Laboratory results reveal concerning changes: his platelet count has dropped to 45 cells ×10^9/L, indicative of thrombocytopenia. The lab also reports a severe increase in fibrinogen degradation products, suggesting excessive clot breakdown. His prothrombin time (PT) is prolonged by 7 seconds, and his fibrinogen level has decreased to 0.8 g/L. Given these findings, the medical team suspects disseminated intravascular coagulation (DIC) and wants to calculate the ISTH DIC score to assess the severity of his condition. What is the ISTH DIC score for this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "5ef0c9ca7cb8afb1bec3435871b13765_0",
+      "text": "States the total ISTH DIC score for this patient is 8 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "5ef0c9ca7cb8afb1bec3435871b13765_1",
+      "text": "States the clinical interpretation: Meets criteria for disseminated intravascular coagulation (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

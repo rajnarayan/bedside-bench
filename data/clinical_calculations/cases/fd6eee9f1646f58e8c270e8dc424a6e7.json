@@ -1,0 +1,19 @@
+{
+  "case_id": "fd6eee9f1646f58e8c270e8dc424a6e7",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 10-year-old girl is brought to the pediatric clinic by her parents due to sudden onset of fever and joint pain affecting her knees, elbows, and ankles. The parents report that she had a sore throat approximately three weeks ago that resolved without antibiotic treatment. Upon examination, the patient has a temperature of 38.8°C (101.8°F), swollen and painful joints, and a rash consistent with erythema marginatum on her trunk. Laboratory tests reveal elevated anti-streptolysin O titers. The echocardiogram shows signs of mitral regurgitation indicative of carditis. The physician suspects acute rheumatic fever. What is the diagnosis according to the Revised Jones Criteria for acute rheumatic fever and how many major criteria are fulfilled?",
+  "rubric_items": [
+    {
+      "item_id": "81c55d861bae8073aa39740cecec83bc_0",
+      "text": "States that 3 major Jones criteria are fulfilled (exact integer match required).",
+      "points": 1
+    },
+    {
+      "item_id": "81c55d861bae8073aa39740cecec83bc_1",
+      "text": "States that diagnostic criteria for acute rheumatic fever are met (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

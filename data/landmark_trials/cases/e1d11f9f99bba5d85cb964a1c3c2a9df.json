@@ -1,0 +1,29 @@
+{
+  "case_id": "e1d11f9f99bba5d85cb964a1c3c2a9df",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A hospitalized adult with severe COVID-19 pneumonia is on supplemental oxygen for hypoxemia about 8 days after symptom onset, and the team is considering high-titer convalescent plasma.\n\nBased on the PlasmAr Study, should you offer convalescent plasma for this patient? Include the primary outcome result, mortality findings, timing/titer details, and any safety implications.",
+  "rubric_items": [
+    {
+      "item_id": "635b2a7a990dfae6c01e51f0f6f788c3_0",
+      "text": "States that PlasmAr does not support routine use of convalescent plasma in similar hospitalized, hypoxemic patients about 8 days from symptom onset.",
+      "points": 2
+    },
+    {
+      "item_id": "635b2a7a990dfae6c01e51f0f6f788c3_1",
+      "text": "Reports that the primary 30-day ordinal outcome showed no significant difference, with OR 0.83 (95% CI 0.52-1.35; P=0.46).",
+      "points": 1
+    },
+    {
+      "item_id": "635b2a7a990dfae6c01e51f0f6f788c3_2",
+      "text": "Reports no mortality reduction: 10.96% vs 11.43%, with risk difference -0.46 percentage points (95% CI -7.8 to 6.8), and notes that high-titer plasma was used (median 1:3200).",
+      "points": 1
+    },
+    {
+      "item_id": "635b2a7a990dfae6c01e51f0f6f788c3_3",
+      "text": "Notes that adverse events and serious adverse events were similar between groups.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

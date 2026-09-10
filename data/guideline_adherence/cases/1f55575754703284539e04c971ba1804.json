@@ -1,0 +1,24 @@
+{
+  "case_id": "1f55575754703284539e04c971ba1804",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old man with a history of alcoholic liver cirrhosis presents to the emergency department with hematemesis and melena. He is hemodynamically unstable and requires resuscitation. An urgent upper gastrointestinal endoscopy reveals active bleeding from a large isolated gastric varix (IGV1) in the fundus of the stomach. Endoscopic band ligation is attempted but fails to control the bleeding. The hospital has cyanoacrylate injection, thrombin, and balloon tamponade devices available. Transjugular intrahepatic portosystemic shunt (TIPS) can be performed at this center, but there is a delay of several hours before the interventional radiology team is available.\n\nBased on current guidelines, what is the most appropriate next step in the management of this patient's bleeding gastric varix, and what should be considered if this intervention fails?",
+  "rubric_items": [
+    {
+      "item_id": "a9a234ff2ad97f9ba3badac0d74d9f3d_0",
+      "text": "Recommends endoscopic cyanoacrylate injection as the next step for active bleeding from the isolated gastric varix (IGV1).",
+      "points": 2
+    },
+    {
+      "item_id": "a9a234ff2ad97f9ba3badac0d74d9f3d_1",
+      "text": "Notes that thrombin can be used as an alternative endoscopic therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "a9a234ff2ad97f9ba3badac0d74d9f3d_2",
+      "text": "States that if bleeding is not controlled, balloon tamponade should be used as a temporary measure until definitive therapy such as TIPS can be performed.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

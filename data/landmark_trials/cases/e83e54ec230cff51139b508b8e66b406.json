@@ -1,0 +1,29 @@
+{
+  "case_id": "e83e54ec230cff51139b508b8e66b406",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A patient with unresectable malignant pleural mesothelioma is discussing first-line systemic treatment options, including nivolumab plus ipilimumab versus platinum-based chemotherapy.\n\nBased on the CheckMate-743 trial, what were the 2-year overall survival rates and grade 3-4 treatment-related adverse event rates for nivolumab plus ipilimumab versus chemotherapy, and what does this suggest about long-term benefit and tolerability?",
+  "rubric_items": [
+    {
+      "item_id": "410dd19e85f09de5352d98472e288d81_0",
+      "text": "Reports the 2-year overall survival rates as 41% with nivolumab plus ipilimumab versus 27% with chemotherapy.",
+      "points": 2
+    },
+    {
+      "item_id": "410dd19e85f09de5352d98472e288d81_1",
+      "text": "Reports the grade 3-4 treatment-related adverse event rates as 30% with nivolumab plus ipilimumab versus 32% with chemotherapy.",
+      "points": 1
+    },
+    {
+      "item_id": "410dd19e85f09de5352d98472e288d81_2",
+      "text": "States that these findings suggest improved longer-term survival benefit with nivolumab plus ipilimumab.",
+      "points": 1
+    },
+    {
+      "item_id": "410dd19e85f09de5352d98472e288d81_3",
+      "text": "Notes that tolerability was maintained without increased high-grade toxicity compared with chemotherapy.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

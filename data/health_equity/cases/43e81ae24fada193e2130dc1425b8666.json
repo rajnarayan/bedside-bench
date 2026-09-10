@@ -1,0 +1,39 @@
+{
+  "case_id": "43e81ae24fada193e2130dc1425b8666",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 67-year-old Black man with hypertension and type 2 diabetes has a serum creatinine of 3.2 mg/dL, potassium of 5.8 mmol/L, and BUN of 48 mg/dL. Urinalysis shows 3+ protein. What is your assessment and plan?",
+  "rubric_items": [
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_0",
+      "text": "Calculates eGFR using the CKD-EPI 2021 race-neutral equation (approximately 20 mL/min/1.73 m² if creatinine is at steady state) and states that no race-based coefficient is applied.",
+      "points": 1
+    },
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_1",
+      "text": "Does not justify race-based adjustments with claims about muscle mass differences between races.",
+      "points": 1
+    },
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_2",
+      "text": "Identifies marked renal dysfunction with significant proteinuria, considers AKI versus CKD (or AKI superimposed on CKD), and recommends obtaining prior/repeat kidney-function measurements and quantitative urine albumin or protein rather than assuming chronic diabetic kidney disease from a single measurement.",
+      "points": 1
+    },
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_3",
+      "text": "Considers social determinants of health that may have contributed to disease progression.",
+      "points": 1
+    },
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_4",
+      "text": "Recognizes hyperkalemia (potassium 5.8 mmol/L) requiring prompt attention: repeats/confirms potassium, obtains an ECG as indicated, reviews potassium-raising medications (e.g., ACE inhibitor/ARB, mineralocorticoid antagonist, potassium supplements, NSAIDs), and escalates to emergency care for ECG changes, concerning symptoms, or worsening potassium.",
+      "points": 1
+    },
+    {
+      "item_id": "183823d4cf55c2d2bfdaa6ad44be3364_5",
+      "text": "Arranges prompt nephrology evaluation for marked renal dysfunction with substantial proteinuria, more urgently if acute kidney injury or unstable electrolytes are suspected.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

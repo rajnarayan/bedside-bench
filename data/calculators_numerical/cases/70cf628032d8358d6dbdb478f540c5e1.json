@@ -1,0 +1,19 @@
+{
+  "case_id": "70cf628032d8358d6dbdb478f540c5e1",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old man with acute myeloid leukemia is being evaluated for hematopoietic cell transplantation. His comorbidities include atrial fibrillation requiring treatment, coronary artery disease with prior myocardial infarction, insulin-treated type 2 diabetes mellitus, a recent transient ischemic attack, depression under psychiatric care, chronic hepatitis with bilirubin at the upper limit of normal, BMI 37 kg/m^2, an infection requiring antimicrobial treatment that will continue after transplant day 0, rheumatoid arthritis, pulmonary diffusion capacity (DLCO) of 70% predicted, and a history of a treated solid tumor. Using the Hematopoietic Cell Transplantation-Specific Comorbidity Index (HCT-CI), what is his total score, and how should it be interpreted?",
+  "rubric_items": [
+    {
+      "item_id": "8e681751979136888e61efa4024a3716_0",
+      "text": "States the total Hematopoietic Cell Transplantation-Specific Comorbidity Index (HCT-CI) score for this patient is 15 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "8e681751979136888e61efa4024a3716_1",
+      "text": "States the clinical interpretation: High risk (HCT-CI ≥3), with historical original-validation-cohort estimates of approximately 41% 2-year non-relapse mortality and 34% 2-year overall survival (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

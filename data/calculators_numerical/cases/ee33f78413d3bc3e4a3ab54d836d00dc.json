@@ -1,0 +1,19 @@
+{
+  "case_id": "ee33f78413d3bc3e4a3ab54d836d00dc",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 42-year-old male arrives at the emergency department reporting a sudden onset of a severe headache. He describes the headache as a 'thunderclap' type, which reached peak intensity instantly. The headache started while he was jogging, and he experienced an episode of loss of consciousness for a few seconds, witnessed by a jogging partner. Upon examination, the patient shows signs of neck stiffness, and the physician notes limited neck flexion during a physical examination. The patient has no history of similar headaches or neurological deficits. With these symptoms present, the emergency department physician considers the possibility of a subarachnoid hemorrhage and decides to apply the Ottawa Subarachnoid Hemorrhage Rule. Which Ottawa Subarachnoid Hemorrhage Rule criteria are present, is the rule positive or negative, and what does this imply?\n\nState whether the rule is positive or negative and the corresponding clinical interpretation.",
+  "rubric_items": [
+    {
+      "item_id": "7a77b80c441fd43ef258d991f8a1dcd2_0",
+      "text": "States that the Ottawa Subarachnoid Hemorrhage Rule is positive for this patient because one or more criteria are present (age ≥40, neck pain/stiffness, witnessed loss of consciousness, onset during exertion, thunderclap headache, limited neck flexion on examination).",
+      "points": 2
+    },
+    {
+      "item_id": "7a77b80c441fd43ef258d991f8a1dcd2_1",
+      "text": "States the clinical interpretation: Subarachnoid hemorrhage cannot be ruled out (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

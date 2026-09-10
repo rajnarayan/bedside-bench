@@ -1,0 +1,204 @@
+{
+  "case_id": "1f8a2aacf6ad0fd68a8eee239c341645",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 63-year-old man with a remote history of rectal cancer and multiple prior small-bowel obstructions was hospitalized a few weeks ago for community-acquired pneumonia. CT chest at that time showed predominantly peripheral multilobar consolidations and ground-glass opacities. He completed intravenous antibiotics, was weaned off oxygen within 2 weeks, and discharged home. At his discharge follow-up he remained fatigued with persistent leukocytosis, a new anemia (hemoglobin 9.8 g/dL from 10.7 g/dL at discharge), and marked peripheral eosinophilia (>3.4 × 10^3/uL). I empirically started prednisone 60 mg daily for eosinophilic pneumonia. Is bronchoscopy required to confirm the diagnosis?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_0",
+      "text": "Order Strongyloides stercoralis IgG serology before or promptly after starting high-dose corticosteroids.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_1",
+      "text": "Obtain stool ova and parasite examinations when epidemiologic exposure suggests a parasitic infection.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_2",
+      "text": "Review recent medications and exposures for a potential cause of drug-induced eosinophilic lung disease.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_3",
+      "text": "Order ANCA testing with MPO and PR3 antibodies to evaluate for eosinophilic granulomatosis with polyangiitis.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_4",
+      "text": "Assess for extrapulmonary eosinophilic disease, including rash, neuropathy, sinus disease, renal abnormalities, and cardiac symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_5",
+      "text": "Order HIV antigen/antibody testing.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_6",
+      "text": "Order Aspergillus-specific IgE and IgG testing if asthma, bronchiectasis, or another feature of allergic bronchopulmonary aspergillosis is present.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_7",
+      "text": "Repeat a CBC with differential within one week to trend eosinophilia, leukocytosis, and anemia.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_8",
+      "text": "Obtain a reticulocyte count, iron studies, ferritin, and peripheral smear to evaluate the new anemia.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_9",
+      "text": "Order a comprehensive metabolic panel to assess renal, hepatic, and steroid-related metabolic abnormalities.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_10",
+      "text": "Order troponin and BNP to screen for eosinophil-associated cardiac involvement.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_11",
+      "text": "Refer the patient to pulmonology for evaluation of suspected eosinophilic pneumonia and supervision of corticosteroid treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_12",
+      "text": "Obtain pulmonary function testing with DLCO after the acute illness stabilizes.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_13",
+      "text": "Defer routine bronchoscopy when the compatible CT pattern, marked peripheral eosinophilia, and clinical course adequately support the diagnosis.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_14",
+      "text": "Perform bronchoscopy with BAL if the diagnosis remains uncertain, the patient deteriorates, treatment response is inadequate, or an opportunistic infection must be excluded.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_15",
+      "text": "Continue systemic corticosteroids at an appropriate initial dose if still indicated after reassessment, with a supervised taper guided by clinical and radiographic response.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_16",
+      "text": "Arrange follow-up within one to two weeks to reassess symptoms, oxygenation, laboratory results, and corticosteroid response.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_17",
+      "text": "Arrange follow-up chest imaging in approximately four to eight weeks to document improvement or resolution, using chest radiography when sufficient and CT when abnormalities persist, are atypical, or require further characterization.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_18",
+      "text": "Counsel the patient about corticosteroid adverse effects, hyperglycemia, and signs of opportunistic infection.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_19",
+      "text": "Counsel the patient about the risk of Strongyloides hyperinfection during high-dose corticosteroid therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_20",
+      "text": "Provide calcium and vitamin D supplementation if a prolonged corticosteroid course is anticipated.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_21",
+      "text": "Provide Pneumocystis jirovecii prophylaxis, usually trimethoprim-sulfamethoxazole if not contraindicated, when the anticipated corticosteroid dose and duration together with patient-specific risk meet an accepted prophylaxis guideline.",
+      "points": 2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_22",
+      "text": "Arrange colonoscopy if iron deficiency is identified or colorectal cancer surveillance is overdue.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_23",
+      "text": "Refer to hematology if marked eosinophilia persists despite treatment or if smear abnormalities or other evidence of a clonal disorder emerges.",
+      "points": 1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_24",
+      "text": "Declare eosinophilic pneumonia definitively confirmed and all secondary causes excluded without completing an etiologic evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_25",
+      "text": "Continue prolonged high-dose corticosteroids without screening for Strongyloides infection.",
+      "points": -3
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_26",
+      "text": "Abruptly discontinue prednisone without a taper after prolonged systemic exposure (three to four weeks or more) that carries adrenal-suppression risk.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_27",
+      "text": "Continue high-dose prednisone indefinitely without a response assessment or taper plan.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_28",
+      "text": "Prescribe additional broad-spectrum antibiotics solely for persistent leukocytosis without evidence of ongoing bacterial infection.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_29",
+      "text": "Rechallenge the patient with a recently administered medication suspected of causing eosinophilia.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_30",
+      "text": "Perform an immediate bone marrow biopsy before reassessing the eosinophilia and evaluating common secondary causes.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_31",
+      "text": "Initiate an anti-IL-5 biologic as first-line treatment for this presentation.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_32",
+      "text": "Initiate cyclophosphamide without evidence of eosinophilic vasculitis or another established indication.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_33",
+      "text": "Transfuse packed red blood cells solely for a stable hemoglobin of 9.8 g/dL.",
+      "points": -1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_34",
+      "text": "Use inhaled corticosteroid monotherapy to treat the current eosinophilic pneumonia.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_35",
+      "text": "Order chest CT scans every one to two weeks for routine monitoring.",
+      "points": -1
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_36",
+      "text": "Advise the patient to ignore worsening dyspnea, fever, hemoptysis, chest pain, or hypoxemia.",
+      "points": -3
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_37",
+      "text": "Discharge the patient from follow-up without arranging reassessment of eosinophilia, anemia, and pulmonary infiltrates.",
+      "points": -2
+    },
+    {
+      "item_id": "e638861cfc4950013bf298d692b8d10a_38",
+      "text": "Treat with ivermectin if Strongyloides testing is positive, or empirically with infectious-disease guidance when exposure risk is substantial and high-dose corticosteroids cannot await results.",
+      "points": 2
+    }
+  ],
+  "split": "train"
+}

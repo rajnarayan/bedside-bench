@@ -1,0 +1,14 @@
+{
+  "case_id": "c29f5bcc0cdcd948b02ca225db24f44a",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male with recently diagnosed multiple myeloma visits the oncology clinic for further evaluation and treatment planning. He has been experiencing persistent fatigue, bone pain, and occasional night sweats. His lab tests reveal abnormal levels that need to be correlated with a staging system to inform the prognosis and treatment strategy. The oncology team decides to use the International Staging System for Multiple Myeloma to determine the stage of his disease. The patient's serum beta-2 microglobulin level is marked at 4.8 mg/L, and his serum albumin level is recorded at 3.2 g/dL. What is the International Staging System stage for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "af306ce26aa038f44cc58b32d6dd0898_0",
+      "text": "Identifies the patient's International Staging System (ISS) stage as Stage II (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

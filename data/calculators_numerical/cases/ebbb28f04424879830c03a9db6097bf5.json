@@ -1,0 +1,19 @@
+{
+  "case_id": "ebbb28f04424879830c03a9db6097bf5",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old man is brought to the emergency department after a high-speed motor vehicle collision. He has severe neck pain and decreased movement in both lower extremities. Cervical spine MRI shows a burst fracture at C5. There is also evidence of disruption of the disco-ligamentous complex at the involved intervertebral level. On neurologic examination, he has an incomplete spinal cord injury with partial motor paralysis and some preserved sensory function below the level of injury. Using the Subaxial Injury Classification and Severity Scale (SLICS), what is his total SLICS score, and what is the recommended treatment interpretation?",
+  "rubric_items": [
+    {
+      "item_id": "ec04f1a13e59074810a022a18ebfe576_0",
+      "text": "States the total Subaxial Injury Classification and Severity Scale (SLICS) score for this patient is 7 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "ec04f1a13e59074810a022a18ebfe576_1",
+      "text": "States the clinical interpretation: operative treatment is recommended (SLICS ≥5) (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

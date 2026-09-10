@@ -1,0 +1,149 @@
+{
+  "case_id": "02690c9be11db61fdd14dc002db7f815",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 32-year-old primigravida at 35 weeks of gestation is found to have a platelet count of 78,000/µL, down from 145,000/µL at 24 weeks and 210,000/µL before pregnancy. Hemoglobin and leukocyte count are normal. She feels well, has no bleeding, and has a blood pressure of 118/72 mmHg, but hopes to receive epidural analgesia. Her obstetrician asks whether this can be assumed to be gestational thrombocytopenia and whether delivery planning must change.\n\nProvide a stepwise management plan including appropriate diagnostic workup, referrals, procedures, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_0",
+      "text": "Arrange prompt obstetric assessment rather than deferring evaluation until labor.",
+      "points": 3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_1",
+      "text": "Repeat the CBC promptly to confirm the platelet count and assess its trajectory.",
+      "points": 3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_2",
+      "text": "Examine a peripheral blood smear for platelet clumping, schistocytes, abnormal leukocytes, and other morphologic clues.",
+      "points": 3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_3",
+      "text": "Repeat the platelet count in a citrate or heparin tube if EDTA-dependent pseudothrombocytopenia is suspected.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_4",
+      "text": "Review prepregnancy and earlier pregnancy platelet counts to establish the timing and rate of decline.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_5",
+      "text": "Recheck blood pressure and assess for headache, visual symptoms, right upper-quadrant pain, nausea, edema, and other preeclampsia features.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_6",
+      "text": "Measure AST, ALT, bilirubin, LDH, creatinine, and haptoglobin to assess for HELLP syndrome, thrombotic microangiopathy, or other organ injury.",
+      "points": 3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_7",
+      "text": "Assess urine protein using an appropriate quantitative method when preeclampsia remains possible.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_8",
+      "text": "Obtain coagulation studies and fibrinogen if bleeding, placental abruption, liver dysfunction, or disseminated intravascular coagulation is suspected.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_9",
+      "text": "Review medications, supplements, recent infections, autoimmune history, liver disease, and prior bleeding symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_10",
+      "text": "Test for HIV and hepatitis C when these have not been adequately excluded.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_11",
+      "text": "Consult maternal-fetal medicine or an obstetric clinician experienced with thrombocytopenia in pregnancy.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_12",
+      "text": "Obtain hematology consultation because a platelet count below 100,000/µL with a substantial decline requires evaluation beyond routine gestational thrombocytopenia.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_13",
+      "text": "Consider immune thrombocytopenia only after excluding pregnancy-specific, drug-related, infectious, hepatic, and microangiopathic causes.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_14",
+      "text": "Discuss neuraxial anesthesia with obstetric anesthesia before labor using the platelet trend, suspected cause, bleeding history, and evidence of coagulopathy.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_15",
+      "text": "Consider neuraxial anesthesia reasonable at platelet counts of at least approximately 70,000/µL when the etiology is understood, the count is stable, and no bleeding or disseminated intravascular coagulation is present.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_16",
+      "text": "Base the mode and timing of delivery on obstetric indications unless a specific thrombocytopenic disorder requires otherwise.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_17",
+      "text": "Reserve corticosteroids or intravenous immunoglobulin for confirmed or strongly suspected immune thrombocytopenia when bleeding or a delivery-related platelet target warrants treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_18",
+      "text": "Reserve platelet transfusion for clinically significant bleeding, urgent invasive procedures, or delivery at an inadequate platelet count rather than for an asymptomatic stable count alone.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_19",
+      "text": "Recheck the platelet count near delivery and promptly if symptoms or blood pressure change.",
+      "points": 2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_20",
+      "text": "Confirm postpartum platelet recovery with follow-up testing, including reassessment by about six weeks postpartum.",
+      "points": 1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_21",
+      "text": "Assume gestational thrombocytopenia without reviewing the smear, platelet trend, and pregnancy-specific dangerous causes.",
+      "points": -3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_22",
+      "text": "Exclude HELLP syndrome solely because the blood pressure is currently normal.",
+      "points": -3
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_23",
+      "text": "Order antiplatelet antibody testing as a definitive diagnostic test for immune thrombocytopenia.",
+      "points": -1
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_24",
+      "text": "Perform bone marrow biopsy as the routine initial test for isolated thrombocytopenia in this otherwise well patient.",
+      "points": -2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_25",
+      "text": "Schedule cesarean delivery solely because the platelet count is 78,000/µL.",
+      "points": -2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_26",
+      "text": "Administer prophylactic platelet transfusions now solely to preserve the option of epidural analgesia.",
+      "points": -2
+    },
+    {
+      "item_id": "3c9a02abfc5b3e12e2c42969a8d8e11b_27",
+      "text": "Guarantee neuraxial anesthesia based on a single platelet count without anesthesia review or assessment of the platelet trend and etiology.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

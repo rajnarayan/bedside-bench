@@ -1,0 +1,34 @@
+{
+  "case_id": "68f53d44e3224a2ef271f0c539f2b93a",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old former foundry worker with 20 years of silica exposure presents with progressive exertional dyspnea and a chest X-ray showing upper-zone nodular opacities. He has no health insurance and worries about affording evaluation. How should you proceed?",
+  "rubric_items": [
+    {
+      "item_id": "73407b3197e190fd077718991c6b2293_0",
+      "text": "Includes silicosis (occupational interstitial lung disease) prominently in the differential given the exposure history and imaging pattern.",
+      "points": 1
+    },
+    {
+      "item_id": "73407b3197e190fd077718991c6b2293_1",
+      "text": "Takes or recommends a detailed occupational exposure history.",
+      "points": 1
+    },
+    {
+      "item_id": "73407b3197e190fd077718991c6b2293_2",
+      "text": "Recommends appropriate workup such as high-resolution CT and pulmonary function testing, and evaluation for tuberculosis risk given silica exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "73407b3197e190fd077718991c6b2293_3",
+      "text": "Advises the patient about potential workers' compensation or occupational disease benefits and documentation to support a claim.",
+      "points": 1
+    },
+    {
+      "item_id": "73407b3197e190fd077718991c6b2293_4",
+      "text": "Addresses insurance barriers with options such as safety-net clinics, sliding-scale pulmonology referral, or hospital financial assistance.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

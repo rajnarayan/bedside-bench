@@ -1,0 +1,19 @@
+{
+  "case_id": "fdd8d74f85d1734aedd7ec7ff260eff7",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old woman is admitted with gallstone pancreatitis. Use the gallstone-specific modified Ranson criteria. At admission, her white blood cell count is exactly 18,000/µL, glucose 221 mg/dL, LDH exactly 400 U/L, and AST 251 U/L. Her hematocrit is 42% and BUN is 18 mg/dL. At 48 hours, hematocrit is 31%, BUN is exactly 20 mg/dL, calcium is 7.9 mg/dL, PaO2 is exactly 60 mm Hg, base deficit is exactly 5 mEq/L, and estimated fluid sequestration is 4.1 L. What is her total modified Ranson score at 48 hours, and what severity or mortality category does it indicate?",
+  "rubric_items": [
+    {
+      "item_id": "9c5adf2b04bb171d067482b983c422ed_0",
+      "text": "States that the gallstone-specific modified Ranson score at 48 hours is 6 points (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "9c5adf2b04bb171d067482b983c422ed_1",
+      "text": "States that a Ranson score of 6 indicates severe or high-risk pancreatitis, conventionally associated with approximately 40% mortality for scores 5–6 (accept the severity category alone).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

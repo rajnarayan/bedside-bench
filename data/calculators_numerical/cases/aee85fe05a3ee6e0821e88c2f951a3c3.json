@@ -1,0 +1,19 @@
+{
+  "case_id": "aee85fe05a3ee6e0821e88c2f951a3c3",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 29-year-old male professional soccer player presents to the sports clinic following a recent knee injury sustained during a match. He reports experiencing a significant and constant limp when he walks and has been using crutches with some weight-bearing to assist in mobility. The player describes a feeling of catching in his knee but denies any locking sensation. He reports his knee gives way frequently during athletics, preventing him from participating in vigorous activities comfortably. He has marked pain during and after attempting to walk longer than one mile. The athlete observes swelling after ordinary activities, and climbing stairs has become slightly problematic. Although he can squat, he experiences slight discomfort, and is unable to fully engage in deep squats as he once could. The trainer at his club has asked him to undergo evaluation using the Tegner Lysholm Knee Scoring Scale to assess the severity of his knee condition. What is the Tegner Lysholm Knee Scoring Scale score for this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "b2d14cc7502167e11f23ea78d89c5051_0",
+      "text": "States the total Tegner Lysholm Knee Scoring Scale score for this patient is 49 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "b2d14cc7502167e11f23ea78d89c5051_1",
+      "text": "States the clinical interpretation: Poor (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

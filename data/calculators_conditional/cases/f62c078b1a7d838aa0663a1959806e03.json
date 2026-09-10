@@ -1,0 +1,14 @@
+{
+  "case_id": "f62c078b1a7d838aa0663a1959806e03",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old male with a history of chronic kidney disease presents to the clinic for his routine follow-up. He reports feeling more fatigued than usual but denies any symptoms of pain or acute distress. Laboratory tests are performed, which reveal a serum calcium level of 7.8 mg/dL and an albumin level of 2.8 g/dL. His physician notes that his albumin level is lower than the standard normal albumin level of 4.0 g/dL. Given the low albumin, the physician decides to calculate the corrected calcium level to guide potential treatment options. What is this patient's corrected calcium level?",
+  "rubric_items": [
+    {
+      "item_id": "afdd9e01850343223b28b9448eae7397_0",
+      "text": "Computes the albumin-corrected calcium as 8.76 mg/dL (±0.1).",
+      "points": 2
+    }
+  ],
+  "split": "train"
+}

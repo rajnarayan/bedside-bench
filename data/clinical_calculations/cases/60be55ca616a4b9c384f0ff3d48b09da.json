@@ -1,0 +1,19 @@
+{
+  "case_id": "60be55ca616a4b9c384f0ff3d48b09da",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old male is admitted to the hospital with extensive skin lesions and is suspected to have Toxic Epidermal Necrolysis (TEN). The patient has a history of prostate cancer and is currently undergoing chemotherapy. On examination, he exhibits a heart rate of 130 beats per minute. Initial evaluation reveals that approximately 15% of his body surface area is affected by epidermal detachment. Laboratory tests show a serum urea level of 12 mmol/L, a serum glucose level of 16 mmol/L, and a serum bicarbonate level of 18 mmol/L. The medical team wants to assess the severity of his condition using the SCORTEN score. What is this patient's SCORTEN score and what does it imply about his prognosis?",
+  "rubric_items": [
+    {
+      "item_id": "f4b55df56c322a5d03ceb0c6d4c0f3aa_0",
+      "text": "States the SCORTEN score is 7 (out of 7; exact integer match required).",
+      "points": 1
+    },
+    {
+      "item_id": "f4b55df56c322a5d03ceb0c6d4c0f3aa_1",
+      "text": "States that a SCORTEN of 7 (≥5) predicts very high mortality, approximately 90%.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

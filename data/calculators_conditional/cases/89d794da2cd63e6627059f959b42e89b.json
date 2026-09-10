@@ -1,0 +1,14 @@
+{
+  "case_id": "89d794da2cd63e6627059f959b42e89b",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male with a history of smoking presents to the colorectal clinic after noticing persistent changes in bowel habits and occasional blood in his stool. A colonoscopy revealed a significant lesion in the sigmoid colon. Biopsies confirmed the presence of adenocarcinoma. Further imaging studies, including an abdominal MRI, reveal that the tumor has invaded through the muscularis propria into the pericolorectal tissues. Additionally, there are 3 positive regional lymph nodes identified, but no evidence of distant metastasis was found. The oncologist conducts a TNM staging to accurately assess the extent of cancer progression in order to determine the appropriate treatment strategy. What is the TNM classification for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "a612ed1fc203340262b99daf62ba6bc9_0",
+      "text": "States that the correct answer is \"T3 N1b M0, corresponding to Stage IIIB\" (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,114 @@
+{
+  "case_id": "ffcf26cce2a91ce182d9c9b595f94779",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 24-year-old man arrives at an urgent care clinic three hours after waking with sudden, severe left testicular pain and nausea. On examination the left testis is exquisitely tender, riding higher than the right, and the left cremasteric reflex is absent. The clinic has no ultrasound on site; the nearest emergency department is fifteen minutes away. The covering clinician is considering prescribing ceftriaxone and doxycycline for presumed epididymitis with an outpatient ultrasound the next morning.\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_0",
+      "text": "Transfer the patient emergently to the emergency department now for suspected testicular torsion.",
+      "points": 3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_1",
+      "text": "Obtain immediate urology consultation for surgical exploration.",
+      "points": 3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_2",
+      "text": "Do not allow imaging to delay surgical evaluation when clinical suspicion for torsion is high.",
+      "points": 2
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_3",
+      "text": "Attempt manual detorsion (open-book technique) if surgical management will be delayed.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_4",
+      "text": "Keep the patient NPO in anticipation of surgery.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_5",
+      "text": "Provide analgesia and antiemetics while arranging transfer.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_6",
+      "text": "Communicate the time-critical nature of torsion, with testicular salvage highest within approximately six hours of symptom onset.",
+      "points": 2
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_7",
+      "text": "Document the examination findings, including the high-riding testis and absent cremasteric reflex.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_8",
+      "text": "Ask about prior self-resolving episodes of similar pain suggesting intermittent torsion.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_9",
+      "text": "Counsel that bilateral orchiopexy is typically performed if torsion is confirmed at surgery.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_10",
+      "text": "Call ahead to the receiving emergency department or urologist to expedite care.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_11",
+      "text": "Obtain urinalysis only if it does not delay transfer.",
+      "points": 1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_12",
+      "text": "Treat presumed epididymitis with ceftriaxone and doxycycline instead of arranging immediate emergency evaluation for suspected testicular torsion.",
+      "points": -3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_13",
+      "text": "Schedule an outpatient scrotal ultrasound for the following day as the diagnostic plan.",
+      "points": -3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_14",
+      "text": "Discharge from urgent care with NSAIDs, scrotal support, and routine clinic follow-up instead of arranging immediate emergency evaluation for suspected torsion.",
+      "points": -3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_15",
+      "text": "Hold disposition pending results of gonorrhea and chlamydia testing.",
+      "points": -2
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_16",
+      "text": "Order CT of the pelvis to evaluate the testicular pain.",
+      "points": -1
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_17",
+      "text": "Observe in clinic to see whether the cremasteric reflex returns.",
+      "points": -2
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_18",
+      "text": "Treat manual detorsion, if successful, as definitive management without surgical exploration and orchiopexy.",
+      "points": -2
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_19",
+      "text": "Arrange an elective urology referral next week instead of immediate emergency transfer and urologic evaluation for suspected torsion.",
+      "points": -3
+    },
+    {
+      "item_id": "ffcf26cce2a91ce182d9c9b595f94779_20",
+      "text": "Delay transfer in order to collect a urine culture and complete documentation.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

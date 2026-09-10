@@ -1,0 +1,34 @@
+{
+  "case_id": "13f2bc1205ea0ae2b564fc349a6bab1c",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 28-year-old woman with Fitzpatrick type V skin who developed keloid scarring after ear piercing asks about treatment options and prevention. How should I counsel her?",
+  "rubric_items": [
+    {
+      "item_id": "b9c55131e60d44c08ded59e571bb3a33_0",
+      "text": "Notes higher keloid prevalence in patients with richly pigmented skin and common predilection sites (ears, chest, shoulders).",
+      "points": 1
+    },
+    {
+      "item_id": "b9c55131e60d44c08ded59e571bb3a33_1",
+      "text": "Discusses first-line treatments (intralesional corticosteroids, silicone, pressure) and realistic recurrence expectations.",
+      "points": 1
+    },
+    {
+      "item_id": "b9c55131e60d44c08ded59e571bb3a33_2",
+      "text": "Explains multifactorial etiology (wound tension, inflammation, genetics) without attributing keloids to race alone.",
+      "points": 1
+    },
+    {
+      "item_id": "b9c55131e60d44c08ded59e571bb3a33_3",
+      "text": "Discusses treatment risks such as hypopigmentation or further scarring, which may be more noticeable in darker skin tones.",
+      "points": 1
+    },
+    {
+      "item_id": "b9c55131e60d44c08ded59e571bb3a33_4",
+      "text": "Counsels that future piercings or elective skin procedures can trigger new keloids and discusses prevention options (avoiding elective skin trauma, or clinician-guided preventive measures such as early silicone/pressure or intralesional steroid when a procedure is necessary or desired), without assuming cultural beliefs or preferences from her skin tone.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

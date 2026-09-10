@@ -1,0 +1,24 @@
+{
+  "case_id": "3653b147bd4fdd62f7ec7bde8798b755",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old woman with poorly controlled systemic lupus erythematosus (on prednisone 20 mg daily and hydroxychloroquine) presents with right lower quadrant abdominal pain and a low-grade fever. Urinalysis is equivocal, and CT of the abdomen shows a 6 mm non-obstructing stone in the right distal ureter with mild perinephric fat stranding and a small adjacent fluid collection. Urology recommends ciprofloxacin 500 mg twice daily for a possible UTI or ureteritis, with outpatient management. She also takes tizanidine as needed for chronic muscle pain. Should you proceed with the ciprofloxacin prescription as recommended?",
+  "rubric_items": [
+    {
+      "item_id": "9e5d97bcb7b1fb141e140d82475f4152_0",
+      "text": "Recognizes that ciprofloxacin is contraindicated in patients taking tizanidine, even when tizanidine is used only as needed, because of the risk of severe hypotension, excessive sedation, and possible coma.",
+      "points": 1
+    },
+    {
+      "item_id": "9e5d97bcb7b1fb141e140d82475f4152_1",
+      "text": "Recognizes that ciprofloxacin should be avoided due to the tizanidine interaction and selects an alternative antibiotic appropriate for the suspected infection that does not inhibit CYP1A2, guided by cultures and local susceptibility data, or consults pharmacy or infectious diseases.",
+      "points": 1
+    },
+    {
+      "item_id": "9e5d97bcb7b1fb141e140d82475f4152_2",
+      "text": "Explains that ciprofloxacin inhibits CYP1A2-mediated metabolism of tizanidine, markedly increasing tizanidine exposure.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

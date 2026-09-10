@@ -1,0 +1,19 @@
+{
+  "case_id": "6f5d2cba59a5c56c0ca9b6e85aab0d43",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old female diabetic patient visits her nephrologist for routine follow-up. She has been recently diagnosed with chronic kidney disease (CKD) stage 3. During her visit, the nephrologist notes recent fluctuations in her blood sugar control and wants to re-evaluate her kidney function. She weighs 70 kg, and her height is 162 cm. Her recent lab results indicate a serum creatinine level of 1.4 mg/dL. Considering her age and medication adjustments required for her condition, the nephrologist decides to calculate her creatinine clearance using the Cockcroft-Gault equation with her actual body weight to optimize her treatment regimen. What is the patient's creatinine clearance?",
+  "rubric_items": [
+    {
+      "item_id": "379499937d00e0428a4c43051e1d5113_0",
+      "text": "Computes the creatinine clearance using actual body weight as 44.3 mL/min (±0.5).",
+      "points": 2
+    },
+    {
+      "item_id": "379499937d00e0428a4c43051e1d5113_1",
+      "text": "Computes the body weight used in the Cockcroft-Gault calculation as 70 kg.",
+      "points": 2
+    }
+  ],
+  "split": "train"
+}

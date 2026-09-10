@@ -1,0 +1,214 @@
+{
+  "case_id": "824cedcbfdbb2f425f7f34758ec7fc12",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 54-year-old man with vitiligo reports several months of loose stools, bloating, and flatulence. He denies blood or mucus in the stool, weight loss, fevers, or nocturnal symptoms. He traveled around the time this started. A colonoscopy was normal, and a low FODMAP diet failed to help. He will relocate to Canada in 3 weeks and desires full evaluation before his move. Laboratory studies show normal CBC, CMP, TSH. Fecal calprotectin, gastrointestinal PCR panel, and H. pylori are pending. In addition to EGD, what further diagnostic tests are recommended, and which treatments could alleviate his gassiness and diarrhea?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_0",
+      "text": "Order serum tissue transglutaminase IgA with a total IgA level to screen for celiac disease.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_1",
+      "text": "Order anti-endomysial antibody testing if tissue transglutaminase IgA is equivocal.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_2",
+      "text": "Obtain multiple duodenal biopsies during EGD to evaluate for celiac disease.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_3",
+      "text": "Advise the patient to continue consuming gluten until celiac serology and duodenal biopsies are completed.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_4",
+      "text": "Consider glucose or lactulose hydrogen-methane breath testing for small intestinal bacterial overgrowth if additional history supports it, such as altered small-bowel anatomy or a motility disorder.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_5",
+      "text": "Order serial stool ova-and-parasite examinations when travel or exposure history suggests parasites not adequately assessed by the pending molecular panel.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_6",
+      "text": "Order fecal elastase-1 to evaluate for exocrine pancreatic insufficiency.",
+      "points": 0
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_7",
+      "text": "Check vitamin B12, folate, iron studies, and 25-hydroxy vitamin D for evidence of malabsorption.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_8",
+      "text": "Order a lactose hydrogen breath test.",
+      "points": 0
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_9",
+      "text": "Confirm that the prior normal colonoscopy included random colonic biopsies to evaluate for microscopic colitis.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_10",
+      "text": "Obtain a detailed dietary history focused on artificial sweeteners, sugar alcohols, lactose, and other gas-producing foods.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_11",
+      "text": "Recommend a temporary lactose-free diet trial.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_12",
+      "text": "Advise avoidance of sugar alcohols and carbonated beverages.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_13",
+      "text": "Refer to a dietitian for structured dietary assessment after the unsuccessful low-FODMAP trial.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_14",
+      "text": "Consider a 14-day course of rifaximin 550 mg three times daily for suspected small intestinal bacterial overgrowth.",
+      "points": 0
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_15",
+      "text": "Trial simethicone with meals for bloating and flatulence.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_16",
+      "text": "Trial alpha-galactosidase with meals containing alpha-galactosides, such as beans and legumes.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_17",
+      "text": "Start psyllium soluble fiber at approximately 5 g daily for stool regulation.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_18",
+      "text": "Consider a monitored cholestyramine trial for suspected bile acid diarrhea after the initial evaluation, when appropriate bile acid testing is unavailable or impractical.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_19",
+      "text": "Schedule gastroenterology follow-up within two weeks to review the pending fecal calprotectin, gastrointestinal PCR panel, H. pylori testing, and additional results before relocation.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_20",
+      "text": "Provide a written clinical summary and copies of relevant records for continuity of care in Canada.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_21",
+      "text": "Provide return precautions for gastrointestinal bleeding, weight loss, fever, dehydration, or nocturnal diarrhea.",
+      "points": 2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_22",
+      "text": "Advise avoiding NSAIDs and proton pump inhibitors when they are not clinically required.",
+      "points": 1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_23",
+      "text": "Prescribe empiric metronidazole for presumed giardiasis without stool testing.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_24",
+      "text": "Use long-term broad-spectrum antibiotics for presumed small intestinal bacterial overgrowth.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_25",
+      "text": "Prescribe empiric ciprofloxacin or another fluoroquinolone for chronic post-travel diarrhea.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_26",
+      "text": "Start pancreatic enzyme replacement without evidence of exocrine pancreatic insufficiency.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_27",
+      "text": "Use chronic loperamide or diphenoxylate-atropine as definitive primary treatment without evaluating the cause of diarrhea.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_28",
+      "text": "Prescribe systemic corticosteroids without an established inflammatory diagnosis.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_29",
+      "text": "Repeat colonoscopy shortly after a normal examination without a new indication.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_30",
+      "text": "Order routine CT imaging of the abdomen and pelvis for uncomplicated chronic bloating and diarrhea.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_31",
+      "text": "Perform video capsule endoscopy before the initial celiac, infectious, and malabsorption evaluations are completed.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_32",
+      "text": "Order broad autoimmune serologies or an autoimmune enteropathy panel without supporting clinical features.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_33",
+      "text": "Order broad food-specific IgG or IgE panels for this presentation.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_34",
+      "text": "Order nonspecific neuroendocrine tumor screening with VIP, gastrin, chromogranin A, or 5-HIAA in the absence of secretory or flushing features.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_35",
+      "text": "Use HLA-DQ2/DQ8 genotyping as the primary first-line test for celiac disease.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_36",
+      "text": "Perform EGD without obtaining duodenal biopsies when evaluating for celiac disease.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_37",
+      "text": "Defer review of pending results and further evaluation without arranging follow-up or transfer of care.",
+      "points": -1
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_38",
+      "text": "Refer for fecal microbiota transplantation for presumed functional diarrhea.",
+      "points": -2
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_39",
+      "text": "Refer for exploratory laparoscopy or bowel resection as a diagnostic intervention.",
+      "points": -3
+    },
+    {
+      "item_id": "97b8b9ae39c1f0ce155edd5256ba3fad_40",
+      "text": "Review prescription medications, over-the-counter products, and supplements for diarrhea-inducing agents (e.g., metformin, magnesium, laxatives) and withdraw or substitute plausible contributors when safe.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "97a927e2cf8886d56fb9f30421198eba",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 6-year-old in the PICU with respiratory failure is being managed with a conservative oxygenation target.\n\nBased on Oxy-PICU, what did the trial show about 90-day and 1-year mortality when comparing conservative versus liberal oxygenation in critically ill children? Also summarize the trial's health-related quality-of-life, cost-effectiveness, and subgroup findings.",
+  "rubric_items": [
+    {
+      "item_id": "7f2783878965f2268d8e0e442f9e3623_0",
+      "text": "States that Oxy-PICU found no statistically significant difference in mortality between conservative and liberal oxygenation at both 90 days and 1 year.",
+      "points": 2
+    },
+    {
+      "item_id": "7f2783878965f2268d8e0e442f9e3623_1",
+      "text": "Includes the adjusted hazard ratios with 95% confidence intervals for mortality: 0.75 (0.48-1.17) at 90 days and 0.77 (0.53-1.10) at 1 year.",
+      "points": 1
+    },
+    {
+      "item_id": "7f2783878965f2268d8e0e442f9e3623_2",
+      "text": "Notes that health-related quality of life, life-years, and QALYs were similar between strategies, with a 0.001 QALY difference.",
+      "points": 1
+    },
+    {
+      "item_id": "7f2783878965f2268d8e0e442f9e3623_3",
+      "text": "Notes the economic findings and subgroup results: a −£879 cost difference, £894 net monetary benefit favoring conservative oxygenation, and no evidence of treatment-effect heterogeneity in the prespecified subgroup analyses.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

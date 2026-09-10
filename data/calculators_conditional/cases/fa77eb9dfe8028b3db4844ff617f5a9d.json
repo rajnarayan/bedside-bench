@@ -1,0 +1,14 @@
+{
+  "case_id": "fa77eb9dfe8028b3db4844ff617f5a9d",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old male presents to the oncology clinic after being diagnosed with metastatic germ cell tumor. He initially presented with a mass in the left testicle and subsequent imaging revealed metastases to the liver. The patient has no history of any previous malignancies. A serum biomarker analysis shows alpha-fetoprotein levels exceeding 10,000 ng/mL, human chorionic gonadotropin levels at 20,000 mU/L, and lactate dehydrogenase measured at 8 times the upper limit of normal. His oncologist is considering the best chemotherapy regimen and wants to classify the patient's prognosis using the IGCCCG model. What is the IGCCCG prognostic group classification for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "a33e4415756e6b7b007cb46d63277f76_0",
+      "text": "Classifies the patient as IGCCCG poor prognosis (nonseminoma with non-pulmonary visceral [liver] metastases and AFP > 10,000 ng/mL; either poor-risk feature alone suffices), accepting equivalent wording.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

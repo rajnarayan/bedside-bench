@@ -1,0 +1,19 @@
+{
+  "case_id": "09181be8de13750971f784d4bedcd905",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man is being evaluated preoperatively for an elective upper abdominal ventral hernia repair. His preoperative oxygen saturation on room air is 94%. He had a respiratory infection 3 weeks ago. His hemoglobin is greater than 10 g/dL. The operation is expected to last about 2.5 hours, and it is not an emergency procedure. Using the ARISCAT (Assess Respiratory Risk in Surgical Patients in Catalonia) score, what is his total score and the associated risk of postoperative pulmonary complications?",
+  "rubric_items": [
+    {
+      "item_id": "9c9bf9ee852e358cf98fecd6e8ecbd7a_0",
+      "text": "States the total ARISCAT score for this patient is 59 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "9c9bf9ee852e358cf98fecd6e8ecbd7a_1",
+      "text": "States the clinical interpretation: Risk of in-hospital postoperative pulmonary complications is 42.1% (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

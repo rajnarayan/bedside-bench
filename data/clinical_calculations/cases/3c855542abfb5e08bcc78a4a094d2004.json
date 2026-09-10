@@ -1,0 +1,19 @@
+{
+  "case_id": "3c855542abfb5e08bcc78a4a094d2004",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 63-year-old male is admitted to the hospital with a severe skin reaction characterized by extensive blistering and peeling. The patient was recently started on a new medication for his chronic arthritis, which may have triggered this reaction. On examination, there is evidence of epidermal detachment covering approximately 15% of his body surface area. Laboratory tests indicate that his serum bicarbonate level is 18 mmol/L. Additionally, the patient has a known history of advanced prostate cancer. He is not on dialysis and has never required dialysis treatment in the past. Given these findings, the healthcare team is concerned about the potential mortality risk associated with this patient's presentation of Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis. They decide to use the ABCD-10 Mortality Prediction Model to assess his risk. What is the ABCD-10 mortality score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "afbe4dfce66bc68032421d5f4f2783af_0",
+      "text": "States the ABCD-10 score is 5 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "afbe4dfce66bc68032421d5f4f2783af_1",
+      "text": "Explains the component points: age ≥50 years +1, bicarbonate <20 mmol/L +1, active cancer +2, no dialysis prior to admission 0, and epidermal detachment ≥10% body surface area +1.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,179 @@
+{
+  "case_id": "1dd53633439dadc827320986290a9e37",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 67-year-old man presents with two weeks of progressive painless jaundice, dark urine, pale stools, pruritus, and a 4 kg unintentional weight loss. Examination reveals scleral icterus and a palpable, nontender gallbladder. Laboratory studies show a conjugated hyperbilirubinemia with a cholestatic pattern. What is the appropriate evaluation of this painless obstructive jaundice?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_0",
+      "text": "Obtain cross-sectional imaging with a pancreatic-protocol CT or MRI/MRCP to evaluate for pancreatic or biliary malignancy.",
+      "points": 3
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_1",
+      "text": "Obtain a right upper quadrant ultrasound to assess biliary dilation if definitive cross-sectional imaging has not already been obtained, without delaying pancreatic-protocol CT or MRI/MRCP.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_2",
+      "text": "Obtain a complete liver profile, including fractionated bilirubin, alkaline phosphatase, aminotransferases, and albumin.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_3",
+      "text": "Obtain a complete blood count and renal function testing as part of the initial evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_4",
+      "text": "Measure CA 19-9 as an adjunct tumor marker once the obstruction is being evaluated.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_5",
+      "text": "Refer urgently to gastroenterology and hepatobiliary surgery through a suspected malignancy pathway.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_6",
+      "text": "Perform endoscopic ultrasound with tissue sampling when histologic confirmation is required.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_7",
+      "text": "Perform ERCP with biliary stenting for noncholangitic malignant obstruction when drainage is indicated for palliation, severe refractory pruritus, planned neoadjuvant therapy, or a substantial delay to definitive surgery.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_8",
+      "text": "Assess promptly for cholangitis using symptoms, vital signs, examination, and laboratory findings.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_9",
+      "text": "Administer prompt intravenous antibiotics if cholangitis is diagnosed.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_10",
+      "text": "Obtain urgent biliary drainage if cholangitis is present.",
+      "points": 3
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_11",
+      "text": "Review the full medication and supplement list for potential hepatotoxins.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_12",
+      "text": "Check PT/INR to assess coagulopathy and possible vitamin K deficiency in the setting of cholestasis.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_13",
+      "text": "Obtain blood cultures before antibiotics when fever or other signs of cholangitis are present.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_14",
+      "text": "Obtain appropriate staging imaging, including chest imaging, if a malignancy is identified.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_15",
+      "text": "Review confirmed or strongly suspected malignancy in a multidisciplinary hepatopancreatobiliary team to determine resectability and treatment sequencing.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_16",
+      "text": "Proceed with surgical evaluation without requiring preoperative tissue confirmation when imaging shows a clearly resectable pancreatic malignancy.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_17",
+      "text": "Treat significant pruritus symptomatically while the obstructive cause is investigated.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_18",
+      "text": "Arrange expedited follow-up to review imaging, pathology, staging, and the definitive treatment plan.",
+      "points": 2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_19",
+      "text": "Recheck bilirubin and cholestatic liver tests after biliary decompression to document response.",
+      "points": 1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_20",
+      "text": "Attribute the jaundice to benign gallstones and discharge the patient without imaging.",
+      "points": -3
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_21",
+      "text": "Start ursodeoxycholic acid empirically without determining the cause of the obstruction.",
+      "points": -1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_22",
+      "text": "Treat pruritus alone and defer evaluation of the obstruction.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_23",
+      "text": "Order hepatitis serologies alone and forgo cross-sectional imaging.",
+      "points": -1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_24",
+      "text": "Use diagnostic ERCP as the first investigation before obtaining noninvasive cross-sectional imaging in a stable patient.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_25",
+      "text": "Place a routine preoperative biliary stent when prompt surgery is feasible and there is no cholangitis or other drainage indication.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_26",
+      "text": "Delay specialist referral while observing whether the jaundice resolves spontaneously.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_27",
+      "text": "Use a normal CA 19-9 result to exclude pancreatic or biliary malignancy.",
+      "points": -1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_28",
+      "text": "Give empiric antibiotics in the absence of clinical evidence of cholangitis or another infection.",
+      "points": -1
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_29",
+      "text": "Start corticosteroids for presumed autoimmune pancreatitis without supportive imaging or diagnostic evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_30",
+      "text": "Perform cholecystectomy for presumed gallstone disease without first localizing the obstruction.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_31",
+      "text": "Perform percutaneous biopsy of a potentially resectable pancreatic mass before multidisciplinary review when endoscopic ultrasound sampling is available.",
+      "points": -2
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_32",
+      "text": "Withhold urgent biliary drainage despite established cholangitis.",
+      "points": -3
+    },
+    {
+      "item_id": "d241210f9065ff80ece68efe6e902a1f_33",
+      "text": "Proceed directly to surgical exploration for suspected malignancy without staging or assessment of resectability.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

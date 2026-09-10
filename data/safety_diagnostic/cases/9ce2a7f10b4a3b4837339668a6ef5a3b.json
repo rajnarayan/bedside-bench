@@ -1,0 +1,129 @@
+{
+  "case_id": "9ce2a7f10b4a3b4837339668a6ef5a3b",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 29-year-old woman presents with four months of absent menstrual periods and, more recently, milky discharge expressible from both nipples. She has mild intermittent headaches without visual changes. She is sexually active and uses condoms inconsistently. For the past six months she has intermittently taken metoclopramide, borrowed from a relative, for nausea that accompanies her headaches. She asks whether she needs \"a brain scan or hormone pills.\"\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_0",
+      "text": "Obtain a pregnancy test as the first step in evaluating secondary amenorrhea.",
+      "points": 3
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_1",
+      "text": "Measure serum prolactin.",
+      "points": 3
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_2",
+      "text": "Identify metoclopramide as a likely cause of hyperprolactinemia; discontinue it and recheck prolactin after washout.",
+      "points": 3
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_3",
+      "text": "Check TSH to evaluate for primary hypothyroidism as a cause of hyperprolactinemia and menstrual disturbance.",
+      "points": 2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_4",
+      "text": "Repeat a mildly elevated or clinically unexpected prolactin result under low-stress sampling conditions to confirm persistent hyperprolactinemia.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_5",
+      "text": "Obtain pituitary MRI if hyperprolactinemia persists after medication withdrawal and other secondary causes are excluded.",
+      "points": 2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_6",
+      "text": "Check FSH, LH, and estradiol as part of the amenorrhea evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_7",
+      "text": "Check renal function, since chronic kidney disease can elevate prolactin.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_8",
+      "text": "Arrange formal visual field testing if imaging shows a macroadenoma or if visual symptoms develop.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_9",
+      "text": "Refer to endocrinology if hyperprolactinemia persists or a pituitary lesion is identified.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_10",
+      "text": "Counsel on bone health given the risk of estrogen deficiency with prolonged amenorrhea.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_11",
+      "text": "Discuss reliable contraception, noting that fertility may return as prolactin normalizes.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_12",
+      "text": "Offer an alternative, non-dopamine-blocking strategy for the headache-associated nausea.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_13",
+      "text": "Evaluate the headaches clinically to determine whether they warrant independent workup.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_14",
+      "text": "Arrange follow-up within four to six weeks to review laboratory results after stopping metoclopramide.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_15",
+      "text": "Consider macroprolactin testing if the prolactin elevation is discordant with the clinical picture.",
+      "points": 1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_16",
+      "text": "Start cabergoline or bromocriptine before pregnancy testing and medication review.",
+      "points": -2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_17",
+      "text": "Order pituitary MRI before checking a pregnancy test, prolactin level, and medication history.",
+      "points": -1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_18",
+      "text": "Attribute the amenorrhea to stress and reassure without laboratory evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_19",
+      "text": "Start a combined oral contraceptive to \"restart periods\" without investigating the cause.",
+      "points": -2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_20",
+      "text": "Continue metoclopramide unchanged while treating the prolactin elevation.",
+      "points": -2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_21",
+      "text": "Order mammography as the primary evaluation of bilateral expressible galactorrhea in a 29-year-old without a breast mass.",
+      "points": -1
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_22",
+      "text": "Tell the patient no follow-up is needed once the discharge stops.",
+      "points": -2
+    },
+    {
+      "item_id": "9ce2a7f10b4a3b4837339668a6ef5a3b_23",
+      "text": "Advise urgent assessment for sudden severe headache, acute visual loss or diplopia, or new focal neurological symptoms.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "8e436e24ee834591c54689e76775818b",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "SOAP note: 44F w/stage 4 ovarian cancer presenting for first heme-onc appt. Hx of MDD, HTN, ovarian cysts. Distinguish supplied facts from information to be obtained rather than inventing findings.",
+  "rubric_items": [
+    {
+      "item_id": "6fd2ea13947057dd1b43a2417d602cd0_0",
+      "text": "Note addresses mental health impact of cancer diagnosis",
+      "points": 1
+    },
+    {
+      "item_id": "6fd2ea13947057dd1b43a2417d602cd0_1",
+      "text": "Note addresses patient's past medical history of major depressive disorder in the plan",
+      "points": 1
+    },
+    {
+      "item_id": "6fd2ea13947057dd1b43a2417d602cd0_2",
+      "text": "Note recommends mental health treatment including but not limited to evaluation, therapy, and/or medications if deemed appropriate",
+      "points": 1
+    },
+    {
+      "item_id": "6fd2ea13947057dd1b43a2417d602cd0_3",
+      "text": "Does not apply derogatory mental-health labels to the patient or assume she is unreliable, incapable, or nonadherent because of her MDD history.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "347a7f3792497393dce7628be5dbba39",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 59-year-old man is assessed on admission with PCR-confirmed COVID-19. His qualifying comorbidities are diabetes mellitus and chronic kidney disease. Before treatment, his respiratory rate is exactly 29/min, room-air oxygen saturation is exactly 91%, and Glasgow Coma Scale score is 15. Serum urea is exactly 14.0 mmol/L and C-reactive protein is exactly 100 mg/L. Using the 4C Mortality Score, what is his total score and risk category?",
+  "rubric_items": [
+    {
+      "item_id": "02089b0b5b5bf07d307475dbc898d510_0",
+      "text": "States the 4C Mortality Score is 11 out of 21 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "02089b0b5b5bf07d307475dbc898d510_1",
+      "text": "States the interpretation is high risk (score 9–14; exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

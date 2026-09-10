@@ -1,0 +1,14 @@
+{
+  "case_id": "9bb1ecba52bdddb8d00c13950296c5b1",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old male with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents to the surgical clinic for a pre-operative assessment before undergoing an elective cholecystectomy. He has been experiencing some limitations in his daily activities due to moderate fatigue and shortness of breath on exertion. On examination, his blood pressure is well controlled with medication, but his lung function tests indicate moderate obstruction. The anesthesiology team is planning his anesthetic management and needs to evaluate his perioperative risk. Specifically, they want to assign an ASA score to inform surgical planning and risk discussion with the patient. What is the ASA score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "b8d9633c067dda0b3ff047c87ae100aa_0",
+      "text": "States that the correct answer is \"ASA 3\" (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

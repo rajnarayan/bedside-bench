@@ -1,0 +1,14 @@
+{
+  "case_id": "5e0b5d5b00d311ebf4d6c710dc405521",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A patient has a serum sodium of 140 mEq/L, chloride of 104 mEq/L, and bicarbonate of 18 mEq/L. What is the serum anion gap?",
+  "rubric_items": [
+    {
+      "item_id": "7fc2b93446f5aea4efa4c2915db91b15_0",
+      "text": "States the anion gap is 18 mEq/L (exact match required; 140 - (104 + 18) = 18).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

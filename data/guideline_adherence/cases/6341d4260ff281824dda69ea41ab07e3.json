@@ -1,0 +1,29 @@
+{
+  "case_id": "6341d4260ff281824dda69ea41ab07e3",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old man with a history of hypertension and hyperlipidemia presents for his annual check-up. He is asymptomatic and has no history of stroke, transient ischemic attack, or cognitive complaints. His blood pressure today is 138/84 mmHg. He is currently taking a thiazide diuretic. His father was diagnosed with dementia at age 75. The patient is concerned about his own risk of developing dementia and asks what can be done to reduce this risk.\n\nBased on current guidelines for the primary prevention of vascular cognitive impairment, what is the recommended approach to managing this patient's blood pressure?",
+  "rubric_items": [
+    {
+      "item_id": "ec3f20ab6ef517ec56713682dc83b0b8_0",
+      "text": "Recommends that hypertension be assessed, diagnosed, and treated according to current evidence-based guidelines.",
+      "points": 2
+    },
+    {
+      "item_id": "ec3f20ab6ef517ec56713682dc83b0b8_1",
+      "text": "States that treating hypertension may reduce the risk of dementia.",
+      "points": 1
+    },
+    {
+      "item_id": "ec3f20ab6ef517ec56713682dc83b0b8_2",
+      "text": "Notes that in middle-aged and older patients with hypertension and vascular risk factors, targeting a systolic blood pressure of less than 120 mmHg can be considered.",
+      "points": 1
+    },
+    {
+      "item_id": "ec3f20ab6ef517ec56713682dc83b0b8_3",
+      "text": "Explains that a systolic blood pressure target of less than 120 mmHg may be associated with a decreased risk of developing mild cognitive impairment.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

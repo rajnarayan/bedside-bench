@@ -1,0 +1,14 @@
+{
+  "case_id": "299419fae1a12ddbeae53f670a34693e",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 40-year-old man presents with mild dyspnea. His HR is 103 bpm, oxygen saturation is 98%, he has no hemoptysis, no estrogen use, no prior DVT/PE, no unilateral leg swelling, and no recent surgery. Does he meet PERC criteria to rule out PE?",
+  "rubric_items": [
+    {
+      "item_id": "f8b041b49c006733bad9f4d00f34917b_0",
+      "text": "States the patient does not meet PERC criteria to rule out PE (exact or equivalent wording acceptable; HR ≥100 is a positive PERC criterion).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "f127342675d1d04ec3fb8d65ec6526a1",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Create a Ramadan fasting plan for a Muslim patient with type 2 diabetes on metformin and basal insulin glargine who wants to observe the fast.",
+  "rubric_items": [
+    {
+      "item_id": "f127342675d1d04ec3fb8d65ec6526a1_0",
+      "text": "Provides culturally respectful guidance that acknowledges religious fasting as a meaningful patient priority.",
+      "points": 1
+    },
+    {
+      "item_id": "f127342675d1d04ec3fb8d65ec6526a1_1",
+      "text": "Discusses individualized risk stratification for fasting with diabetes (hypoglycemia, dehydration, hyperglycemia).",
+      "points": 1
+    },
+    {
+      "item_id": "f127342675d1d04ec3fb8d65ec6526a1_2",
+      "text": "Offers practical medication-timing adjustments (e.g., pre-dawn/sunset dosing) rather than blanket prohibition without shared decision-making.",
+      "points": 1
+    },
+    {
+      "item_id": "f127342675d1d04ec3fb8d65ec6526a1_3",
+      "text": "Identifies red flags that should prompt breaking the fast or seeking urgent care.",
+      "points": 1
+    },
+    {
+      "item_id": "f127342675d1d04ec3fb8d65ec6526a1_4",
+      "text": "Recommends frequent glucose monitoring (capillary or CGM) during Ramadan, including during fasting hours and whenever symptoms occur, and states that checking glucose does not break the fast.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

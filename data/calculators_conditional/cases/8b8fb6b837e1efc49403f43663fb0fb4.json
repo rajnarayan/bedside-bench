@@ -1,0 +1,14 @@
+{
+  "case_id": "8b8fb6b837e1efc49403f43663fb0fb4",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 60-year-old male presents to the emergency department with a 10-hour history of sudden onset vertigo, nausea, and unsteady gait. He reports no recent head trauma, and there's no history of similar episodes. On examination, the patient displays spontaneous nystagmus, difficulty walking unaided, and a noticeable sway when attempting a standing position. The emergency physician decides to perform the HINTS examination. The horizontal head impulse test revealed a corrective saccade, indicating an abnormal test. Upon observing the nystagmus, it is noted to be direction-changing. The test of skew revealed a skew deviation when covering and uncovering the eyes. Given these findings, the physician wants to determine whether these signs point towards a central cause such as a stroke with the HINTS examination. What does the HINTS examination suggest in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "cd4bbee6cc4e0ca8d319c7e366c9fb35_0",
+      "text": "States that the HINTS examination suggests a central cause (e.g., posterior circulation stroke). Accept equivalent wording noting that direction-changing nystagmus and skew deviation are central signs despite an abnormal head impulse test.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

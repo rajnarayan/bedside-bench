@@ -1,0 +1,19 @@
+{
+  "case_id": "0280c3f8483c57e19e7806f9d4497d21",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 70-year-old man presents after a TIA. His BP is 150/95, he had unilateral weakness lasting 40 minutes, and no diabetes. What is his ABCD2 score and risk?",
+  "rubric_items": [
+    {
+      "item_id": "43a3634c636170f8b1c0fb728184d2fa_0",
+      "text": "States the ABCD2 score is 5 (exact integer match required).",
+      "points": 1
+    },
+    {
+      "item_id": "43a3634c636170f8b1c0fb728184d2fa_1",
+      "text": "States that an ABCD2 score of 5 indicates moderate/intermediate stroke risk (any correctly time-qualified estimate acceptable, e.g. approximately 4.1% at 2 days or 5.9% at 7 days; no specific time horizon required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

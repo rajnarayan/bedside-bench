@@ -1,0 +1,24 @@
+{
+  "case_id": "9abee525fa469a8f8581772d2058d0c2",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old woman presents to the emergency department with acutely worsening confusion, mild abdominal pain, and dark urine. She is afebrile, with a blood pressure of 128/76 mmHg and a heart rate of 94 beats per minute. Laboratory results show AST 512, ALT 470, total bilirubin 4.1, INR 2.7, and platelets 140,000. Her history includes seizures (treated with carbamazepine), chronic migraines, and depression. CT of the head is normal. Neurology has been consulted and recommends an IV phenytoin load of 20 mg/kg for acute symptomatic seizures after she has a witnessed 2-minute generalized tonic-clonic seizure in the emergency department. Do you administer the phenytoin?",
+  "rubric_items": [
+    {
+      "item_id": "e6eee4bad62dc9faa50f8b15e1493d86_0",
+      "text": "Recognizes that the presentation (confusion, abdominal pain, dark urine, and marked hepatic dysfunction with coagulopathy in a patient taking carbamazepine) argues against the proposed IV phenytoin load—whether framed as possible acute liver failure/drug-induced liver injury with hepatic encephalopathy, possible acute hepatic porphyria (for which phenytoin, carbamazepine, barbiturates, and valproate are porphyrinogenic), or both—and recommends holding carbamazepine pending evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "e6eee4bad62dc9faa50f8b15e1493d86_1",
+      "text": "Selects safe alternatives such as levetiracetam or a benzodiazepine pending further workup.",
+      "points": 1
+    },
+    {
+      "item_id": "e6eee4bad62dc9faa50f8b15e1493d86_2",
+      "text": "Recommends urgent etiologic evaluation of the acute hepatic dysfunction, including medication/toxin review and a serum acetaminophen concentration, with urgent hepatology or transplant-center input for possible acute liver failure (urine porphobilinogen is reasonable if acute porphyria is suspected but is not required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

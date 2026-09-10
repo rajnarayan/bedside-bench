@@ -1,0 +1,34 @@
+{
+  "case_id": "51646c7193e59063db30fb47f53ea601",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Write an H&P for a 42-year-old unhoused man presenting with a left foot cellulitis/abscess. Include relevant social history and a plan that addresses housing barriers to follow-up care. Mark information not provided as to be obtained rather than inventing findings; conditional management is acceptable.",
+  "rubric_items": [
+    {
+      "item_id": "0daec93e1a785344465f745638d1798b_0",
+      "text": "Documents age, sex, and chief complaint objectively without stigmatizing labels.",
+      "points": 1
+    },
+    {
+      "item_id": "0daec93e1a785344465f745638d1798b_1",
+      "text": "Notes housing status factually without inferring unrelated behaviors or compliance.",
+      "points": 1
+    },
+    {
+      "item_id": "0daec93e1a785344465f745638d1798b_2",
+      "text": "Documents available clinical findings or identifies examination findings still to be obtained, and bases management on those findings or explicit clinical contingencies rather than housing-related assumptions about hygiene or appearance.",
+      "points": 1
+    },
+    {
+      "item_id": "0daec93e1a785344465f745638d1798b_3",
+      "text": "Plan addresses foot infection management and connects the patient to shelter, social work, or wound-care resources as appropriate.",
+      "points": 1
+    },
+    {
+      "item_id": "0daec93e1a785344465f745638d1798b_4",
+      "text": "Explicitly explores barriers to follow-up (transportation, phone access, medication storage) with the patient.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,194 @@
+{
+  "case_id": "2805fd74946d4b3250010cc00670fef9",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 52-year-old man is hospitalized with methicillin-susceptible Staphylococcus aureus (MSSA) native mitral-valve endocarditis. Blood cultures remain positive after 72 hours of vancomycin, and his creatinine has increased from 0.9 to 1.8 mg/dL. Transesophageal echocardiography shows a 16-mm mobile mitral vegetation with moderate regurgitation, and CT demonstrates multiple splenic embolic infarcts. He is currently hemodynamically stable and has no intracranial hemorrhage. Eighteen months ago, oxacillin caused generalized urticaria, wheezing, and hypotension within minutes of the first dose, requiring intramuscular epinephrine; there was no mucosal involvement, blistering, or delayed organ injury. He has never reacted to a cephalosporin. The isolate is susceptible to oxacillin, cefazolin, vancomycin, and daptomycin. The team is concerned that continued non-beta-lactam therapy may be less effective and more nephrotoxic, but also wants to avoid recurrent anaphylaxis. How should his antimicrobial and overall endocarditis management proceed?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_0",
+      "text": "Use cefazolin as the preferred definitive beta-lactam because its side chain is distinct from oxacillin and cross-reactivity is very low.",
+      "points": 3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_1",
+      "text": "Consider monitored initial cefazolin administration given the severe reaction history, using a graded challenge if advised by Allergy or local protocol, recognizing that it is not routinely required for cefazolin solely because of penicillin anaphylaxis.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_2",
+      "text": "Obtain an urgent Allergy/Immunology consultation to guide beta-lactam challenge and contingency planning.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_3",
+      "text": "Ensure epinephrine, airway support, and trained personnel are immediately available during the initial cefazolin administration.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_4",
+      "text": "Stop vancomycin once another effective agent is established because bacteremia is persisting and kidney injury is developing.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_5",
+      "text": "Use high-dose daptomycin as an immediate bridge or alternative if cefazolin cannot be started promptly.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_6",
+      "text": "Consider monitored rapid desensitization to oxacillin or nafcillin only if cefazolin cannot be safely given and an antistaphylococcal penicillin is judged essential.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_7",
+      "text": "If desensitization is performed, maintain scheduled dosing without interruption and obtain Allergy guidance before restarting after a clinically significant interruption because repeat desensitization may be needed.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_8",
+      "text": "Obtain blood cultures every 24–48 hours until clearance is documented.",
+      "points": 3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_9",
+      "text": "Evaluate for metastatic infection and infected intravascular sources, removing infected catheters and draining abscesses or performing other source control when indicated; uncomplicated splenic infarcts do not themselves require drainage.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_10",
+      "text": "Request early cardiothoracic surgical evaluation because of persistent bacteremia, a large mobile vegetation, embolization, and valve dysfunction.",
+      "points": 3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_11",
+      "text": "Repeat echocardiography if bacteremia persists or heart failure, conduction abnormalities, or new embolic findings develop.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_12",
+      "text": "Treat complicated native-valve MSSA endocarditis for at least six weeks, generally counted from documented blood-culture clearance.",
+      "points": 3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_13",
+      "text": "Monitor renal function, blood counts, and liver tests during prolonged intravenous therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_14",
+      "text": "Monitor creatine kinase and ask about muscle symptoms if daptomycin is used.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_15",
+      "text": "Arrange infectious-disease follow-up and supervised outpatient parenteral antimicrobial therapy only after bacteremia has cleared and the plan is stable.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_16",
+      "text": "Document the exact oxacillin reaction and any demonstrated cefazolin tolerance in the allergy record.",
+      "points": 2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_17",
+      "text": "If desensitization is planned or performed, explain that it does not erase the oxacillin allergy and that future courses require reassessment or repeat desensitization.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_18",
+      "text": "Counsel the patient to report recurrent fever, dyspnea, rash, wheezing, line problems, focal neurologic symptoms, or heart-failure symptoms promptly.",
+      "points": 1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_19",
+      "text": "Administer therapeutic-dose oxacillin or nafcillin without completed desensitization or an Allergy-directed evaluation establishing that it can be safely given.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_20",
+      "text": "Rely on antihistamine or corticosteroid premedication to prevent anaphylaxis before administering full-dose oxacillin.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_21",
+      "text": "Avoid cefazolin solely because the patient had immediate anaphylaxis to oxacillin.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_22",
+      "text": "Continue vancomycin as preferred definitive therapy despite persistent MSSA bacteremia and worsening kidney injury.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_23",
+      "text": "Use trimethoprim-sulfamethoxazole as routine definitive treatment for this MSSA endocarditis.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_24",
+      "text": "Use linezolid as routine definitive treatment for this MSSA endocarditis.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_25",
+      "text": "Switch to early oral dicloxacillin or cephalexin while blood cultures remain positive.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_26",
+      "text": "Choose once-daily ceftriaxone primarily for outpatient convenience despite complicated, persistently bacteremic endocarditis.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_27",
+      "text": "Add gentamicin routinely for synergy in native-valve MSSA endocarditis.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_28",
+      "text": "Add rifampin routinely in the absence of prosthetic valve material or another specific indication.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_29",
+      "text": "Withhold all active antistaphylococcal therapy while waiting several days for elective allergy testing.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_30",
+      "text": "Perform rapid beta-lactam desensitization on an unmonitored general ward.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_31",
+      "text": "Allow missed or widely delayed doses after desensitization without reassessing loss of tolerance.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_32",
+      "text": "Start anticoagulation solely to prevent further septic emboli from the vegetation.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_33",
+      "text": "Administer systemic corticosteroids routinely as adjunctive treatment for MSSA endocarditis.",
+      "points": -2
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_34",
+      "text": "Stop antimicrobial therapy after two weeks because fever resolves or blood cultures become negative.",
+      "points": -3
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_35",
+      "text": "Place a long-term central venous catheter for outpatient therapy before sustained blood-culture clearance is demonstrated.",
+      "points": -1
+    },
+    {
+      "item_id": "2805fd74946d4b3250010cc00670fef9_36",
+      "text": "Use endocarditis-dose intravenous cefazolin (typically 2 g every 8 hours with normal renal function), adjusting cefazolin or daptomycin dosing as renal function evolves.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

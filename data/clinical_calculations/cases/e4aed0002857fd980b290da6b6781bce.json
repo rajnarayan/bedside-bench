@@ -1,0 +1,19 @@
+{
+  "case_id": "e4aed0002857fd980b290da6b6781bce",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 36-year-old male, recently undergoing allogeneic hematopoietic stem cell transplantation for acute myeloid leukemia, presents to the transplant unit 15 days post-procedure. The patient exhibits jaundice and reports discomfort in the right upper quadrant of the abdomen. His liver ultrasound reveals mild hepatomegaly. Blood tests show a total bilirubin level of 40 µmol/L. Additionally, nursing staff note a significant increase in the patient's weight since the day of transplantation, with a current increase of 3.5% from his initial weight. Given these changes, the transplant team is concerned about the possibility of hepatic veno-occlusive disease (VOD) developing. They decide to apply the modified Seattle criteria for VOD diagnosis. Does this patient meet the modified Seattle criteria, and how many of the three criteria are present?",
+  "rubric_items": [
+    {
+      "item_id": "92af20d956e383c7453e1b1b09fb80c6_0",
+      "text": "States that the patient meets the modified Seattle criteria for VOD (within 20 days of transplant with ≥2 of the three criteria).",
+      "points": 1
+    },
+    {
+      "item_id": "92af20d956e383c7453e1b1b09fb80c6_1",
+      "text": "States that all three criteria are present (3 of 3): bilirubin >34 µmol/L (2 mg/dL), hepatomegaly/right upper quadrant pain, and weight gain >2% from baseline.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

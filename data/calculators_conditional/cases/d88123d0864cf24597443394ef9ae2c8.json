@@ -1,0 +1,14 @@
+{
+  "case_id": "d88123d0864cf24597443394ef9ae2c8",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 34-year-old male presents to the dermatology clinic with a persistent rash on his forearms following exposure to a new brand of sunscreen lotion he purchased a few weeks ago. The rash is itchy and has visibly spread from the initial contact areas. His dermatologist suspects allergic contact dermatitis and decides to perform a patch test to determine the specific allergen causing his symptoms. Three days after the application of allergens, the patch tests are assessed. Upon examination, one of the test sites shows intense erythema, infiltration, and coalescing vesicles, while the other test sites show either no reaction or faint erythema. The dermatologist uses the International Contact Dermatitis Research Group patch test scoring system to interpret and document the severity of the reaction. What is the ICDRG score for the allergen on the patient's forearm showing intense erythema, infiltration, and coalescing vesicles?",
+  "rubric_items": [
+    {
+      "item_id": "a6e663734d50f3fb53f83d527c81f281_0",
+      "text": "States that the correct ICDRG score is an extreme positive reaction (+++) (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "4d24d26926ed801f2c398a14e2c788a9",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old male presents to the rheumatology clinic with complaints of persistent joint pain and swelling. He reports having these symptoms for over two months, affecting his daily activities. Upon examination, there is evidence of synovitis in multiple joints, including the small joints of the hands and wrists, which account for more than ten swollen joints. His blood tests show a high-positive rheumatoid factor and a positive anti-cyclic citrullinated peptide antibody. Additionally, his C-reactive protein levels and erythrocyte sedimentation rate are both elevated, indicating active inflammation. Given these findings, the rheumatologist wants to calculate the ACR/EULAR classification criteria score for rheumatoid arthritis to aid in confirming the diagnosis. What is the ACR/EULAR classification score for this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "04934701f468627cdde03a3af5bfbc21_0",
+      "text": "States the total ACR/EULAR classification score for this patient is 10 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "04934701f468627cdde03a3af5bfbc21_1",
+      "text": "States the clinical interpretation: the patient meets the 2010 ACR/EULAR classification criteria for rheumatoid arthritis (score ≥6/10) (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

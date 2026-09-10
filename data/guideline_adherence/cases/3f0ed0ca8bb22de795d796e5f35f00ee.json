@@ -1,0 +1,29 @@
+{
+  "case_id": "3f0ed0ca8bb22de795d796e5f35f00ee",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old woman with a history of immune thrombocytopenia (ITP) presents for prenatal counseling at 10 weeks' gestation. She underwent splenectomy 5 years ago and currently has a normal platelet count. She is concerned about the risk of her newborn having low platelets. Her first child, born three years ago, had a normal platelet count at birth that remained normal during the first week of life.\n\nBased on current guidelines, what is the most reliable predictor of whether this patient's newborn will be thrombocytopenic, and how should you counsel her regarding the risk to her current pregnancy?",
+  "rubric_items": [
+    {
+      "item_id": "f3e9488f10828b6fab68baf6ab5d7b51_0",
+      "text": "States that the most reliable predictor of neonatal thrombocytopenia is whether a previous sibling was thrombocytopenic.",
+      "points": 2
+    },
+    {
+      "item_id": "f3e9488f10828b6fab68baf6ab5d7b51_1",
+      "text": "Explains that because her first child had a normal platelet count at birth, the current baby is also likely to have a normal platelet count.",
+      "points": 1
+    },
+    {
+      "item_id": "f3e9488f10828b6fab68baf6ab5d7b51_2",
+      "text": "Explains that maternal factors such as prior splenectomy or the current maternal platelet count do not reliably predict the newborn's platelet count, while acknowledging that prior splenectomy may confer some residual risk of neonatal thrombocytopenia even when the mother's platelet count is normal.",
+      "points": 1
+    },
+    {
+      "item_id": "f3e9488f10828b6fab68baf6ab5d7b51_3",
+      "text": "Counsels that the newborn should have a cord-blood or early neonatal platelet count with monitoring over the following days, because neonatal platelet counts can fall after birth even when the mother's count is normal.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

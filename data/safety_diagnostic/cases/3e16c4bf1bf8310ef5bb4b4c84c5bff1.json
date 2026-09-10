@@ -1,0 +1,209 @@
+{
+  "case_id": "3e16c4bf1bf8310ef5bb4b4c84c5bff1",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "Patient is a 28-year-old woman with a history of cholecystectomy at age 22 who is pregnant at 18 weeks and presents with a RPR reactive 1:1 and TPPA reactive. She had positive syphilis testing 3 years ago that was untreated. The patient has no symptoms and is at low risk, being monogamous with her partner who had negative syphilis testing about one year ago. The patient was started on treatment with benzathine penicillin G 2.4 million units intramuscularly given she is pregnant (first dose approximately two weeks ago, second dose one week ago). Do these findings confirm a syphilis infection and warrant continuation of treatment?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_0",
+      "text": "Continue benzathine penicillin G 2.4 million units intramuscularly once weekly for 3 total doses for late latent syphilis or syphilis of unknown duration.",
+      "points": 3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_1",
+      "text": "Assess barriers to completing the injections and arrange adherence support or appointment reminders as needed.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_2",
+      "text": "Restart the full 3-dose benzathine penicillin G series if the interval between doses exceeds 9 days.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_3",
+      "text": "Document the baseline quantitative RPR titer at the time treatment is initiated.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_4",
+      "text": "Repeat the quantitative RPR at 28 to 32 weeks of gestation.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_5",
+      "text": "Repeat the quantitative RPR at delivery.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_6",
+      "text": "Review prior medical records and public health registries for documentation of previous syphilis treatment.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_7",
+      "text": "Stage the infection using a detailed sexual, symptom, testing, and treatment history.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_8",
+      "text": "Perform a complete physical examination for manifestations of primary or secondary syphilis.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_9",
+      "text": "Obtain HIV antigen/antibody testing with appropriate counseling.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_10",
+      "text": "Obtain hepatitis B surface antigen testing.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_11",
+      "text": "Obtain hepatitis C antibody screening.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_12",
+      "text": "Obtain gonorrhea and chlamydia nucleic acid amplification testing.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_13",
+      "text": "Refer the sexual partner for syphilis evaluation, serologic testing, and treatment when indicated.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_14",
+      "text": "Counsel that the reactive treponemal and nontreponemal tests with no documented prior therapy support presumed untreated latent syphilis despite the low RPR titer.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_15",
+      "text": "Counsel about the risk of fetal infection and congenital syphilis if maternal treatment is incomplete.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_16",
+      "text": "Counsel about the Jarisch-Herxheimer reaction and the need for urgent obstetric assessment for fever, contractions, or decreased fetal movement.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_17",
+      "text": "Coordinate targeted fetal ultrasound with obstetrics if syphilis is diagnosed in the second half of pregnancy or fetal infection is suspected, without delaying maternal treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_18",
+      "text": "Report the syphilis diagnosis to the local public health department.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_19",
+      "text": "Advise avoidance of sexual contact until maternal treatment is completed and the partner has been evaluated and treated when indicated.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_20",
+      "text": "Consult infectious disease when clarification of prior treatment, staging, or possible reinfection is needed.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_21",
+      "text": "If penicillin allergy is reported, arrange allergy assessment; for confirmed immediate hypersensitivity, arrange monitored desensitization followed by penicillin, while a history of a severe delayed reaction (e.g., SJS/TEN, DRESS) requires specialist management rather than routine challenge or desensitization.",
+      "points": 2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_22",
+      "text": "Plan neonatal or pediatric consultation before delivery to coordinate the newborn congenital syphilis assessment.",
+      "points": 1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_23",
+      "text": "Discontinue penicillin treatment because the RPR titer is low, the patient reports a low-risk sexual history, or the partner's prior syphilis test was negative.",
+      "points": -3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_24",
+      "text": "Delay or withhold the remaining penicillin doses while awaiting repeat confirmatory serology.",
+      "points": -3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_25",
+      "text": "Defer syphilis treatment until after delivery.",
+      "points": -3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_26",
+      "text": "Treat presumed late latent syphilis with only one dose of benzathine penicillin G.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_27",
+      "text": "Substitute oral doxycycline for penicillin during pregnancy.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_28",
+      "text": "Substitute azithromycin for penicillin during pregnancy.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_29",
+      "text": "Substitute ceftriaxone for penicillin as definitive maternal syphilis therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_30",
+      "text": "Substitute oral amoxicillin for intramuscular benzathine penicillin G.",
+      "points": -3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_31",
+      "text": "Forgo monitored penicillin desensitization in a pregnant patient with confirmed immediate penicillin hypersensitivity and no contraindication to desensitization, leaving syphilis inadequately treated.",
+      "points": -3
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_32",
+      "text": "Perform lumbar puncture for neurosyphilis evaluation in the absence of neurologic, ocular, or otic findings.",
+      "points": -1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_33",
+      "text": "Order quantitative RPR testing every week after treatment to assess serologic response.",
+      "points": -1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_34",
+      "text": "Omit repeat quantitative RPR monitoring during the remainder of pregnancy.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_35",
+      "text": "Empirically treat the partner with benzathine penicillin G without evaluation, repeat serology, or another treatment indication.",
+      "points": -1
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_36",
+      "text": "Perform amniocentesis to evaluate the fetus for congenital syphilis.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_37",
+      "text": "Administer prophylactic corticosteroids to prevent a Jarisch-Herxheimer reaction.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_38",
+      "text": "Advise omitting the baseline newborn congenital-syphilis assessment (physical examination and neonatal serum quantitative RPR or VDRL) at delivery despite reactive maternal nontreponemal serology.",
+      "points": -2
+    },
+    {
+      "item_id": "abcb6d69d39396692a1d4b96d12feef9_39",
+      "text": "Arrange quantitative RPR follow-up at 6, 12, and 24 months after treatment, continuing postpartum.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

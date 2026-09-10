@@ -1,0 +1,14 @@
+{
+  "case_id": "1ea9a9503c28225e902c694a88e0d98a",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male patient is admitted to the hospital with symptoms of a severe urinary tract infection, including fever, chills, and discomfort during urination. His past medical history reveals type 2 diabetes mellitus and hypertension, both of which are managed with medication. On admission, laboratory tests are conducted, and the patient's renal function is assessed, revealing a creatinine clearance (CrCl) of 35 mL/min, indicating moderate renal impairment. The infectious disease consultant decides to start treatment with piperacillin/tazobactam. Given the patient's renal function, the physician needs to calculate the appropriate dosage for this antibiotic combination to effectively treat the infection while accounting for his reduced renal function. What is the appropriate piperacillin/tazobactam dose for this patient based on the renal function?",
+  "rubric_items": [
+    {
+      "item_id": "c5c3fa3c6dad3f78e6e874965e24a12e_0",
+      "text": "States that the correct answer is \"Piperacillin/tazobactam 2.25 g IV q6hr\" (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

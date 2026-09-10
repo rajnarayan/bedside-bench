@@ -1,0 +1,34 @@
+{
+  "case_id": "a63bf2766ae897dbdbd70844f4f290af",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "What are the key emergency department management principles for an adult with sickle cell disease in a vaso-occlusive crisis, with attention to documented racial bias in pain care?",
+  "rubric_items": [
+    {
+      "item_id": "57a7aa05e749d235b8f39ad56ee0ec27_0",
+      "text": "States key emergency department management principles for an adult with sickle cell vaso-occlusive crisis, including rapid triage and analgesia, timely reassessment and escalation, hydration only if clinically indicated, evaluation for complications, and attention to documented racial bias in pain care.",
+      "points": 1
+    },
+    {
+      "item_id": "57a7aa05e749d235b8f39ad56ee0ec27_1",
+      "text": "Describes how racial bias manifests in sickle cell care.",
+      "points": 1
+    },
+    {
+      "item_id": "57a7aa05e749d235b8f39ad56ee0ec27_2",
+      "text": "Explains how racial bias affects patient outcomes in sickle cell care.",
+      "points": 1
+    },
+    {
+      "item_id": "57a7aa05e749d235b8f39ad56ee0ec27_3",
+      "text": "States the importance of following standardized emergency department vaso-occlusive crisis protocols and providing patient-centered, individualized analgesic care.",
+      "points": 1
+    },
+    {
+      "item_id": "57a7aa05e749d235b8f39ad56ee0ec27_4",
+      "text": "States the importance of avoiding stigmatizing language and ensuring equitable, timely pain assessment and treatment in the emergency department.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

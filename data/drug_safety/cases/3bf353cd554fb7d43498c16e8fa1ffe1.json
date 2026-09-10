@@ -1,0 +1,29 @@
+{
+  "case_id": "3bf353cd554fb7d43498c16e8fa1ffe1",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old woman with hereditary angioedema (HAE) due to C1 esterase inhibitor deficiency presents with mild abdominal pain and facial swelling. Her only allergy is penicillin (rash), and she takes no home medications. She is hemodynamically stable, and her airway is not currently compromised. She reports that she has had similar attacks before, which usually resolve on their own. The emergency physician orders a fresh frozen plasma (FFP) infusion for the acute HAE attack because no C1 esterase inhibitor concentrate is available. Should you proceed with the FFP as ordered?",
+  "rubric_items": [
+    {
+      "item_id": "e9b93a76ec3ef01294d599a85358e134_0",
+      "text": "Recognizes that FFP is an accepted fallback when preferred acute HAE treatments are unavailable, but carries transfusion risks and a potential for worsening angioedema reported in some cases, possibly from supplying substrates for bradykinin generation.",
+      "points": 1
+    },
+    {
+      "item_id": "e9b93a76ec3ef01294d599a85358e134_1",
+      "text": "Recommends C1 esterase inhibitor concentrate as first-line therapy, or icatibant or ecallantide if concentrate is unavailable.",
+      "points": 1
+    },
+    {
+      "item_id": "e9b93a76ec3ef01294d599a85358e134_2",
+      "text": "If FFP is used because preferred treatments are unavailable, recommends explicit risk-benefit assessment, administration in a monitored clinical setting with ready access to airway management, and observation for attack progression and transfusion reactions, with monitoring intensity matched to clinical severity.",
+      "points": 1
+    },
+    {
+      "item_id": "e9b93a76ec3ef01294d599a85358e134_3",
+      "text": "Explains that unavailability of C1 esterase inhibitor concentrate alone does not make FFP the preferred option: checks availability of other recommended on-demand agents (icatibant, ecallantide) and solvent/detergent-treated plasma where available, while accepting FFP as a reasonable fallback when preferred options are unavailable and benefits outweigh risks; mild symptoms alone do not make it contraindicated.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

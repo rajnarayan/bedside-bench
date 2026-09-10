@@ -1,0 +1,14 @@
+{
+  "case_id": "0aed3f71a1a20a1cc25460c829acabe2",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "An 82-kg patient is prescribed enoxaparin at 1.5 mg/kg/day. What is the daily dose?",
+  "rubric_items": [
+    {
+      "item_id": "13ce910ad758f645c900d743b05004cd_0",
+      "text": "States the daily enoxaparin dose is 123 mg (exact match required; 82 kg × 1.5 mg/kg/day).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "d82e4ba819cf2db8f5e058812e916aab",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "An adult with severe post-traumatic stress disorder is being evaluated for MDMA-assisted therapy in a specialized program, and the team wants to review the pivotal safety data before proceeding.\n\nBased on the MAPP1 trial, what safety outcomes were reported for MDMA-assisted therapy, including any signals of abuse potential, suicidality, or QT prolongation?",
+  "rubric_items": [
+    {
+      "item_id": "f580744e1db93fb08acbaebff688b1c2_0",
+      "text": "States that MAPP1 found no signal of abuse potential, no suicidality signal, and no QT prolongation with MDMA-assisted therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "f580744e1db93fb08acbaebff688b1c2_1",
+      "text": "Reports that adverse events more frequent with MDMA than placebo were transient and included muscle tightness, decreased appetite, and nausea.",
+      "points": 1
+    },
+    {
+      "item_id": "f580744e1db93fb08acbaebff688b1c2_2",
+      "text": "Notes that these findings support a favorable safety profile and that treatment was safe and well-tolerated under controlled trial conditions.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

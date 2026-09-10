@@ -1,0 +1,14 @@
+{
+  "case_id": "7f009e4c7392faa421d99f72cde0e7e5",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old man is brought to the emergency department with confusion, fatigue, and severe thirst. He has a history of chronic kidney disease. His serum sodium is 156 mEq/L, and the team wants to lower it to 140 mEq/L. He weighs 70 kg. Using the Free Water Deficit in Hypernatremia calculator, what is his free water deficit in liters?",
+  "rubric_items": [
+    {
+      "item_id": "380d0be0728d59fd98063663bd4391cd_0",
+      "text": "States that the estimated free water deficit is 4 L (exact match required; equivalent numerical notation such as 4.0 L is acceptable).",
+      "points": 2
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "181435601f2181f69a5f2811ae1812c0",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old woman with chronic rheumatoid arthritis on methotrexate and low-dose prednisone presents with 24 hours of severe back pain and costovertebral angle tenderness. She is afebrile, with a WBC of 7.9. Urinalysis shows 20 WBC/hpf and is nitrite-positive, and her creatinine is 0.9. You plan to treat her as an outpatient with trimethoprim-sulfamethoxazole (TMP-SMX) double strength twice daily for 7 days for presumed pyelonephritis. Should you proceed?",
+  "rubric_items": [
+    {
+      "item_id": "0c610fc70f6b0ac175cd67ec3d58cc25_0",
+      "text": "Recognizes the dangerous interaction between TMP-SMX and methotrexate, specifically the risk of severe bone marrow suppression from additive antifolate effects.",
+      "points": 1
+    },
+    {
+      "item_id": "0c610fc70f6b0ac175cd67ec3d58cc25_1",
+      "text": "Recommends avoiding treatment-dose TMP-SMX with methotrexate and selecting an appropriate alternative pyelonephritis regimen, guided by urine culture/susceptibility information, local resistance patterns, allergies, and potential methotrexate interactions.",
+      "points": 1
+    },
+    {
+      "item_id": "0c610fc70f6b0ac175cd67ec3d58cc25_2",
+      "text": "Highlights that patients taking methotrexate require careful review of any new antibiotic for potential interactions, even with normal renal function and no baseline cytopenias.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "466d0fecdf1d6216d88bf1ec958ab491",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 56-year-old woman is recovering in the hospital after an episode of septic shock secondary to a urinary tract infection. She has been transferred from the ICU to the general medical ward and is expected to be discharged home in the next few days. During a follow-up discussion, she and her husband express concerns about her ongoing fatigue, difficulty sleeping, and anxiety about her recovery. They ask if there are any resources or support available for people who have been through similar experiences.\n\nBased on current guidelines, what non-medical intervention should you consider offering to this patient and her family at this stage of her recovery?",
+  "rubric_items": [
+    {
+      "item_id": "3967de9120929a3ce297efe482e97faa_0",
+      "text": "Recommends referral of the patient and her family to peer support groups for survivors of sepsis/septic shock (or critical illness/ICU survivors).",
+      "points": 2
+    },
+    {
+      "item_id": "3967de9120929a3ce297efe482e97faa_1",
+      "text": "Explicitly identifies peer support as a guideline-suggested non-medical intervention at this stage of recovery.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

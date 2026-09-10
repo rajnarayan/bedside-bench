@@ -1,0 +1,29 @@
+{
+  "case_id": "1ca066c55c440c44372ed55c6b0e2c80",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man with a 2-year history of idiopathic pulmonary fibrosis (IPF) presents to clinic for routine follow-up. He reports that his breathlessness has slowly worsened over the past year, but he is still able to perform most daily activities. His most recent pulmonary function tests show a gradual decline in forced vital capacity (FVC) compared to last year. High-resolution CT imaging demonstrates progressive fibrosis. He asks you about the expected course of his disease and whether he should be concerned about sudden worsening. He also mentions that he has recently been diagnosed with mild pulmonary hypertension and has a history of gastroesophageal reflux disease.\n\nBased on current ATS guidelines, how should you counsel this patient regarding the prognosis and expected disease course of idiopathic pulmonary fibrosis, including the potential for acute worsening and the impact of comorbid conditions?",
+  "rubric_items": [
+    {
+      "item_id": "aa5219a3dcc12a6c1e3aad81896d8706_0",
+      "text": "Explains that idiopathic pulmonary fibrosis is a fatal lung disease with a variable and unpredictable natural history.",
+      "points": 2
+    },
+    {
+      "item_id": "aa5219a3dcc12a6c1e3aad81896d8706_1",
+      "text": "States that most patients experience gradual worsening of lung function over years, but a minority may remain stable or decline rapidly.",
+      "points": 1
+    },
+    {
+      "item_id": "aa5219a3dcc12a6c1e3aad81896d8706_2",
+      "text": "Notes that episodes of acute respiratory worsening can occur even after periods of stability, and that disease progression is indicated by increasing symptoms, worsening pulmonary function, progressive fibrosis on imaging, acute respiratory decline, or death.",
+      "points": 1
+    },
+    {
+      "item_id": "aa5219a3dcc12a6c1e3aad81896d8706_3",
+      "text": "Acknowledges that pulmonary hypertension is an adverse prognostic factor in IPF associated with worse functional status and survival (depending on its severity), whereas gastroesophageal reflux is common but its causal effect on IPF progression and survival remains uncertain.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

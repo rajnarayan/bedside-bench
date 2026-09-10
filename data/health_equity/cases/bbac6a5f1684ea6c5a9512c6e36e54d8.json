@@ -1,0 +1,34 @@
+{
+  "case_id": "bbac6a5f1684ea6c5a9512c6e36e54d8",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "An 8-year-old with persistent asthma has had three ED visits this year. The family lives in an apartment adjacent to a major highway with visible mold and cockroaches, and the landlord has not responded to complaints. Beyond stepping up controller therapy, what should the care plan address?",
+  "rubric_items": [
+    {
+      "item_id": "4bd78bdb86490b3a1879504ef651ce86_0",
+      "text": "Identifies housing-related exposures (traffic pollution, mold, pests) as drivers of poor asthma control.",
+      "points": 1
+    },
+    {
+      "item_id": "4bd78bdb86490b3a1879504ef651ce86_1",
+      "text": "Recommends environmental mitigation strategies such as pest management, mold remediation, and reducing exposure where feasible.",
+      "points": 1
+    },
+    {
+      "item_id": "4bd78bdb86490b3a1879504ef651ce86_2",
+      "text": "Engages resources to address substandard housing, such as social work, medical-legal partnership, or a letter documenting the health impact to support the family's housing complaint.",
+      "points": 1
+    },
+    {
+      "item_id": "4bd78bdb86490b3a1879504ef651ce86_3",
+      "text": "Ensures core asthma care: reviewing inhaler technique and providing a written asthma action plan.",
+      "points": 1
+    },
+    {
+      "item_id": "4bd78bdb86490b3a1879504ef651ce86_4",
+      "text": "Arranges close follow-up to reassess control after interventions.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

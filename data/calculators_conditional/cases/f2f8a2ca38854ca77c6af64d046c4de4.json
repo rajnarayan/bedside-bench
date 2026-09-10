@@ -1,0 +1,14 @@
+{
+  "case_id": "f2f8a2ca38854ca77c6af64d046c4de4",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "An 82-year-old man is brought to the geriatric outpatient clinic by his daughter due to concerns about his increasing frailty over the past year. The patient has a history of type 2 diabetes and hypertension, which are currently well-controlled with medication. His daughter reports that he used to be very active but has gradually reduced outdoor activities due to feeling tired and slowed down. While he still performs his daily routines independently, he often expresses fatigue and has stopped engaging in activities that were part of his routine outside of regular walking. His daughter confirms that he does not require assistance with personal care tasks but has become more sluggish in recent months. The geriatrician assesses his condition to determine his frailty level. What is the Clinical Frailty Scale (CFS) score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "ce1952f3cbb124ef1976c4d30c6dcb46_0",
+      "text": "Identifies the Clinical Frailty Scale score as CFS 4, \"Living with very mild frailty\" (formerly \"Vulnerable\"); accept either the numerical score or the equivalent category label.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

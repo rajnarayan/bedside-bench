@@ -1,0 +1,29 @@
+{
+  "case_id": "a3b57350ce2d23b4197058e213630a37",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man survives a prolonged ICU admission for septic shock, and his family asks whether a structured family-support intervention delivered by the interprofessional ICU team during critical illness improves outcomes that matter after discharge. Based on the PARTNER trial, why are the findings meaningful for ICU practice even though surrogate HADS and IES did not improve? Include the key process and length-of-stay outcomes, with effect sizes and P-values, and note any safety reporting.",
+  "rubric_items": [
+    {
+      "item_id": "c6df613c17a9eada066bbffd24d306d1_0",
+      "text": "States that the PARTNER trial did not improve HADS/IES psychological surrogate outcomes and that this is important to acknowledge when interpreting the trial.",
+      "points": 2
+    },
+    {
+      "item_id": "c6df613c17a9eada066bbffd24d306d1_1",
+      "text": "Reports improved surrogate-rated quality of communication (QOC; adjusted difference +6.39 points, P=0.001) and patient- and family-centeredness of care (modified PPPC; adjusted difference −0.15, P=0.007; lower scores indicate better centeredness), despite no significant HADS/IES benefit.",
+      "points": 1
+    },
+    {
+      "item_id": "c6df613c17a9eada066bbffd24d306d1_2",
+      "text": "Reports shorter ICU length of stay (mean 6.7 versus 7.4 days; adjusted incidence-rate ratio 0.90, P=0.045) and explains that the reduction was driven by patients who died, rather than demonstrating improved post-discharge recovery among survivors.",
+      "points": 1
+    },
+    {
+      "item_id": "c6df613c17a9eada066bbffd24d306d1_3",
+      "text": "Recognizes reported patient mortality and surrogate psychological outcomes as safety-relevant, and limits any statement about absent safety reporting to the lack of dedicated intervention-related adverse-event reporting, without claiming that no safety-relevant data were reported or that absence of reporting proves safety.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

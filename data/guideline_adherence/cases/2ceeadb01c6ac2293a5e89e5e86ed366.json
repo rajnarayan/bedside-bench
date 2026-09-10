@@ -1,0 +1,24 @@
+{
+  "case_id": "2ceeadb01c6ac2293a5e89e5e86ed366",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 10-year-old boy with a confirmed diagnosis of cystic fibrosis presents for a routine follow-up. He has a history of recurrent respiratory infections but no history of asthma or allergic bronchopulmonary aspergillosis (ABPA). His current medications include pancreatic enzyme replacement, airway clearance therapies, and antibiotics as needed. His parents ask whether starting an inhaled corticosteroid would help improve his lung function and reduce the frequency of his chest infections.\n\nBased on current guidelines, what is the most appropriate recommendation regarding the use of inhaled corticosteroids in this patient, and what is the rationale for your decision?",
+  "rubric_items": [
+    {
+      "item_id": "54cceff01c29d28caf86f7068da72815_0",
+      "text": "Advises against the routine use of inhaled corticosteroids in this patient with cystic fibrosis (aged 6 years or older) who does not have asthma or ABPA.",
+      "points": 1
+    },
+    {
+      "item_id": "54cceff01c29d28caf86f7068da72815_1",
+      "text": "Recommends starting inhaled corticosteroids for routine cystic fibrosis management in this patient despite the absence of asthma or ABPA.",
+      "points": -1
+    },
+    {
+      "item_id": "54cceff01c29d28caf86f7068da72815_2",
+      "text": "Explains that inhaled corticosteroids have no established benefit for improving lung function or quality of life or for reducing pulmonary exacerbations in cystic fibrosis patients without asthma or ABPA.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

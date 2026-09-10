@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "BedsideBench: A Clinical Question-Answering Benchmark"
+abstract: >-
+  A 500-case clinical question-answering benchmark covering medication safety,
+  guideline and trial evidence, false-premise queries, quantitative reasoning,
+  health equity, and free-text management plans. The release includes public
+  grading rubrics and a reproducible LLM-judge protocol.
+type: dataset
+version: "1.0.0"
+date-released: "2026-09-14"
+authors:
+  - name: "Doximity"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - clinical NLP
+  - medical question answering
+  - LLM evaluation
+  - benchmark
+  - patient safety

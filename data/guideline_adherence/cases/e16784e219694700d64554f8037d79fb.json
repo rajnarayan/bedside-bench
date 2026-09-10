@@ -1,0 +1,24 @@
+{
+  "case_id": "e16784e219694700d64554f8037d79fb",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old man with a history of chronic obstructive pulmonary disease (COPD) presents to the emergency department with worsening shortness of breath over the past two days. He is tachypneic, using accessory muscles, and has an oxygen saturation of 88% on room air. The emergency physician initiates supplemental oxygen and nebulized bronchodilators. After one hour, the patient's respiratory distress persists, and his oxygen saturation is now 92% on 4L/min nasal cannula. The physician is considering further escalation of care and wants to assess the patient's current ventilatory and acid-base status.\n\nAccording to the AARC guidelines, what is the most appropriate next step to evaluate this patient's ventilatory and acid-base status, and why?",
+  "rubric_items": [
+    {
+      "item_id": "5bffb84ce9b080b095fcb1dd52a082cf_0",
+      "text": "Recommends obtaining arterial blood gas analysis to evaluate the patient's ventilatory (PaCO2), acid-base (pH), and oxygenation status.",
+      "points": 1
+    },
+    {
+      "item_id": "5bffb84ce9b080b095fcb1dd52a082cf_1",
+      "text": "Recommends relying solely on pulse oximetry or clinical observation as sufficient to assess this patient's ventilatory and acid-base status, instead of obtaining a blood gas.",
+      "points": -1
+    },
+    {
+      "item_id": "5bffb84ce9b080b095fcb1dd52a082cf_2",
+      "text": "Explains that blood gas measurement of PaCO2 and pH identifies hypercapnia and respiratory acidosis, which pulse oximetry cannot detect, and helps guide escalation to ventilatory support (e.g., non-invasive ventilation).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

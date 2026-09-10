@@ -1,0 +1,14 @@
+{
+  "case_id": "a4bf13eb2151ba07a7753d382af0c19d",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old man with a history of congestive heart failure presents with two weeks of progressive dyspnea and right-sided pleuritic chest discomfort. Chest radiography demonstrates a moderate right-sided pleural effusion, and diagnostic thoracentesis is performed. Laboratory analysis shows pleural fluid protein 4.1 g/dL, serum protein 6.8 g/dL, pleural fluid LDH 220 U/L, and serum LDH 240 U/L; the laboratory's upper limit of normal for serum LDH is 222 U/L. The pulmonologist applies Light's criteria to characterize the effusion. How should this pleural effusion be classified?",
+  "rubric_items": [
+    {
+      "item_id": "e26da4df75a49ab3141400f9d02bd830_0",
+      "text": "States that the correct answer is \"Exudate\" (accept equivalent wording such as \"exudative pleural effusion\" or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

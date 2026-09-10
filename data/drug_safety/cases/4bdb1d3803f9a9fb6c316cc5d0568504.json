@@ -1,0 +1,29 @@
+{
+  "case_id": "4bdb1d3803f9a9fb6c316cc5d0568504",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old man with stage 4 chronic kidney disease (eGFR 22 mL/min/1.73 m², stable and not receiving dialysis) has painful nocturnal leg spasms after a stroke. His clinician proposes baclofen 10 mg orally three times daily, noting that this is a routine starting dose and that the patient has no baseline confusion. Is this prescription appropriate?",
+  "rubric_items": [
+    {
+      "item_id": "744df4d2178eaaf3ce1b87285af60ccd_0",
+      "text": "Rejects baclofen 10 mg three times daily because baclofen is predominantly renally eliminated and can accumulate in advanced kidney disease, producing profound encephalopathy, myoclonus, seizures, coma, and respiratory depression even at conventionally low doses.",
+      "points": 1
+    },
+    {
+      "item_id": "744df4d2178eaaf3ce1b87285af60ccd_1",
+      "text": "Recommends avoiding baclofen when eGFR is below 30 mL/min/1.73 m²; exact threshold of 30 mL/min/1.73 m² is required. Suggests a non-baclofen strategy selected for the cause of the spasms rather than routine renal dose reduction.",
+      "points": 1
+    },
+    {
+      "item_id": "744df4d2178eaaf3ce1b87285af60ccd_2",
+      "text": "Mentions that suspected baclofen toxicity requires immediate discontinuation and urgent supportive evaluation, and that hemodialysis can enhance baclofen removal in severe toxicity.",
+      "points": 1
+    },
+    {
+      "item_id": "744df4d2178eaaf3ce1b87285af60ccd_3",
+      "text": "Endorses the proposed 10 mg three-times-daily regimen or describes routine outpatient observation alone as adequate in this patient.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "1a96ff328156f53e0ad7cd8ee4d5dded",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 20-kg child is prescribed acetaminophen at 15 mg/kg/day divided into two doses (BID). What is the amount per dose?",
+  "rubric_items": [
+    {
+      "item_id": "bc3d65b8e6a10290e4542ecb2e599ff5_0",
+      "text": "States the dose is 150 mg per dose BID (exact match required; 20 kg × 15 mg/kg/day = 300 mg/day ÷ 2 doses).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

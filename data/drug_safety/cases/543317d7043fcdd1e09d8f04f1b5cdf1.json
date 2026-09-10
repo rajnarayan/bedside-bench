@@ -1,0 +1,19 @@
+{
+  "case_id": "543317d7043fcdd1e09d8f04f1b5cdf1",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old woman with well-controlled epilepsy on lamotrigine 200 mg twice daily is admitted for a new diagnosis of severe pneumonia and started on azithromycin and intravenous valproic acid for acute mania. Should lamotrigine be continued at the same dose during her hospitalization?",
+  "rubric_items": [
+    {
+      "item_id": "f17804efbd24c3a526a8999667a1994c_0",
+      "text": "Recommends against continuing lamotrigine 200 mg twice daily unchanged and advises promptly reducing its dose by approximately 50% when therapeutic-dose valproate is started, with subsequent adjustment according to clinical response, toxicity, and levels when useful.",
+      "points": 1
+    },
+    {
+      "item_id": "f17804efbd24c3a526a8999667a1994c_1",
+      "text": "Explains that valproate inhibits lamotrigine glucuronidation (UGT), reducing clearance and substantially increasing lamotrigine exposure and the risk of dose-related toxicity.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

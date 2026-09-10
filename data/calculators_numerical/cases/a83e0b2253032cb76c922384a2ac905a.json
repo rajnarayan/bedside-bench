@@ -1,0 +1,19 @@
+{
+  "case_id": "a83e0b2253032cb76c922384a2ac905a",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 36-year-old man with acute myeloid leukemia is evaluated 15 days after an allogeneic hematopoietic stem cell transplant. He has jaundice, right upper quadrant abdominal discomfort, and ultrasound shows mild hepatomegaly. His total bilirubin is 40 mcmol/L. Since transplantation, his weight has increased by 3.5%. Using the Seattle criteria for hepatic veno-occlusive disease, what is his total Seattle VOD score, and does he meet criteria for veno-occlusive disease?",
+  "rubric_items": [
+    {
+      "item_id": "48b2b8d84ff54597efd201451e7c6590_0",
+      "text": "States the patient meets all 3 Seattle criteria for veno-occlusive disease (bilirubin >34.2 mcmol/L, hepatomegaly/right upper quadrant pain, and weight gain >2%) (accept equivalent wording).",
+      "points": 2
+    },
+    {
+      "item_id": "48b2b8d84ff54597efd201451e7c6590_1",
+      "text": "States the clinical interpretation: Meets criteria for veno-occlusive disease (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,209 @@
+{
+  "case_id": "e7e50a2907e8d3b89e1a46cc398f7fd6",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 22-year-old woman with an undiagnosed disease has suffered from a lifelong dry cough, nearly daily wheezing, and intermittent chest tightness despite variable albuterol response. She takes nightly melatonin 3 mg for occasional insomnia. Her most recent high-resolution CT chest is essentially normal and without bronchiectasis. Spirometry shows low-normal FEV1 and FVC, with preserved FEV1/FVC, but an elevated RV/TLC indicating air trapping. A single flow-volume loop tracing in the report suggested possible inspiratory and expiratory flattening. However, inspection of multiple efforts reveals normal loop morphology and no consistent plateau. Should patient be referred to ENT for bronchoscopy? How about dynamic airway CT to rule out TBM?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_0",
+      "text": "Refer to pulmonology for comprehensive evaluation of chronic cough, wheezing, and air trapping.",
+      "points": 2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_1",
+      "text": "Repeat spirometry with bronchodilator testing and multiple reproducible inspiratory and expiratory flow-volume loops.",
+      "points": 2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_2",
+      "text": "Order body plethysmography to confirm and quantify air trapping.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_3",
+      "text": "Order diffusing capacity for carbon monoxide testing.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_4",
+      "text": "Order methacholine bronchoprovocation testing if baseline spirometry remains nondiagnostic.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_5",
+      "text": "Measure fractional exhaled nitric oxide.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_6",
+      "text": "Obtain a CBC with differential to assess peripheral eosinophilia.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_7",
+      "text": "Measure serum total IgE when a specific allergic-disease evaluation or potential anti-IgE treatment assessment makes it relevant.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_8",
+      "text": "Perform aeroallergen testing with specific IgE or skin-prick testing.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_9",
+      "text": "Arrange ambulatory peak-flow monitoring to assess variable airflow limitation.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_10",
+      "text": "Use impulse oscillometry to further characterize small-airway dysfunction.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_11",
+      "text": "Start a low-dose inhaled corticosteroid-containing asthma regimen.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_12",
+      "text": "Provide an appropriate as-needed reliever within an ICS-containing treatment plan, such as low-dose ICS-formoterol or albuterol with concurrent ICS therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_13",
+      "text": "Provide a written asthma action plan.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_14",
+      "text": "Counsel the patient to identify and avoid respiratory or environmental triggers.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_15",
+      "text": "Schedule follow-up within 4–8 weeks to review test results and treatment response.",
+      "points": 2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_16",
+      "text": "Defer ENT referral for bronchoscopy based solely on the isolated nonreproducible loop abnormality.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_17",
+      "text": "Defer dynamic expiratory airway CT for tracheobronchomalacia at this time.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_18",
+      "text": "Refer to ENT or laryngology for flexible laryngoscopy, ideally during symptoms or with provocation, if the history suggests inducible laryngeal obstruction or symptoms remain unexplained after initial pulmonary evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_19",
+      "text": "Refer to speech-language pathology for breathing retraining and laryngeal control techniques.",
+      "points": 0
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_20",
+      "text": "Order dynamic inspiratory-expiratory airway CT now to evaluate for tracheobronchomalacia.",
+      "points": 0
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_21",
+      "text": "Refer to ENT for bronchoscopy to evaluate suspected tracheobronchomalacia.",
+      "points": -1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_22",
+      "text": "Perform flexible bronchoscopy with bronchoalveolar lavage or airway biopsy without another indication.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_23",
+      "text": "Refer to thoracic surgery for airway stenting or tracheobronchoplasty.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_24",
+      "text": "Routinely prescribe systemic corticosteroids as initial treatment for this stable patient without an acute exacerbation or another specific indication.",
+      "points": -1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_25",
+      "text": "Start chronic or prophylactic macrolide therapy during the initial evaluation without an established indication, such as specialist-managed asthma remaining uncontrolled despite optimized standard treatment.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_26",
+      "text": "Prescribe a long-acting beta-agonist as monotherapy.",
+      "points": -3
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_27",
+      "text": "Start tiotropium as initial empiric therapy.",
+      "points": -1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_28",
+      "text": "Use SABA-only therapy, whether scheduled or as needed, as ongoing treatment for suspected or confirmed asthma without an ICS-containing treatment plan.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_29",
+      "text": "Prescribe theophylline as first-line bronchodilator therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_30",
+      "text": "Diagnose vocal cord dysfunction solely from one nonreproducible flow-volume loop.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_31",
+      "text": "Conclude that asthma or small-airway disease is excluded by the normal high-resolution CT.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_32",
+      "text": "Dismiss the elevated RV/TLC as a normal variant without further evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_33",
+      "text": "Repeat high-resolution chest CT at a short interval without a new clinical indication.",
+      "points": -1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_34",
+      "text": "Order CT pulmonary angiography without evidence suggesting pulmonary embolism.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_35",
+      "text": "Order broad autoimmune or vasculitis serologies without supporting systemic features.",
+      "points": -1
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_36",
+      "text": "Refer for surgical lung biopsy to investigate small-airway disease.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_37",
+      "text": "Attribute the symptoms to a psychogenic cause without completing an appropriate respiratory evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_38",
+      "text": "Remove access to all reliever bronchodilation while asthma remains suspected and symptoms persist, without an alternative symptom-relief plan or a diagnostic or safety reason.",
+      "points": -2
+    },
+    {
+      "item_id": "73fd87942b9af0eec022525977f5ed7a_39",
+      "text": "Check inhaler technique and actual albuterol use, correcting technique as needed, before interpreting the variable treatment response or escalating therapy.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

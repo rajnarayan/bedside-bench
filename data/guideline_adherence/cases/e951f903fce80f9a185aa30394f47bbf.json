@@ -1,0 +1,29 @@
+{
+  "case_id": "e951f903fce80f9a185aa30394f47bbf",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man presents to the pulmonary clinic with a 6-month history of progressive exertional dyspnea and a dry cough. High-resolution CT scan shows a usual interstitial pneumonia (UIP) pattern, and other causes of interstitial lung disease have been excluded, confirming idiopathic pulmonary fibrosis. Pulmonary function tests reveal a forced vital capacity (FVC) of 62% predicted. The attending asks you to recommend an initial pharmacological management plan and specifically queries whether high-dose corticosteroid monotherapy is appropriate.\n\nBased on the current ATS/ERS/JRS/ALAT idiopathic pulmonary fibrosis guideline, what is your recommendation regarding pharmacological management, including the role of corticosteroids and disease-modifying therapy, and what supportive (non-pharmacological) measures should accompany it?",
+  "rubric_items": [
+    {
+      "item_id": "15582270fd862e4de94a10b82489492c_0",
+      "text": "States that high-dose corticosteroid monotherapy should NOT be used in idiopathic pulmonary fibrosis.",
+      "points": 2
+    },
+    {
+      "item_id": "15582270fd862e4de94a10b82489492c_1",
+      "text": "States that combination therapy with prednisone, azathioprine, and N-acetylcysteine (triple therapy) should NOT be used in idiopathic pulmonary fibrosis.",
+      "points": 1
+    },
+    {
+      "item_id": "15582270fd862e4de94a10b82489492c_2",
+      "text": "Recommends antifibrotic therapy with nintedanib or pirfenidone as the disease-modifying treatment of choice.",
+      "points": 1
+    },
+    {
+      "item_id": "15582270fd862e4de94a10b82489492c_3",
+      "text": "Recommends supportive care measures such as supplemental oxygen for resting hypoxemia, pulmonary rehabilitation, treatment of comorbidities, and timely evaluation for lung transplantation.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

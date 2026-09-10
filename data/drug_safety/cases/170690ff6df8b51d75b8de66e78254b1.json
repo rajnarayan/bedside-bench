@@ -1,0 +1,29 @@
+{
+  "case_id": "170690ff6df8b51d75b8de66e78254b1",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 63-year-old man with Child-Pugh B cirrhosis from metabolic dysfunction-associated steatohepatitis is newly diagnosed with nonvalvular atrial fibrillation. His creatinine clearance is 52 mL/min, platelet count is 105,000/µL, and he has no active bleeding. A clinician proposes rivaroxaban 20 mg nightly for stroke prevention, reasoning that his renal function permits the standard dose. Should this prescription be started?",
+  "rubric_items": [
+    {
+      "item_id": "76ae9938ea340e1216bd72a29cc3cb2d_0",
+      "text": "States that rivaroxaban should be avoided in Child-Pugh B hepatic impairment, irrespective of the otherwise acceptable renal dose.",
+      "points": 1
+    },
+    {
+      "item_id": "76ae9938ea340e1216bd72a29cc3cb2d_1",
+      "text": "Explains that moderate hepatic impairment increases rivaroxaban exposure and pharmacodynamic effect and that cirrhosis may independently impair coagulation, increasing bleeding risk.",
+      "points": 1
+    },
+    {
+      "item_id": "76ae9938ea340e1216bd72a29cc3cb2d_2",
+      "text": "Recommends individualized anticoagulant selection with hepatology, cardiology, or hematology input using an option appropriate for the patient's liver disease, rather than attempting to make rivaroxaban safe by reducing its dose.",
+      "points": 1
+    },
+    {
+      "item_id": "76ae9938ea340e1216bd72a29cc3cb2d_3",
+      "text": "Endorses rivaroxaban 20 mg nightly solely because the creatinine clearance is above 50 mL/min.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

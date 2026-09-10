@@ -1,0 +1,29 @@
+{
+  "case_id": "6e08bba0741d4809084ecb915e8d8437",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A healthy 76-year-old adult asks whether starting daily low-dose aspirin for primary prevention would help them live longer. You review the ASPREE trial to counsel about benefits and harms.\n\nIn ASPREE, how should the all-cause mortality HR 1.14 (95% CI 1.01-1.29) and rates of 12.7 vs 11.1 per 1000 person-years be interpreted for clinical decision-making?",
+  "rubric_items": [
+    {
+      "item_id": "ddbe056bb7291ab2830583f50052dc58_0",
+      "text": "States that ASPREE's all-cause mortality HR of 1.14 (95% CI 1.01–1.29) indicates a nominally statistically significant increase in mortality with aspirin rather than a survival benefit, while recognizing that this was a secondary-outcome signal requiring cautious interpretation.",
+      "points": 2
+    },
+    {
+      "item_id": "ddbe056bb7291ab2830583f50052dc58_1",
+      "text": "Reports the all-cause mortality rates as 12.7 vs 11.1 per 1000 person-years and interprets this as an absolute rate difference of 1.6 per 1000 person-years.",
+      "points": 1
+    },
+    {
+      "item_id": "ddbe056bb7291ab2830583f50052dc58_2",
+      "text": "Notes that the excess mortality was driven by cancer deaths, with supporting ASPREE figures such as cancer mortality HR 1.31 (95% CI 1.10-1.56) or 3.1% vs 2.3%.",
+      "points": 1
+    },
+    {
+      "item_id": "ddbe056bb7291ab2830583f50052dc58_3",
+      "text": "States that these findings should be applied clinically as evidence of net harm, arguing against starting aspirin for primary prevention in a population like ASPREE.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

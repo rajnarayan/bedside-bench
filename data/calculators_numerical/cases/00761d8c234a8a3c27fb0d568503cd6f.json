@@ -1,0 +1,19 @@
+{
+  "case_id": "00761d8c234a8a3c27fb0d568503cd6f",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 29-year-old male presents to the ophthalmologist with complaints of persistent itchy eyes and redness over the past two weeks. He reports that these symptoms seem to worsen when he's outdoors; he recently started jogging in a park near his house. He has a history of allergic rhinitis, and occasionally uses over-the-counter antihistamines, which seem to provide some relief for the itching. Upon examination, his eyes show bilateral conjunctival hyperemia and he reports bilateral pruritus. There is an absence of any giant papillary conjunctivitis or corneal involvement. The physician decides to apply the DECA criteria to assess for suspected allergic conjunctivitis. What is the DECA score in this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "0a318d90c1d71325a16535ff87f54a8d_0",
+      "text": "States the total DECA score in this patient is 11 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "0a318d90c1d71325a16535ff87f54a8d_1",
+      "text": "States the clinical interpretation: Criteria are met (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

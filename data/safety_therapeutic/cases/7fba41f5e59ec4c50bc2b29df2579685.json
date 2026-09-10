@@ -1,0 +1,199 @@
+{
+  "case_id": "7fba41f5e59ec4c50bc2b29df2579685",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 42-year-old man reports 6 months of heartburn, regurgitation, and nocturnal cough. His symptoms occur 3 to 4 times weekly despite occasional antacid use. He has no dysphagia, weight loss, or gastrointestinal bleeding. How should this be managed?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_0",
+      "text": "Start an empiric PPI trial: either a standard dose once daily 30–60 minutes before breakfast for 8 weeks, or twice daily before breakfast and dinner for 8–12 weeks given the accompanying extraesophageal symptoms.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_1",
+      "text": "Use a standard-dose H2-receptor antagonist as an alternative when a proton pump inhibitor cannot be used.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_2",
+      "text": "Use an alginate-containing antacid after meals or at bedtime for breakthrough symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_3",
+      "text": "Consider a bedtime H2-receptor antagonist as needed or short term for persistent nocturnal breakthrough symptoms despite appropriately taken PPI therapy, recognizing tachyphylaxis with continuous use.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_4",
+      "text": "Recommend weight loss if the patient is overweight or obese.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_5",
+      "text": "Recommend elevating the head of the bed 6–8 inches with risers or a wedge.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_6",
+      "text": "Advise avoiding meals and caloric beverages within 2–3 hours of bedtime.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_7",
+      "text": "Advise avoiding foods or beverages that reproducibly trigger symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_8",
+      "text": "Recommend smoking cessation if the patient smokes.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_9",
+      "text": "Review the medication list for drugs that may worsen reflux.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_10",
+      "text": "Provide return precautions for dysphagia, unintentional weight loss, gastrointestinal bleeding, or other alarm symptoms.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_11",
+      "text": "Arrange follow-up at the end of the empiric PPI trial (8–12 weeks, matching the chosen regimen) to assess response.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_12",
+      "text": "Step down the proton pump inhibitor to the lowest effective regimen if symptoms resolve.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_13",
+      "text": "Refer to gastroenterology if symptoms remain refractory after an adequate 8-week proton pump inhibitor trial.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_14",
+      "text": "For persistent symptoms, verify PPI adherence and pre-meal timing, then optimize according to the initial regimen (e.g., increase once-daily to twice-daily dosing, or consider a single PPI switch if already twice daily).",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_15",
+      "text": "Perform upper endoscopy if alarm symptoms develop.",
+      "points": 2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_16",
+      "text": "Obtain ambulatory reflux monitoring when symptoms persist despite optimized therapy and the diagnosis remains uncertain.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_17",
+      "text": "Obtain esophageal manometry for a specific indication such as evaluation before antireflux surgery.",
+      "points": 1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_18",
+      "text": "Refer immediately for surgical or endoscopic fundoplication without an adequate medical trial.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_19",
+      "text": "Order a barium swallow as the initial evaluation of uncomplicated typical GERD.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_20",
+      "text": "Use metoclopramide, domperidone, or another prokinetic as primary long-term GERD therapy.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_21",
+      "text": "Order routine Helicobacter pylori testing solely because of reflux symptoms.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_22",
+      "text": "Prescribe empiric antibiotics for the reflux symptoms or nocturnal cough.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_23",
+      "text": "Order CT imaging of the chest or abdomen for this uncomplicated presentation.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_24",
+      "text": "Prescribe maintenance opioid antitussive therapy for the nocturnal cough.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_25",
+      "text": "Perform esophageal physiologic testing as the initial step before an empiric proton pump inhibitor trial.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_26",
+      "text": "Use sucralfate as sole therapy for GERD.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_27",
+      "text": "Continue indefinite high-dose proton pump inhibitor therapy without reassessment or an attempt at dose reduction.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_28",
+      "text": "Order routine upper endoscopy initially despite the absence of alarm symptoms or another specific indication.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_29",
+      "text": "Perform empiric esophageal dilation despite the absence of dysphagia or a documented stricture.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_30",
+      "text": "Advise eating near bedtime or lying down immediately after meals.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_31",
+      "text": "Rely solely on occasional antacids despite frequent symptoms.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_32",
+      "text": "Prescribe systemic corticosteroids for the nocturnal cough.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_33",
+      "text": "Order echocardiography or cardiac stress testing without cardiac symptoms or risk-based indication.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_34",
+      "text": "Prescribe long-term NSAID therapy for reflux-related discomfort.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_35",
+      "text": "Prescribe anticholinergic medication as treatment for GERD.",
+      "points": -2
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_36",
+      "text": "Order broad laboratory or serologic screening panels without a specific clinical indication.",
+      "points": -1
+    },
+    {
+      "item_id": "cd7293b7ed1253894584663c8ff6f12b_37",
+      "text": "Assess the chronic cough for non-GERD causes in parallel with reflux treatment, including chest radiography and spirometry as indicated.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

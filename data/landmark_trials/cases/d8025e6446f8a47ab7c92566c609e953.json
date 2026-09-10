@@ -1,0 +1,29 @@
+{
+  "case_id": "d8025e6446f8a47ab7c92566c609e953",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old with early-stage breast cancer requests regional anesthesia, believing it will lower her recurrence risk.\n\nBased on the trial comparing regional versus general anesthesia for breast cancer surgery, how would you counsel her?",
+  "rubric_items": [
+    {
+      "item_id": "26ac81705137a12884629ba1bb7f4158_0",
+      "text": "Counsels that the trial found no significant difference in breast cancer recurrence between the anesthetic strategies and did not demonstrate that regional anesthesia reduces recurrence risk.",
+      "points": 2
+    },
+    {
+      "item_id": "26ac81705137a12884629ba1bb7f4158_1",
+      "text": "States the key recurrence results: HR 0.97 (95% CI 0.74-1.28; p=0.84) with similar recurrence rates of about 10% in both groups.",
+      "points": 1
+    },
+    {
+      "item_id": "26ac81705137a12884629ba1bb7f4158_2",
+      "text": "Notes that chronic pain outcomes were also similar between techniques, including OR 1.00 (p=0.99) and comparable 6- and 12-month pain rates.",
+      "points": 1
+    },
+    {
+      "item_id": "26ac81705137a12884629ba1bb7f4158_3",
+      "text": "Recommends choosing anesthetic technique based on analgesia needs, patient preferences, and clinical factors rather than expected oncologic benefit.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

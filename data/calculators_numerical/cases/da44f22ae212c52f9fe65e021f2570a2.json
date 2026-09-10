@@ -1,0 +1,19 @@
+{
+  "case_id": "da44f22ae212c52f9fe65e021f2570a2",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 29-year-old woman presents to her gynecologist with increased vaginal discharge and a persistent fishy odor, especially after intercourse. On exam, the discharge is thin, pale yellow, and homogeneous. Vaginal secretions have a pH of 5.0. After adding 10% KOH to the sample, a fishy odor is detected on whiff test. Wet mount microscopy shows clue cells. Using Amsel's diagnostic criteria, what is this patient's total Amsel score, and what is the interpretation?",
+  "rubric_items": [
+    {
+      "item_id": "9618027a38e8a2b10f55444a530eac15_0",
+      "text": "States the total Amsel's Diagnostic Criteria for Bacterial Vaginosis score for this patient is 4 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "9618027a38e8a2b10f55444a530eac15_1",
+      "text": "States the clinical interpretation: Bacterial vaginosis is likely (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

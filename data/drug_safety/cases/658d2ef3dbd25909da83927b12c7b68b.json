@@ -1,0 +1,29 @@
+{
+  "case_id": "658d2ef3dbd25909da83927b12c7b68b",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 64-year-old man with an NSTEMI is undergoing PCI. Because he had not received an oral P2Y12 inhibitor, cangrelor was started before stent placement and will continue for another 30 minutes. The resident orders a clopidogrel 600-mg loading dose now so it will be absorbed before the cangrelor infusion ends. Should the clopidogrel be given now?",
+  "rubric_items": [
+    {
+      "item_id": "58518dfed800d58b4ae2098bdd1b53a6_0",
+      "text": "Advises against administering clopidogrel during the cangrelor infusion because cangrelor occupancy of the P2Y12 receptor prevents the short-lived clopidogrel active metabolite from producing its intended platelet inhibition.",
+      "points": 1
+    },
+    {
+      "item_id": "58518dfed800d58b4ae2098bdd1b53a6_1",
+      "text": "Recommends administering the clopidogrel loading dose immediately after cangrelor is discontinued, avoiding an unnecessary post-infusion delay that could leave the new stent insufficiently protected.",
+      "points": 1
+    },
+    {
+      "item_id": "58518dfed800d58b4ae2098bdd1b53a6_2",
+      "text": "Notes that, if otherwise clinically appropriate, ticagrelor is a transition option that may be administered during the cangrelor infusion or immediately after its discontinuation, unlike clopidogrel or prasugrel.",
+      "points": 1
+    },
+    {
+      "item_id": "58518dfed800d58b4ae2098bdd1b53a6_3",
+      "text": "Endorses giving clopidogrel during the cangrelor infusion on the theory that early gastrointestinal absorption ensures a seamless antiplatelet transition.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

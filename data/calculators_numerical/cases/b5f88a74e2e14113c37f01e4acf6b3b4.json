@@ -1,0 +1,19 @@
+{
+  "case_id": "b5f88a74e2e14113c37f01e4acf6b3b4",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "An 8-year-old male presents to the pediatric emergency department with a high fever, headache, and neck stiffness that began two days ago. His parents report that he had a seizure at home just before arriving at the hospital. On examination, a lumbar puncture is performed, and the cerebrospinal fluid (CSF) analysis reveals an absolute neutrophil count (ANC) of 1200 cells/mcL and a protein level of 85 mg/dL. The peripheral blood test shows an ANC of 12,500 cells/mcL. The CSF Gram stain returns positive for bacteria. Given these findings, the attending physician wants to calculate the Bacterial Meningitis Score to assess the risk of bacterial meningitis in this child and decide on further treatment. What is the Bacterial Meningitis Score for this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "32ea10d431f305da5f2961f61fb84945_0",
+      "text": "States the total Bacterial Meningitis Score for this patient is 6 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "32ea10d431f305da5f2961f61fb84945_1",
+      "text": "States the clinical interpretation: Risk is not very low (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

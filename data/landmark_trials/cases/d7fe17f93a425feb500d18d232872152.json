@@ -1,0 +1,29 @@
+{
+  "case_id": "d7fe17f93a425feb500d18d232872152",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "An adult with refractory septic shock is being managed in the ICU, and the team is considering adjunctive corticosteroids with fludrocortisone.\n\nBased on the APROCCHSS trial, what was the effect of hydrocortisone plus fludrocortisone on 90-day mortality in adult septic shock, and what key statistics support this finding?",
+  "rubric_items": [
+    {
+      "item_id": "06868390544e72bf9c8587ea9df2ed05_0",
+      "text": "States that hydrocortisone plus fludrocortisone reduced 90-day mortality versus placebo in adult septic shock, representing a statistically significant mortality benefit.",
+      "points": 2
+    },
+    {
+      "item_id": "06868390544e72bf9c8587ea9df2ed05_1",
+      "text": "Reports 90-day mortality rates of 43.0% with hydrocortisone plus fludrocortisone versus 49.1% with placebo.",
+      "points": 1
+    },
+    {
+      "item_id": "06868390544e72bf9c8587ea9df2ed05_2",
+      "text": "Reports the relative risk as 0.88 with 95% CI 0.78-0.99 and P=0.03.",
+      "points": 1
+    },
+    {
+      "item_id": "06868390544e72bf9c8587ea9df2ed05_3",
+      "text": "Notes that serious adverse events were similar between groups, while hyperglycemia was more common with treatment.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

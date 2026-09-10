@@ -1,0 +1,199 @@
+{
+  "case_id": "4001e13055643d1ccbfb103bd848b68f",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 67-year-old man presents for scalp rash. He has a history of appendectomy at age 30. He has a borderline positive MDA5 antibody and clinically concerning symptoms, including acrocyanosis of the feet with periungual ulcers, subtle changes in his hands. He was started on secukinumab seven months ago for possible psoriasis based on a scalp rash, though no biopsy was done. He has slight erythema and thickening over joint surfaces, erythema of the mid-back area, and discoloration with small healing erosions on the toes. What is the next best step?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_0",
+      "text": "Order high-resolution CT of the chest to evaluate for interstitial lung disease.",
+      "points": 3
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_1",
+      "text": "Refer promptly to rheumatology for comprehensive evaluation of suspected anti-MDA5 dermatomyositis.",
+      "points": 3
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_2",
+      "text": "Perform a punch biopsy of an active scalp or cutaneous lesion for histopathology, with direct immunofluorescence when indicated.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_3",
+      "text": "Order pulmonary function tests including DLCO.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_4",
+      "text": "Order a comprehensive myositis-specific and myositis-associated antibody panel.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_5",
+      "text": "Obtain baseline CBC, CMP, muscle enzymes, inflammatory markers, and ferritin.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_6",
+      "text": "Complete age-appropriate malignancy screening as part of the dermatomyositis evaluation.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_7",
+      "text": "Counsel the patient to seek urgent care for new dyspnea, cough, hypoxemia, or rapidly worsening respiratory symptoms.",
+      "points": 2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_8",
+      "text": "Discontinue secukinumab because the presumed psoriasis diagnosis requires reassessment.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_9",
+      "text": "Refer to dermatology for diagnostic confirmation and selection of an active lesion for biopsy.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_10",
+      "text": "Refer to pulmonology for interstitial lung disease risk stratification.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_11",
+      "text": "Order ANA, extractable nuclear antigen antibodies, and complement levels.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_12",
+      "text": "Perform nailfold capillaroscopy to assess for connective-tissue-disease microangiopathy.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_13",
+      "text": "Counsel the patient on strict photoprotection.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_14",
+      "text": "Arrange close follow-up within one week to review results and assess progression.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_15",
+      "text": "Use topical clobetasol solution for the scalp as adjunctive symptomatic treatment while the systemic evaluation proceeds.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_16",
+      "text": "Obtain MRI of proximal muscles if occult inflammatory myopathy remains suspected despite minimal weakness or enzyme elevation.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_17",
+      "text": "Initiate systemic corticosteroids after specialist assessment when the overall disease severity warrants treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_18",
+      "text": "Use hydroxychloroquine for persistent cutaneous dermatomyositis manifestations after appropriate diagnostic and systemic evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_19",
+      "text": "Initiate methotrexate empirically before completing the dermatomyositis and interstitial lung disease evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_20",
+      "text": "Start mycophenolate mofetil empirically before confirming the diagnosis and defining pulmonary involvement.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_21",
+      "text": "Prescribe nifedipine for acrocyanosis as the only intervention without evaluating the underlying systemic disease.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_22",
+      "text": "Order lower-extremity arterial Doppler ultrasonography as the definitive evaluation of the periungual ulcers and acrocyanosis.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_23",
+      "text": "Prescribe empiric systemic antibiotics for the healing toe erosions without evidence of infection.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_24",
+      "text": "Order a broad tumor-marker panel as the initial malignancy screen.",
+      "points": -1
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_25",
+      "text": "Continue secukinumab without reassessing the diagnosis.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_26",
+      "text": "Increase the secukinumab dose for presumed refractory psoriasis.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_27",
+      "text": "Switch to another IL-17 or TNF inhibitor for presumed psoriasis without diagnostic reassessment.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_28",
+      "text": "Use topical corticosteroids as definitive management without a systemic evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_29",
+      "text": "Order chest radiography alone to screen for interstitial lung disease.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_30",
+      "text": "Repeat the MDA5 antibody solely to dismiss the possibility of disease without further investigation.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_31",
+      "text": "Start therapeutic anticoagulation for acrocyanosis without documented thrombosis.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_32",
+      "text": "Initiate cyclophosphamide empirically before diagnostic evaluation and assessment of organ involvement.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_33",
+      "text": "Perform surgical debridement of the healing toe erosions.",
+      "points": -2
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_34",
+      "text": "Reassure the patient that the findings are benign psoriasis without further workup.",
+      "points": -3
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_35",
+      "text": "Delay rheumatology referral for six months while continuing the current dermatologic management.",
+      "points": -3
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_36",
+      "text": "Discharge the patient to routine annual follow-up without evaluating for interstitial lung disease.",
+      "points": -3
+    },
+    {
+      "item_id": "a220830140801331cfa07c2dce43f193_37",
+      "text": "Perform digital amputation for the small healing toe erosions.",
+      "points": -3
+    }
+  ],
+  "split": "train"
+}

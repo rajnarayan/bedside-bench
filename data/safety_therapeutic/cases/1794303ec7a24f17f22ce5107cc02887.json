@@ -1,0 +1,164 @@
+{
+  "case_id": "1794303ec7a24f17f22ce5107cc02887",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 58-year-old man is newly diagnosed with heart failure with reduced ejection fraction (left ventricular ejection fraction 30%) after presenting with exertional dyspnea. He is now euvolemic on a low dose of furosemide. Blood pressure is 122/76, heart rate 78, potassium 4.2 mmol/L, and eGFR 68 mL/min/1.73 m2. He has no contraindications to guideline-directed therapy. What is the appropriate pharmacologic management?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_0",
+      "text": "Start an angiotensin receptor-neprilysin inhibitor (sacubitril/valsartan), or an ACE inhibitor/ARB if ARNI is not feasible",
+      "points": 3
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_1",
+      "text": "Start an evidence-based beta-blocker for heart failure (carvedilol, metoprolol succinate, or bisoprolol)",
+      "points": 3
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_2",
+      "text": "Start a mineralocorticoid receptor antagonist (spironolactone or eplerenone)",
+      "points": 3
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_3",
+      "text": "Start an SGLT2 inhibitor (e.g. dapagliflozin or empagliflozin) regardless of whether the patient has diabetes",
+      "points": 3
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_4",
+      "text": "Continue a loop diuretic titrated to maintain euvolemia",
+      "points": 2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_5",
+      "text": "Start titratable HFrEF medications at appropriate initial doses and increase toward guideline target or maximally tolerated doses; use the standard fixed HFrEF dose for the SGLT2 inhibitor",
+      "points": 2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_6",
+      "text": "Monitor renal function and potassium after starting RAAS/MRA therapy",
+      "points": 2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_7",
+      "text": "Introduce the four foundational HFrEF medication classes promptly rather than waiting to maximize each drug sequentially",
+      "points": 2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_8",
+      "text": "Counsel on daily weights, sodium moderation, and symptom monitoring",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_9",
+      "text": "Ensure appropriate vaccinations",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_10",
+      "text": "Refer for cardiac rehabilitation",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_11",
+      "text": "Reassess LV function after several months of therapy to evaluate ICD/CRT candidacy",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_12",
+      "text": "Monitor blood pressure, heart rate, volume status, and medication tolerance during titration",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_13",
+      "text": "Review the medication list for drugs that can exacerbate heart failure",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_14",
+      "text": "If switching from an ACE inhibitor to sacubitril/valsartan, allow at least 36 hours after the last ACE inhibitor dose",
+      "points": 1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_15",
+      "text": "Start digoxin routinely as a substitute for foundational disease-modifying therapy",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_16",
+      "text": "Start ivabradine before attempting titration of an evidence-based beta-blocker",
+      "points": -1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_17",
+      "text": "Prescribe routine potassium supplementation despite a normal potassium level",
+      "points": -1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_18",
+      "text": "Start aspirin solely because the patient has HFrEF without another indication",
+      "points": -1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_19",
+      "text": "Start a statin solely for HFrEF without an atherosclerotic cardiovascular indication",
+      "points": -1
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_20",
+      "text": "Start a nondihydropyridine calcium channel blocker (verapamil or diltiazem) for rate control",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_21",
+      "text": "Prescribe an NSAID for musculoskeletal complaints",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_22",
+      "text": "Start thiazolidinedione (e.g. pioglitazone) for diabetes management",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_23",
+      "text": "Withhold beta-blocker therapy indefinitely because ejection fraction is low",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_24",
+      "text": "Combine an ACE inhibitor with an ARB",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_25",
+      "text": "Withhold an SGLT2 inhibitor because the patient does not have diabetes",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_26",
+      "text": "Use atenolol or immediate-release metoprolol in place of an evidence-based HFrEF beta-blocker",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_27",
+      "text": "Start routine anticoagulation without atrial fibrillation, venous thromboembolism, LV thrombus, or another indication",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_28",
+      "text": "Delay all additional foundational therapies until the first medication reaches its target dose",
+      "points": -2
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_29",
+      "text": "Co-prescribe an ACE inhibitor together with sacubitril/valsartan (with or without an additional ARB)",
+      "points": -3
+    },
+    {
+      "item_id": "a7dcccd5f7baf97d5ac9ba93bfec64db_30",
+      "text": "Treat the HFrEF with loop diuretic monotherapy while omitting disease-modifying therapy",
+      "points": -3
+    }
+  ],
+  "split": "train"
+}

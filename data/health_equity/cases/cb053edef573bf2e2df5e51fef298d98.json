@@ -1,0 +1,24 @@
+{
+  "case_id": "cb053edef573bf2e2df5e51fef298d98",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "58F with COPD presents with dyspnea and SpO2 92% on room air via pulse oximeter. She self-identifies as Black. How should I interpret the reading and next steps for oxygen assessment?",
+  "rubric_items": [
+    {
+      "item_id": "cb053edef573bf2e2df5e51fef298d98_0",
+      "text": "Acknowledges that pulse oximetry may overestimate arterial oxygen saturation in patients with darker skin pigmentation.",
+      "points": 1
+    },
+    {
+      "item_id": "cb053edef573bf2e2df5e51fef298d98_1",
+      "text": "Recommends corroborating oximetry with ABG, co-oximetry, or clinical context rather than relying on a single SpO2 value alone.",
+      "points": 1
+    },
+    {
+      "item_id": "cb053edef573bf2e2df5e51fef298d98_2",
+      "text": "Explicitly considers occult hypoxemia as a possible explanation for her dyspnea despite the displayed SpO2 of 92%, rather than attributing symptoms to patient factors.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

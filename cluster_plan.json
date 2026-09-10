@@ -1,0 +1,72 @@
+{
+  "version": "0.2.0",
+  "seed": 42,
+  "cases_per_panel": 50,
+  "description": "A 500-case clinical question-answering benchmark with public rubrics for factual, quantitative, false-premise, equity, and management-plan evaluation.",
+  "grading_methods": {
+    "points_rubric": "Physician-authored rubric with weighted criteria per item",
+    "f1_weighted_rubric": "Weighted F1 over free-text management-plan action items"
+  },
+  "clusters": [
+    {
+      "id": "drug_safety",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Drug interactions, contraindications, renal/hepatic dosing, cross-reactivity"
+    },
+    {
+      "id": "guideline_adherence",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Guideline-concordant care and society recommendations"
+    },
+    {
+      "id": "landmark_trials",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Pivotal trial evidence and outcome interpretation"
+    },
+    {
+      "id": "medical_hallucination",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Fictitious entities and appropriate refusal"
+    },
+    {
+      "id": "health_equity",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Health equity vignettes and bias-aware clinical reasoning"
+    },
+    {
+      "id": "clinical_calculations",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Exact numeric answers: doses, scores, conversions"
+    },
+    {
+      "id": "calculators_numerical",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Calculator tasks with primarily numeric rubric criteria"
+    },
+    {
+      "id": "calculators_conditional",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Calculator tasks with conditional or mixed scoring rubrics"
+    },
+    {
+      "id": "safety_diagnostic",
+      "type": "ManagementPlan",
+      "grading_method": "f1_weighted_rubric",
+      "description": "Free-text diagnostic workup, referral, procedure, and follow-up plans"
+    },
+    {
+      "id": "safety_therapeutic",
+      "type": "ManagementPlan",
+      "grading_method": "f1_weighted_rubric",
+      "description": "Free-text medication, counseling, and treatment plans"
+    }
+  ]
+}

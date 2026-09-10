@@ -1,0 +1,29 @@
+{
+  "case_id": "885a22fb4a4f62a345beb340d9d3415d",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 28-year-old man with major trauma and ongoing hemorrhage is brought to the emergency department, and the team considers early tranexamic acid as part of resuscitation. Based on the CRASH-2 trial, why are the findings considered clinically significant for trauma care? Include the key mortality results with specific numbers and note what can and cannot be concluded about adverse events from the trial's published safety findings.",
+  "rubric_items": [
+    {
+      "item_id": "a75fd9dc7758ffedd1452fc0aee56ab7_0",
+      "text": "States that CRASH-2 showed a statistically significant reduction in all-cause mortality, making the findings clinically important for trauma care.",
+      "points": 2
+    },
+    {
+      "item_id": "a75fd9dc7758ffedd1452fc0aee56ab7_1",
+      "text": "Reports at least one key numerical result, such as all-cause mortality 14.5% vs 16.0% with RR 0.91, 95% CI 0.85-0.97, p=0.0035, and/or death due to bleeding 4.9% vs 5.7% with RR 0.85, 95% CI 0.76-0.96, p=0.0077.",
+      "points": 1
+    },
+    {
+      "item_id": "a75fd9dc7758ffedd1452fc0aee56ab7_2",
+      "text": "Quantifies the absolute all-cause mortality reduction as approximately 1.5 percentage points, equivalent to about 15 fewer deaths per 1,000 patients treated (NNT roughly 67).",
+      "points": 1
+    },
+    {
+      "item_id": "a75fd9dc7758ffedd1452fc0aee56ab7_3",
+      "text": "Notes that CRASH-2 did not detect a statistically significant increase in vascular occlusive events with tranexamic acid, while explaining that this does not prove the absence of all adverse effects.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

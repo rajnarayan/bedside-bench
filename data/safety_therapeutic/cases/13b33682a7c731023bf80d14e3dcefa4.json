@@ -1,0 +1,164 @@
+{
+  "case_id": "13b33682a7c731023bf80d14e3dcefa4",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 45-year-old man with schizophrenia is brought to the emergency department five days after his haloperidol dose was doubled for agitation. He is confused, diaphoretic, and diffusely rigid. His temperature is 40.1°C, pulse is 132 beats/min, blood pressure fluctuates from 90/54 to 182/108 mmHg, creatine kinase is 8,900 U/L, creatinine is 1.8 mg/dL, and urinalysis is positive for heme with few red cells. There is no clonus or hyperreflexia. How should probable neuroleptic malignant syndrome be managed?\n\nProvide a stepwise therapeutic management plan including medications, counseling, treatment, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_0",
+      "text": "Stop haloperidol and all other dopamine-receptor-blocking medications immediately.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_1",
+      "text": "Stop other potentially contributing agents such as lithium when present.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_2",
+      "text": "Transfer the patient to an intensive-care or comparably monitored setting.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_3",
+      "text": "Support the airway, breathing, and circulation while monitoring for rapid deterioration.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_4",
+      "text": "Begin active external cooling with cooling blankets, ice packs, evaporative methods, or other available measures.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_5",
+      "text": "Administer intravenous isotonic fluids to treat volume depletion and reduce acute kidney injury from rhabdomyolysis.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_6",
+      "text": "Titrate fluids to perfusion, urine output, cardiopulmonary status, and serial laboratory findings.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_7",
+      "text": "Monitor core temperature continuously or at frequent short intervals.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_8",
+      "text": "Monitor cardiac rhythm and blood pressure continuously because dysautonomia can cause arrhythmia and rapid hemodynamic shifts.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_9",
+      "text": "Measure serial creatine kinase, creatinine, potassium, calcium, phosphorus, bicarbonate, and hepatic tests.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_10",
+      "text": "Monitor urine output and evaluate for pigment nephropathy from rhabdomyolysis.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_11",
+      "text": "Treat dangerous hyperkalemia, arrhythmias, renal failure, aspiration, disseminated intravascular coagulation, and other complications promptly.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_12",
+      "text": "Use benzodiazepines for agitation and may use them to reduce rigidity and autonomic activation.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_13",
+      "text": "Consider intravenous dantrolene for severe hyperthermia and rigidity.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_14",
+      "text": "Monitor hepatic function and discontinue dantrolene if clinically significant hepatotoxicity develops.",
+      "points": 1
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_15",
+      "text": "Consider bromocriptine through an oral or enteral route for severe or persistent neuroleptic malignant syndrome.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_16",
+      "text": "Continue bromocriptine for an adequate period and taper it rather than stopping abruptly immediately after improvement.",
+      "points": 1
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_17",
+      "text": "Consult toxicology, critical care, neurology, or psychiatry early for severe or diagnostically uncertain illness.",
+      "points": 1
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_18",
+      "text": "Provide pharmacologic venous thromboembolism prophylaxis when bleeding risk and renal function permit.",
+      "points": 1
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_19",
+      "text": "Consider electroconvulsive therapy for refractory neuroleptic malignant syndrome or severe underlying catatonia or psychosis when expert care is available.",
+      "points": 1
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_20",
+      "text": "Delay any antipsychotic rechallenge until the patient has fully recovered for at least two weeks.",
+      "points": 3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_21",
+      "text": "Restart, if necessary, with a lower-risk antipsychotic at a low dose and titrate slowly under close psychiatric supervision.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_22",
+      "text": "Avoid dehydration, rapid dose escalation, high-potency dopamine blockade, and concurrent triggering drugs during future treatment.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_23",
+      "text": "Educate the patient and caregivers to seek urgent care for recurrent fever, rigidity, confusion, or autonomic instability.",
+      "points": 2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_24",
+      "text": "Continue haloperidol to prevent psychiatric relapse while treating the fever supportively.",
+      "points": -3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_25",
+      "text": "Administer metoclopramide or prochlorperazine for nausea despite their dopamine-blocking effects.",
+      "points": -3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_26",
+      "text": "Treat the hyperthermia with acetaminophen alone and defer active cooling.",
+      "points": -3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_27",
+      "text": "Use physical restraints routinely for agitation without first using sedation and de-escalation.",
+      "points": -2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_28",
+      "text": "Administer cyproheptadine as definitive treatment for neuroleptic malignant syndrome solely because it is used for serotonin syndrome.",
+      "points": -2
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_29",
+      "text": "Restart the same high-dose haloperidol immediately after the temperature normalizes.",
+      "points": -3
+    },
+    {
+      "item_id": "57a9a8e7f694bf72c49e760f612314cd_30",
+      "text": "Discharge the patient when the fever resolves despite persistent rigidity, elevated creatine kinase, or kidney injury.",
+      "points": -3
+    }
+  ],
+  "split": "train"
+}

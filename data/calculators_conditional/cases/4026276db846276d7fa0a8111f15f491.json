@@ -1,0 +1,14 @@
+{
+  "case_id": "4026276db846276d7fa0a8111f15f491",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male presents to his endocrinologist with a history of recurrent hypercalcemia and severe bone pain. Imaging studies and laboratory results have led to the suspicion of parathyroid carcinoma. The patient underwent detailed examination and biopsy that revealed a localized tumor in the parathyroid gland with potential extension to nearby soft tissues, but no evidence of thyroid invasion. Surgical exploration found involvement of the central compartment lymph nodes (level VI) without evidence of metastasis to distant organs. The multidisciplinary tumor board convenes to determine the appropriate staging for his parathyroid carcinoma using the AJCC 8th edition TNM classification. Please determine the current TNM stage based on these findings.",
+  "rubric_items": [
+    {
+      "item_id": "0315c53f1c86a9e791cbe69b9d006e8d_0",
+      "text": "States that the correct AJCC 8th edition classification is T1 N1a M0 (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

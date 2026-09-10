@@ -1,0 +1,29 @@
+{
+  "case_id": "1bf7fe2595184900b848fedc9a6c37db",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 47-year-old woman with a BMI of 44 has had repeatedly 'high' clinic blood pressure readings taken with a standard adult cuff on her upper arm. She asks whether she really has hypertension. How do you respond?",
+  "rubric_items": [
+    {
+      "item_id": "674c0b188f434b0b04dcfdf22d7f3d4d_0",
+      "text": "Recognizes that an undersized cuff can overestimate blood pressure (miscuffing) and recommends measuring arm circumference to select an appropriately sized cuff, which may be large or extra-large.",
+      "points": 1
+    },
+    {
+      "item_id": "674c0b188f434b0b04dcfdf22d7f3d4d_1",
+      "text": "Recommends remeasuring blood pressure with an appropriately sized cuff and proper technique before diagnosing or escalating treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "674c0b188f434b0b04dcfdf22d7f3d4d_2",
+      "text": "Suggests out-of-office confirmation such as home blood pressure monitoring or ambulatory monitoring with a properly fitted cuff.",
+      "points": 1
+    },
+    {
+      "item_id": "674c0b188f434b0b04dcfdf22d7f3d4d_3",
+      "text": "Addresses her concern about measurement accuracy without weight-based blame, derogatory language, or statements that her concern is unwarranted because of her body size.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

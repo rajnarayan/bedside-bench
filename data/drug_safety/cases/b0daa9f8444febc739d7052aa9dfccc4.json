@@ -1,0 +1,24 @@
+{
+  "case_id": "b0daa9f8444febc739d7052aa9dfccc4",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "45 yo F with history of well-controlled epilepsy (on carbamazepine, normal recent levels), hypertension, and recent-onset atrial fibrillation presents for elective electrical cardioversion. Per protocol, midazolam is chosen for procedural sedation. She has normal labs, normal BMI, no hepatic dysfunction, and is NPO since midnight. Is standard-dose IV midazolam safe and adequate for procedural sedation in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "8be784919648cd0b004bddae0858ce7a_0",
+      "text": "Recognizes the critical pharmacokinetic interaction between carbamazepine (a potent CYP3A4 inducer) and midazolam (a CYP3A4 substrate), and states that using standard doses may lead to insufficient sedation for the procedure.",
+      "points": 1
+    },
+    {
+      "item_id": "8be784919648cd0b004bddae0858ce7a_1",
+      "text": "Recommends either adjusting the dose upwards with extreme caution, considering an alternative sedative not metabolized by CYP3A4 (e.g., etomidate or propofol), or involving anesthesia for specialty guidance.",
+      "points": 1
+    },
+    {
+      "item_id": "8be784919648cd0b004bddae0858ce7a_2",
+      "text": "If midazolam is used, recommends incremental titration to clinical effect with cardiorespiratory monitoring and airway-rescue capability, rather than an automatic large dose increase.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

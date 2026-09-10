@@ -1,0 +1,14 @@
+{
+  "case_id": "46cfe9e4838b7a691bcdb37549e724c4",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old male with a history of hypertension and coronary artery disease is undergoing an elective hip replacement surgery. The surgery is anticipated to last around 3 hours. During the procedure, the anesthesiologist notes that the patient's lowest measured heart rate was 72 bpm. The lowest recorded mean arterial pressure during the operation was 62 mmHg. The surgical team estimates the total blood loss for the procedure to be approximately 250 mL. Given these intraoperative parameters, the surgical team wants to assess the patient's postoperative risk using the Surgical Apgar Score. What is the Surgical Apgar Score in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "10935ff8cce165fc2aeea6f3e911c102_0",
+      "text": "States the Surgical Apgar Score is 6 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

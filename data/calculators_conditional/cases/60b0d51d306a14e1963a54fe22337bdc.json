@@ -1,0 +1,19 @@
+{
+  "case_id": "60b0d51d306a14e1963a54fe22337bdc",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male, who has previously been diagnosed with hepatitis C, presents to the clinic for his annual check-up. He reports feeling generally well but is concerned about the progression of his liver condition. Recent blood tests show an AST of 68 IU/L and an ALT of 72 IU/L. His platelet count is recorded at 140 x 10⁹/L. The hepatologist wants to evaluate the risk of liver fibrosis in this patient and decides to calculate the FIB-4 index to determine if further liver assessment is needed. What is the FIB-4 Score in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "e95dab9e6612a905912074199bb0e2c2_0",
+      "text": "Computes the FIB-4 score as 3.55 (±0.1).",
+      "points": 2
+    },
+    {
+      "item_id": "e95dab9e6612a905912074199bb0e2c2_1",
+      "text": "Interprets the calculated value as \"Advanced fibrosis likely\" (accept equivalent clinical phrasing).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

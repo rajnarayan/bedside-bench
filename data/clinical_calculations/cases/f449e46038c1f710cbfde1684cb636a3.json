@@ -1,0 +1,14 @@
+{
+  "case_id": "f449e46038c1f710cbfde1684cb636a3",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 66-year-old male with a history of smoking and type 2 diabetes presents to the vascular clinic with complaints of worsening pain in his left leg that occurs even at rest and intensifies at night. He has noticed that the pain is somewhat relieved when he hangs his leg off the side of the bed. On physical examination, the left foot is cool to touch and shows diminished pulses. The patient reports difficulty in walking distances due to the pain. An ankle-brachial index test reveals a resting ankle pressure of 35 mmHg, and a flat metatarsal pulse volume recording is noted. Given the clinical picture and objective findings, what is the Rutherford classification in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "1931a8dd57b4ac889ddd87431d59422b_0",
+      "text": "States the Rutherford classification category is 4 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

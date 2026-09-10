@@ -1,0 +1,19 @@
+{
+  "case_id": "0c9e7e85ebd1111dc0f2e4382a496985",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 78-year-old male with a history of persistent atrial fibrillation presents to the cardiology clinic for routine follow-up. He has been on warfarin therapy for the past three years to reduce the risk of stroke. The patient's medical history reveals previous episodes of gastrointestinal bleeding and a chronic kidney disease with a Glomerular Filtration Rate (GFR) of 55 mL/min/1.73 m². Laboratory tests show a reduced hemoglobin level indicating anemia. Additionally, the patient is currently taking aspirin as an antiplatelet therapy for coronary artery disease. Given these factors, the cardiologist wants to assess the patient's bleeding risk using the ORBIT bleeding risk score to make an informed decision about his continued anticoagulant therapy. What is the ORBIT bleeding risk score in this patient?\n\nProvide the numeric total score and state the corresponding clinical interpretation or risk category.",
+  "rubric_items": [
+    {
+      "item_id": "e6298f159877e83cbeedfba384d25f5d_0",
+      "text": "States the total ORBIT bleeding risk score in this patient is 7 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "e6298f159877e83cbeedfba384d25f5d_1",
+      "text": "States the clinical interpretation: High bleeding risk.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

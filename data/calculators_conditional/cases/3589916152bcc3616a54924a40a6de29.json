@@ -1,0 +1,14 @@
+{
+  "case_id": "3589916152bcc3616a54924a40a6de29",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male presents to the dermatology clinic with a firm, red nodule on his left forearm which has been gradually increasing in size over the past few months. Physical examination reveals the nodule measures approximately 3.5 cm in its greatest dimension. A biopsy is performed and confirms the diagnosis of Merkel cell carcinoma. A PET scan shows evidence of metastasis at regional lymph nodes in the axilla. Further imaging does not indicate any distant metastasis. The oncologist seeks to officially stage the cancer using the TNM classification to determine the optimal treatment plan. What is the TNM classification for this patient with Merkel cell carcinoma?",
+  "rubric_items": [
+    {
+      "item_id": "08444ac791aac493016e41c162d6f310_0",
+      "text": "Identifies the TNM classification as T2 N1 M0 (accept cT2 cN1 cM0; may additionally state AJCC 8th edition clinical stage III, or pathological stage IIIB if explicitly conditioned on pathological confirmation of the PET-detected nodal metastasis).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

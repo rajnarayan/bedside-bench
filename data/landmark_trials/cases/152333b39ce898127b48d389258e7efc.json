@@ -1,0 +1,29 @@
+{
+  "case_id": "152333b39ce898127b48d389258e7efc",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "An older adult with higher-risk myelodysplastic syndrome is deciding between azacitidine and conventional care after discussing expected survival and toxicity.\n\nBased on the AZA-001 trial, quantify the survival benefit seen with azacitidine. What were the median overall survival, hazard ratio with confidence interval, p-values, and 2-year survival rates?",
+  "rubric_items": [
+    {
+      "item_id": "6b41ef989931490f193c1e5fae58f7ff_0",
+      "text": "States that azacitidine improved overall survival compared with conventional care in higher-risk myelodysplastic syndrome.",
+      "points": 2
+    },
+    {
+      "item_id": "6b41ef989931490f193c1e5fae58f7ff_1",
+      "text": "Reports median overall survival of 24.5 months with azacitidine versus 15.0 months with conventional care.",
+      "points": 1
+    },
+    {
+      "item_id": "6b41ef989931490f193c1e5fae58f7ff_2",
+      "text": "Reports a hazard ratio for death of 0.58 with 95% CI 0.43-0.77 and p=0.0001.",
+      "points": 1
+    },
+    {
+      "item_id": "6b41ef989931490f193c1e5fae58f7ff_3",
+      "text": "Reports 2-year survival rates of 50.8% with azacitidine versus 26.2% with conventional care, with p<0.0001.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "87e5167a014dbd696a2503e585a6de56",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old woman with a 10-year history of primary biliary cholangitis (PBC) presents for routine follow-up. She has recently developed signs suggestive of cirrhosis, including mild ascites and splenomegaly on ultrasound. Her liver function tests show a mild elevation in bilirubin and alkaline phosphatase. She has no history of hepatitis B or C, and does not consume alcohol. You are reviewing her ongoing management plan.\n\nBased on current guidelines, what is the recommended approach regarding hepatocellular carcinoma (HCC) surveillance for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "5dd03fe9d542f9d8c80a34b6a580d1c9_0",
+      "text": "Recommends initiating hepatocellular carcinoma surveillance in this patient with suspected cirrhosis due to primary biliary cholangitis, in accordance with published guidelines.",
+      "points": 2
+    },
+    {
+      "item_id": "5dd03fe9d542f9d8c80a34b6a580d1c9_1",
+      "text": "Specifies that surveillance should be performed with ultrasound.",
+      "points": 1
+    },
+    {
+      "item_id": "5dd03fe9d542f9d8c80a34b6a580d1c9_2",
+      "text": "Recommends ultrasound plus serum alpha-fetoprotein, or ultrasound alone with alpha-fetoprotein described as optional, consistent with a guideline-supported surveillance approach.",
+      "points": 1
+    },
+    {
+      "item_id": "5dd03fe9d542f9d8c80a34b6a580d1c9_3",
+      "text": "States that surveillance should be performed every 6 months.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

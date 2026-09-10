@@ -1,0 +1,24 @@
+{
+  "case_id": "12d88c1d1989b5f992a6cf6cf8dccff2",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 56-year-old woman with a history of estrogen receptor-positive breast cancer, currently in remission, presents to your clinic with complaints of severe vaginal dryness, irritation, and dyspareunia. She has tried over-the-counter vaginal lubricants and moisturizers for the past three months with minimal relief. She is distressed by her symptoms and asks about further treatment options. She is currently on adjuvant endocrine therapy with an aromatase inhibitor. You are considering the next steps in her management.\n\nAccording to current guidelines, what is the appropriate next step in managing this patient's vulvovaginal atrophy, and what important precaution should you take before initiating this therapy?",
+  "rubric_items": [
+    {
+      "item_id": "8de6224987e3003d8c2c26ff6a13356d_0",
+      "text": "Recommends considering low-dose local (vaginal) estrogen therapy for symptomatic relief after failure of non-hormonal lubricants and moisturizers.",
+      "points": 1
+    },
+    {
+      "item_id": "8de6224987e3003d8c2c26ff6a13356d_1",
+      "text": "Emphasizes consulting the patient's oncologist (shared decision-making) before initiating vaginal estrogen, given her history of estrogen receptor-positive breast cancer and ongoing aromatase-inhibitor therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "8de6224987e3003d8c2c26ff6a13356d_2",
+      "text": "Recommends systemic estrogen therapy to treat this patient's vulvovaginal symptoms.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

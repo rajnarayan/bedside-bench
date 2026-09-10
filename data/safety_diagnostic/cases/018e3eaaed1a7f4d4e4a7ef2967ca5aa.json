@@ -1,0 +1,199 @@
+{
+  "case_id": "018e3eaaed1a7f4d4e4a7ef2967ca5aa",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "57-year-old paraplegic patient with a persistent sacral ulcer and ischial osteomyelitis who underwent a diverting colostomy but has never had a colonoscopy. He takes gabapentin 300 mg TID for neuropathic pain. He has a normocytic anemia with hemoglobin 10.3 g/dL (previously 10.7-11.1), MCV 85.7 fL (stable for 2 years), reticulocyte count 1.92% (absolute 78.7 K), ferritin 1,634 ng/mL, transferrin saturation 17%, TIBC of 152 ug/dL, creatinine 1.33-1.62 mg/dL (eGFR 43-56 mL/min), BUN 41-67 mg/dL, and vitamin B12 771 pg/mL, unremarkable SPEP. He received FFP perioperatively but no red cell transfusions. What is the cause of the patient's anemia?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_0",
+      "text": "Diagnose anemia of chronic inflammation due to the persistent pressure ulcer and chronic osteomyelitis.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_1",
+      "text": "Recognize stage 3 chronic kidney disease as an additional contributor to the anemia.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_2",
+      "text": "Interpret the elevated ferritin, low TIBC, and low transferrin saturation as inflammation-mediated iron sequestration rather than absolute iron deficiency.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_3",
+      "text": "Order CRP and ESR to quantify the inflammatory burden.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_4",
+      "text": "Calculate the corrected reticulocyte production index to confirm a hypoproliferative response.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_5",
+      "text": "Review a peripheral blood smear for an alternative hematologic process.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_6",
+      "text": "Repeat the CBC after treatment of the osteomyelitis and pressure ulcer to reassess the anemia.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_7",
+      "text": "Continue monitoring creatinine and eGFR for progression of chronic kidney disease.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_8",
+      "text": "Order urinalysis with microscopy as part of the kidney disease evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_9",
+      "text": "Order a urine albumin-to-creatinine ratio.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_10",
+      "text": "Order TSH to exclude hypothyroidism as an additional contributor.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_11",
+      "text": "Review colorectal cancer screening history and arrange age-appropriate screening if not up to date; colonoscopy is a reasonable option, coordinated with gastroenterology given the colostomy.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_12",
+      "text": "Refer to infectious disease for management of chronic ischial osteomyelitis.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_13",
+      "text": "Refer to plastic surgery or a specialized wound service for definitive pressure-ulcer source control.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_14",
+      "text": "Implement consistent pressure offloading to promote ulcer healing.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_15",
+      "text": "Refer to a dietitian for nutritional optimization to support wound healing.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_16",
+      "text": "Avoid erythropoiesis-stimulating agent therapy at the current hemoglobin level.",
+      "points": 2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_17",
+      "text": "Withhold red blood cell transfusion while the patient remains hemodynamically stable without severe anemia symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_18",
+      "text": "Counsel the patient about symptoms of worsening anemia that require urgent evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_19",
+      "text": "Refer to nephrology for chronic kidney disease evaluation and longitudinal management.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_20",
+      "text": "Refer to hematology if the anemia worsens, becomes otherwise unexplained, or fails to improve after inflammatory source control.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_21",
+      "text": "Obtain MRI of the pelvis covering the involved ischium and sacral ulcer when updated anatomic assessment is needed for operative planning or suspected complications, rather than routinely repeating imaging.",
+      "points": 1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_22",
+      "text": "Initiate intravenous iron repletion despite the markedly elevated ferritin.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_23",
+      "text": "Prescribe empiric oral iron supplementation.",
+      "points": -1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_24",
+      "text": "Transfuse packed red blood cells for the current stable hemoglobin of 10.3 g/dL.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_25",
+      "text": "Order a bone marrow biopsy as the initial anemia evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_26",
+      "text": "Prescribe vitamin B12 supplementation despite a normal vitamin B12 level.",
+      "points": -1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_27",
+      "text": "Order capsule endoscopy for occult gastrointestinal bleeding without evidence of iron deficiency or overt bleeding.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_28",
+      "text": "Order CT angiography to search for a gastrointestinal bleeding source without active bleeding.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_29",
+      "text": "Discontinue gabapentin as treatment for the anemia.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_30",
+      "text": "Order whole-body PET/CT to search for occult malignancy solely because of the anemia.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_31",
+      "text": "Start systemic high-dose corticosteroids to treat the anemia of chronic inflammation.",
+      "points": -3
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_32",
+      "text": "Initiate therapeutic phlebotomy for presumed iron overload based only on the elevated ferritin.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_33",
+      "text": "Administer fresh frozen plasma to treat the anemia.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_34",
+      "text": "Order HFE genetic testing for hereditary hemochromatosis based only on the elevated ferritin.",
+      "points": -1
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_35",
+      "text": "Reassure the patient that colorectal cancer screening is unnecessary.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_36",
+      "text": "Prescribe anticoagulation as treatment for the anemia.",
+      "points": -2
+    },
+    {
+      "item_id": "7ab1232cef5a69589432c22ca1630ecd_37",
+      "text": "Order a serum erythropoietin level as part of the routine initial evaluation.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

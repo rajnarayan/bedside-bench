@@ -1,0 +1,34 @@
+{
+  "case_id": "5f84b419694094f4f30c885dd39aba5e",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old man on thrice-weekly hemodialysis has missed several sessions because the van service in his neighborhood is unreliable, and he presents with volume overload. How should the care team respond?",
+  "rubric_items": [
+    {
+      "item_id": "083de9944c86403396b50b816d900f9a_0",
+      "text": "Identifies transportation insecurity as the root cause of the missed sessions rather than labeling the patient nonadherent.",
+      "points": 1
+    },
+    {
+      "item_id": "083de9944c86403396b50b816d900f9a_1",
+      "text": "Addresses the acute issue of volume overload with appropriate urgency, including arranging dialysis promptly.",
+      "points": 1
+    },
+    {
+      "item_id": "083de9944c86403396b50b816d900f9a_2",
+      "text": "Engages social work or case management to arrange reliable transportation (e.g., Medicaid non-emergency medical transportation, dialysis-unit transport programs).",
+      "points": 1
+    },
+    {
+      "item_id": "083de9944c86403396b50b816d900f9a_3",
+      "text": "Considers practical accommodations such as scheduling changes or a dialysis unit closer to home.",
+      "points": 1
+    },
+    {
+      "item_id": "083de9944c86403396b50b816d900f9a_4",
+      "text": "Documents and follows up to confirm the transportation plan is working.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

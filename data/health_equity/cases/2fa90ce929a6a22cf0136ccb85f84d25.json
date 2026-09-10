@@ -1,0 +1,44 @@
+{
+  "case_id": "2fa90ce929a6a22cf0136ccb85f84d25",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old man has poorly controlled asthma despite treatment with an inhaled corticosteroid and long-acting beta-agonist (ICS/LABA). He lives in an older apartment building and works night shifts at a warehouse. Pharmacy refill records suggest that his adherence is adequate. What is the differential diagnosis for his poorly controlled asthma, and what initial steps would you take to evaluate and address the contributing factors?",
+  "rubric_items": [
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_0",
+      "text": "Considers environmental triggers including housing conditions such as mold, pests, dust, and poor ventilation.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_1",
+      "text": "Considers occupational exposures given the warehouse work environment.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_2",
+      "text": "Considers incorrect inhaler technique or relevant comorbidities (e.g., chronic rhinosinusitis, GERD, obesity, obstructive sleep apnea) as contributors to poor asthma control.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_3",
+      "text": "Avoids defaulting to assumptions about medication non-adherence when refill records suggest adequate adherence.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_4",
+      "text": "Recommends home environmental assessment or referral (e.g., healthy-homes or community health worker program) to address modifiable housing-related triggers.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_5",
+      "text": "Considers work schedule or circadian factors only insofar as they suggest exposure patterns or shift-related triggers affecting asthma control.",
+      "points": 1
+    },
+    {
+      "item_id": "a8de1439a4536e9bdf207e937c95f781_6",
+      "text": "Considers alternative or coexisting diagnoses that can mimic poorly controlled asthma (e.g., COPD/asthma-COPD overlap, heart failure, inducible laryngeal obstruction).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

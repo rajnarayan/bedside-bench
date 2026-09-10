@@ -1,0 +1,14 @@
+{
+  "case_id": "e121eb35f5a82ca72cd058e18813eaa6",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 34-year-old man presents to the emergency department with severe abdominal pain, fever, and diarrhea. He has Crohn's disease and multiple prior admissions for similar symptoms. CT imaging shows an intra-abdominal abscess complicating his Crohn's disease, and the team plans to start intravenous metronidazole as part of empiric anaerobic coverage; he is vomiting and unable to tolerate oral medications. He has no known drug allergies, is not on hemodialysis, and liver function testing shows mild to moderate hepatic dysfunction. Based on these factors, what metronidazole dosing regimen should be used?",
+  "rubric_items": [
+    {
+      "item_id": "abc3b3c560167e991566d38df52caa68_0",
+      "text": "States the regimen: metronidazole 500 mg IV every 8 hours (accept equivalent wording, e.g., 500 mg IV q8h; no dose reduction is required for mild-to-moderate hepatic dysfunction or in the absence of hemodialysis).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

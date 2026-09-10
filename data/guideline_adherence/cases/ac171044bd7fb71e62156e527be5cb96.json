@@ -1,0 +1,24 @@
+{
+  "case_id": "ac171044bd7fb71e62156e527be5cb96",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 45-year-old man presents to your clinic with a 3-month history of dyspepsia. He has no alarm symptoms and no significant past medical history. A urea breath test confirms Helicobacter pylori infection. You are considering starting eradication therapy. You practice in a region where recent surveillance data indicate that clarithromycin resistance rates are above 20%.\n\nBased on current guidelines, how should you select the first-line antibiotic regimen for this patient's H. pylori infection?",
+  "rubric_items": [
+    {
+      "item_id": "cd72aef98069b0bfe51b515354433ba1_0",
+      "text": "States that local antibiotic resistance patterns must be considered when selecting first-line therapy for Helicobacter pylori infection.",
+      "points": 2
+    },
+    {
+      "item_id": "cd72aef98069b0bfe51b515354433ba1_1",
+      "text": "Explains that in regions with high clarithromycin resistance (>15-20%), clarithromycin-based triple therapy should be avoided.",
+      "points": 1
+    },
+    {
+      "item_id": "cd72aef98069b0bfe51b515354433ba1_2",
+      "text": "Recommends a specific guideline-supported empiric first-line regimen for this high-resistance setting, preferably 14-day bismuth quadruple therapy (PPI, bismuth, tetracycline, metronidazole), or an appropriate alternative such as rifabutin-based triple therapy or vonoprazan-amoxicillin dual therapy, rather than any regimen chosen solely because it lacks clarithromycin.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

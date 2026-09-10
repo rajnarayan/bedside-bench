@@ -1,0 +1,29 @@
+{
+  "case_id": "f7dbb3fbd68eb0b3c326360d0412a7b5",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "54 yo F with a history of epilepsy (on carbamazepine), bipolar disorder (on lithium), and hypertension presents with acute manic symptoms and agitation. Labs: Na 135, Cr 1.1, Li level 0.7 mmol/L (therapeutic). Psychiatry recommends starting haloperidol 5 mg PO BID for agitation. OK to start haloperidol at this dose?",
+  "rubric_items": [
+    {
+      "item_id": "18d250bb8a0402a0e77e0f8eb9f04310_0",
+      "text": "Recognizes the risk of severe neurotoxicity (including NMS-like syndromes, delirium, and irreversible encephalopathy) when combining lithium and haloperidol, even with a therapeutic lithium concentration.",
+      "points": 1
+    },
+    {
+      "item_id": "18d250bb8a0402a0e77e0f8eb9f04310_1",
+      "text": "Recognizes that carbamazepine can lower haloperidol concentrations through enzyme induction and recommends adjusting treatment according to clinical response and tolerability rather than automatically increasing the starting dose.",
+      "points": 1
+    },
+    {
+      "item_id": "18d250bb8a0402a0e77e0f8eb9f04310_2",
+      "text": "Provides an individualized recommendation—carefully monitored use of haloperidol, a lower initial dose, or an alternative agent based on clinical assessment—recognizing that lithium–haloperidol coadministration is a labeled warning requiring close monitoring rather than an absolute contraindication.",
+      "points": 1
+    },
+    {
+      "item_id": "18d250bb8a0402a0e77e0f8eb9f04310_3",
+      "text": "If lithium and haloperidol are combined, recommends close monitoring for new confusion, ataxia, marked tremor, rigidity, or fever, with prompt discontinuation of the combination and urgent assessment if neurotoxicity is suspected.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

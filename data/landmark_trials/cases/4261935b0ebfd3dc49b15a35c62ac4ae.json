@@ -1,0 +1,24 @@
+{
+  "case_id": "4261935b0ebfd3dc49b15a35c62ac4ae",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "An older adult undergoes major noncardiac surgery, and the anesthesia team is considering a personalized blood pressure management strategy to reduce postoperative cognitive complications.\n\nBased on the IMPROVE trial, how should the confidence intervals and p-values be interpreted regarding the effect of personalized blood pressure management on postoperative cognition? Address both the primary cognitive outcome and at least one secondary cognitive outcome (such as postoperative delirium).",
+  "rubric_items": [
+    {
+      "item_id": "6048e08d7a1d06993fc39b7f86b3007e_0",
+      "text": "States that the primary outcome was not statistically significant, with the confidence interval crossing 1.0 and the p-value non-significant.",
+      "points": 2
+    },
+    {
+      "item_id": "6048e08d7a1d06993fc39b7f86b3007e_1",
+      "text": "Explains that wide confidence intervals including 1 indicate imprecision: they do not establish benefit or harm, do not prove equivalence, and do not by themselves justify adopting personalized blood pressure management to improve cognition; if delirium is discussed, notes that its low event rate limits precision.",
+      "points": 1
+    },
+    {
+      "item_id": "6048e08d7a1d06993fc39b7f86b3007e_2",
+      "text": "States that the secondary cognitive outcomes (for example, postoperative delirium) were also not statistically significantly different between personalized and standard management, with confidence intervals including 1.0.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

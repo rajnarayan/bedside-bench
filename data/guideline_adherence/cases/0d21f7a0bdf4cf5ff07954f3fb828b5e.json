@@ -1,0 +1,19 @@
+{
+  "case_id": "0d21f7a0bdf4cf5ff07954f3fb828b5e",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old woman with tuberous sclerosis complex is found to have a 4 cm right renal angiomyolipoma on routine imaging. She is currently asymptomatic and is planning to become pregnant in the next year. During her follow-up visit, she asks what she should be aware of regarding her kidney lesion, especially in relation to her plans for pregnancy.\n\nBased on current guidelines, what specific counseling should you provide to this patient about her renal angiomyolipoma and her plans for pregnancy?",
+  "rubric_items": [
+    {
+      "item_id": "1776dc40492c04aa6724508aff2d5496_0",
+      "text": "Advises the patient to seek urgent medical attention if she develops symptoms suggestive of bleeding from the angiomyolipoma (such as sudden flank pain, hematuria, or hypotension).",
+      "points": 1
+    },
+    {
+      "item_id": "1776dc40492c04aa6724508aff2d5496_1",
+      "text": "Informs her, ideally before conception, that pregnancy is associated with an increased risk of angiomyolipoma growth and hemorrhage.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

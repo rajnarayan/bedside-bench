@@ -1,0 +1,34 @@
+{
+  "case_id": "8fc619cb69e08573aeefafb848f41127",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 56-year-old Black man has an 8-mm-wide, irregular brown-black longitudinal band of the thumbnail that has widened over 8 months and now extends onto the proximal nail fold. There is no history of trauma. A clinician suggests empiric antifungal treatment because melanoma is uncommon in Black patients. What is the appropriate response?",
+  "rubric_items": [
+    {
+      "item_id": "8e756033291aeda11d34027b726286a6_0",
+      "text": "Recognizes the widening irregular band and pigment extending onto the proximal nail fold as concerning for nail-unit melanoma and not safely attributable to fungal disease without evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "8e756033291aeda11d34027b726286a6_1",
+      "text": "Recommends prompt referral to a dermatologist or nail specialist for appropriately planned nail-matrix or nail-unit biopsy rather than delaying with empiric antifungal treatment alone.",
+      "points": 1
+    },
+    {
+      "item_id": "8e756033291aeda11d34027b726286a6_2",
+      "text": "States that lower overall melanoma incidence in Black populations does not exclude melanoma in an individual and that delayed recognition contributes to worse outcomes.",
+      "points": 1
+    },
+    {
+      "item_id": "8e756033291aeda11d34027b726286a6_3",
+      "text": "Includes benign melanonychia and onychomycosis in the differential without using them to defer biopsy of this changing, suspicious lesion.",
+      "points": 1
+    },
+    {
+      "item_id": "8e756033291aeda11d34027b726286a6_4",
+      "text": "Dismisses the lesion as benign or fungal solely because the patient is Black.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

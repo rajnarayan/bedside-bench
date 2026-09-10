@@ -1,0 +1,29 @@
+{
+  "case_id": "7e016a7dee5ff3d9c9a6e9129b510d12",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 74-year-old man with heart failure takes furosemide daily and is admitted after several days of vomiting and poor oral intake. His creatinine has increased from 1.0 to 2.0 mg/dL. At the time of urine collection, blood urea nitrogen is 40 mg/dL, urine urea nitrogen is 300 mg/dL, and urine creatinine is 60 mg/dL. Because recent loop-diuretic exposure can confound the fractional excretion of sodium, calculate the fractional excretion of urea (FEUrea) and interpret the result using a 35% cutoff.",
+  "rubric_items": [
+    {
+      "item_id": "b8fb74d83953bb5730b744a9156ac4ba_0",
+      "text": "States the FEUrea formula as (urine urea nitrogen × plasma creatinine) / (blood urea nitrogen × urine creatinine) × 100, or shows an equivalent calculation.",
+      "points": 1
+    },
+    {
+      "item_id": "b8fb74d83953bb5730b744a9156ac4ba_1",
+      "text": "States the FEUrea as 25%; exact value required, with a tolerance of ±0.1 percentage point.",
+      "points": 1
+    },
+    {
+      "item_id": "b8fb74d83953bb5730b744a9156ac4ba_2",
+      "text": "States that an FEUrea below 35% supports a prerenal/hemodynamic cause of the acute kidney injury in this clinical context.",
+      "points": 1
+    },
+    {
+      "item_id": "b8fb74d83953bb5730b744a9156ac4ba_3",
+      "text": "Explains that FEUrea is being used because loop-diuretic exposure may increase urine sodium and make FENa less reliable.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "44d08d2c58eb5883da1ac9e4f88172f9",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old man is brought to the emergency department after smoke exposure during a building fire. He has dyspnea and cough, with soot around his nose and mouth. A chest CT is obtained to assess smoke inhalation injury. The CT shows the following by lung quadrant:\n\n- Left lung quadrant 1: increased interstitial markings\n- Left lung quadrant 2: ground-glass opacification\n- Left lung quadrant 3: consolidation\n- Left lung quadrant 4: increased interstitial markings\n- Right lung quadrant 1: normal findings\n- Right lung quadrant 2: increased interstitial markings\n- Right lung quadrant 3: ground-glass opacification\n- Right lung quadrant 4: consolidation\n\nUsing the Radiologist's Score for Smoke Inhalation Injury (RADS), what is his total RADS score, and what is the clinical interpretation?",
+  "rubric_items": [
+    {
+      "item_id": "627e5b74fb3b64332804b478939ea985_0",
+      "text": "States the total Radiologist's Score for Smoke Inhalation Injury (RADS) score for this patient is 13 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "627e5b74fb3b64332804b478939ea985_1",
+      "text": "States the clinical interpretation: Risk of pneumonia, acute lung injury/acute respiratory distress syndrome or death is high (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

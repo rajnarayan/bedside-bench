@@ -1,0 +1,29 @@
+{
+  "case_id": "2f49cc284286a5200a8e7488ce56abc0",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old patient with a first episode of acute idiopathic pericarditis is started on standard anti-inflammatory therapy, and you are considering whether to add colchicine to reduce recurrence risk.\n\nBased on the ICAP trial, what was the effect of colchicine on the primary outcome in acute pericarditis? Include the primary endpoint, both groups' event rates, the relative risk reduction with 95% CI, the NNT, P value, and relevant safety findings.",
+  "rubric_items": [
+    {
+      "item_id": "7670ae0e1fc21396cf444ee72e57ba8e_0",
+      "text": "States that in the ICAP trial colchicine reduced the primary endpoint of incessant or recurrent pericarditis compared with control.",
+      "points": 2
+    },
+    {
+      "item_id": "7670ae0e1fc21396cf444ee72e57ba8e_1",
+      "text": "Reports the event rates for the primary outcome as 16.7% with colchicine versus 37.5% with control.",
+      "points": 1
+    },
+    {
+      "item_id": "7670ae0e1fc21396cf444ee72e57ba8e_2",
+      "text": "Reports the relative risk reduction as 0.56 with 95% CI 0.27-0.73 and P<0.001.",
+      "points": 1
+    },
+    {
+      "item_id": "7670ae0e1fc21396cf444ee72e57ba8e_3",
+      "text": "Notes that the number needed to treat was 4 and that safety was similar with no serious adverse events.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

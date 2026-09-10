@@ -1,0 +1,24 @@
+{
+  "case_id": "89cda0e1c1eb0d9182910585c2771fff",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A family member of a critically ill ICU patient asks whether a standardized family participation program could help prevent anxiety, depression, or PTSD after the ICU stay.\n\nBased on the EFFAMPART trial, should this standardized family participation program be implemented as a stand-alone intervention to reduce anxiety, depression, or PTSD among ICU relatives? Include the mental health outcome findings, the effect on satisfaction, and whether safety or adverse events were reported.",
+  "rubric_items": [
+    {
+      "item_id": "281280e297a295845aeb744a05d3b051_0",
+      "text": "States that the standardized family participation program should not be used alone to reduce ICU relatives' anxiety, depression, or PTSD because mental health outcomes at 3 months were not significantly improved.",
+      "points": 2
+    },
+    {
+      "item_id": "281280e297a295845aeb744a05d3b051_1",
+      "text": "Notes the slight decrease in satisfaction: difference −0.60 with 95% CI −1.07 to −0.12 and p = 0.01.",
+      "points": 1
+    },
+    {
+      "item_id": "281280e297a295845aeb744a05d3b051_2",
+      "text": "States that safety/adverse-event outcomes were not reported, without interpreting the absence of reporting as evidence that no adverse events occurred.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

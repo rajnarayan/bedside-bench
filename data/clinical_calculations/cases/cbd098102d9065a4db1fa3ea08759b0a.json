@@ -1,0 +1,14 @@
+{
+  "case_id": "cbd098102d9065a4db1fa3ea08759b0a",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old man presents for a routine preventive health visit. He has a history of hypertension treated with an antihypertensive medication and hyperlipidemia treated with a statin. He does not have diabetes and has no prior history of cardiovascular disease. He is a current smoker. On examination, his blood pressure is 138/84 mmHg and his BMI is 29 kg/m². Recent laboratory results show a total cholesterol of 210 mg/dL and an HDL cholesterol of 45 mg/dL. His estimated glomerular filtration rate (eGFR) is 70 mL/min/1.73 m², and his urine albumin-to-creatinine ratio is within normal limits. What is his total 10-year cardiovascular disease (CVD) risk using PREVENT?",
+  "rubric_items": [
+    {
+      "item_id": "28356a90393c8ae0fbb3a04cdd6aa724_0",
+      "text": "States that the total 10-year CVD risk using PREVENT is approximately 12-13% (±1 percentage point acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

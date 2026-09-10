@@ -1,0 +1,34 @@
+{
+  "case_id": "66b5ffdce5a7b5050575a5927f14dbea",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 48-year-old woman with type 2 diabetes (A1c 9.8%) and hypertension recently lost her job and is now uninsured. She was previously taking Ozempic but can no longer afford it, and she also did not pick up her lisinopril. What is your plan?",
+  "rubric_items": [
+    {
+      "item_id": "f5706ac2e7c75b72ea1505444d3dac5b_0",
+      "text": "Answer acknowledges that cost and insurance status are significant barriers affecting this patient's care",
+      "points": 1
+    },
+    {
+      "item_id": "f5706ac2e7c75b72ea1505444d3dac5b_1",
+      "text": "Answer recommends screening for food insecurity and other social determinants of health",
+      "points": 1
+    },
+    {
+      "item_id": "f5706ac2e7c75b72ea1505444d3dac5b_2",
+      "text": "Answer provides specific alternatives including generic medications, reduced price formulary options, or patient assistance programs",
+      "points": 1
+    },
+    {
+      "item_id": "f5706ac2e7c75b72ea1505444d3dac5b_3",
+      "text": "Answer prioritizes essential medications and discusses which are most critical to continue",
+      "points": 1
+    },
+    {
+      "item_id": "f5706ac2e7c75b72ea1505444d3dac5b_4",
+      "text": "Answer recommends social work referral or assistance with insurance enrollment options",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

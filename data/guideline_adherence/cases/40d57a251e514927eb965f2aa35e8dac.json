@@ -1,0 +1,24 @@
+{
+  "case_id": "40d57a251e514927eb965f2aa35e8dac",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 48-year-old woman presents to your clinic for evaluation of elevated cholesterol found on routine screening. She reports fatigue, weight gain, and constipation over the past several months. Her physical exam reveals dry skin and mild periorbital puffiness. Laboratory results show: TSH 18 mIU/L (reference: 0.4-4.0), free T4 low, total cholesterol 265 mg/dL, LDL 170 mg/dL, HDL 42 mg/dL, triglycerides 140 mg/dL. She has no history of cardiovascular disease or diabetes. She asks if she should start a statin for her cholesterol.\n\nBased on current guidelines, what is the most appropriate next step in managing this patient's hyperlipidemia?",
+  "rubric_items": [
+    {
+      "item_id": "a5db1737f09813550b44efdd983cd35d_0",
+      "text": "Recommends deferring lipid-lowering therapy and initiating thyroid hormone replacement to achieve a euthyroid state before reassessing the lipid profile, explicitly stating that hyperlipidemia should not be treated until the patient is euthyroid.",
+      "points": 1
+    },
+    {
+      "item_id": "a5db1737f09813550b44efdd983cd35d_1",
+      "text": "Recommends starting a statin or other lipid-lowering therapy now, before treating the hypothyroidism and reassessing the lipid profile once the patient is euthyroid.",
+      "points": -1
+    },
+    {
+      "item_id": "a5db1737f09813550b44efdd983cd35d_2",
+      "text": "Explains that overt hypothyroidism is a reversible secondary cause of elevated LDL cholesterol and that thyroid hormone replacement alone may normalize or substantially improve the lipid profile.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

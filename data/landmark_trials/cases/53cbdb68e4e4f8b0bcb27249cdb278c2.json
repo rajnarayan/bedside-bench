@@ -1,0 +1,29 @@
+{
+  "case_id": "53cbdb68e4e4f8b0bcb27249cdb278c2",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old with limited-stage small cell lung cancer completed chemoradiation and asks about adjuvant durvalumab.\n\nBased on ADRIATIC, what did the trial show about overall and progression-free survival versus placebo, and what were the key safety findings?",
+  "rubric_items": [
+    {
+      "item_id": "3ae7b32ac0bba79bcf90e5f95b7ea7c7_0",
+      "text": "States that ADRIATIC showed durvalumab significantly improved both overall survival and progression-free survival versus placebo in limited-stage small cell lung cancer after chemoradiation.",
+      "points": 2
+    },
+    {
+      "item_id": "3ae7b32ac0bba79bcf90e5f95b7ea7c7_1",
+      "text": "Provides the overall survival results: median overall survival 55.9 vs 33.4 months with hazard ratio 0.73 (98.321% CI 0.54-0.98; P=0.01).",
+      "points": 1
+    },
+    {
+      "item_id": "3ae7b32ac0bba79bcf90e5f95b7ea7c7_2",
+      "text": "Provides the progression-free survival results: median progression-free survival 16.6 vs 9.2 months with hazard ratio 0.76 (97.195% CI 0.59-0.98; P=0.02).",
+      "points": 1
+    },
+    {
+      "item_id": "3ae7b32ac0bba79bcf90e5f95b7ea7c7_3",
+      "text": "Notes the key safety findings for durvalumab versus placebo: grade 3–4 adverse events 24.4% versus 24.2% and grade 3–4 pneumonitis or radiation pneumonitis 3.1% versus 2.6%, plus either adverse events leading to treatment discontinuation 16.4% versus 10.6% or adverse events leading to death 2.7% versus 1.9%.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

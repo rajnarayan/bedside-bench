@@ -1,0 +1,14 @@
+{
+  "case_id": "357121f63241bd29f8ded8ee4d87bc34",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old male was involved in a house fire and was brought to the emergency department. On examination, the patient has sustained burns over several parts of his body. The healthcare team needs to quickly assess the extent of the burns to initiate appropriate fluid resuscitation. The areas affected include his head and neck, left arm, anterior trunk, and right leg. The emergency physician wants to use the Rule of Nines to estimate the Total Body Surface Area (TBSA) affected by burns. What is the burn size estimation using the Rule of Nines in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "9c22425952bb8426ce7311f7dbcca9cf_0",
+      "text": "States the TBSA burn estimate is approximately 54% (±2 percentage points acceptable; Rule of Nines: head/neck 9%, left arm 9%, anterior trunk 18%, right leg 18%).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "985b54af6eb5a5bb7c6209bdfed94939",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "54 yo F with a history of epilepsy (on valproic acid) and recently diagnosed with hypertension presents for migraine headaches; neurologist recommends starting topiramate 25 mg BID for migraine prophylaxis—initiate topiramate as advised?",
+  "rubric_items": [
+    {
+      "item_id": "460b818a85461bae3f96921f7a51d9a8_0",
+      "text": "Recognizes that concomitant use of topiramate and valproic acid is associated with a significant risk of hyperammonemic encephalopathy, even in adults and in the absence of underlying liver disease or urea cycle disorders.",
+      "points": 1
+    },
+    {
+      "item_id": "460b818a85461bae3f96921f7a51d9a8_1",
+      "text": "Recommends reassessing the proposed prescription with the neurologist because of the interaction: either an alternative migraine preventive or use of the combination after individualized risk–benefit assessment; if coadministration is chosen, recommends counseling and clinical monitoring for encephalopathy, with serum ammonia measurement if unexplained lethargy, vomiting, or altered mental status develops.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

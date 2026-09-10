@@ -1,0 +1,34 @@
+{
+  "case_id": "bfc079abd61f9fc0a50322ee951068c7",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "54 yo F with long-standing rheumatoid arthritis on chronic hydroxychloroquine, presents with new-onset atrial fibrillation (HR 112, BP 130/74). She has non-insulin-dependent diabetes mellitus, recently started fluconazole 200 mg/day for oral candidiasis. Cardiologist recommends starting amiodarone 400 mg daily for rhythm control—ok to proceed with new amiodarone prescription?",
+  "rubric_items": [
+    {
+      "item_id": "d8b2c77fada7a56ceaa063ee0cddc023_0",
+      "text": "Explicitly recognizes the additive risk of QT prolongation and torsades de pointes from hydroxychloroquine, fluconazole, and amiodarone, especially as CYP inhibition increases drug levels.",
+      "points": 1
+    },
+    {
+      "item_id": "d8b2c77fada7a56ceaa063ee0cddc023_1",
+      "text": "Recommends against starting amiodarone until fluconazole is stopped (and/or hydroxychloroquine is discontinued or alternatives are found), and suggests alternative rate- or rhythm-control agents without QT risk (e.g., a beta-blocker, with cardioversion considered if appropriate).",
+      "points": 1
+    },
+    {
+      "item_id": "d8b2c77fada7a56ceaa063ee0cddc023_2",
+      "text": "Recommends avoiding the combination; if coadministration is clinically unavoidable, recommends specialist-supervised management with baseline and follow-up ECG/QTc monitoring.",
+      "points": 1
+    },
+    {
+      "item_id": "d8b2c77fada7a56ceaa063ee0cddc023_3",
+      "text": "Recommends proceeding with amiodarone while continuing hydroxychloroquine and fluconazole without addressing their additive QT-prolongation and torsades risk.",
+      "points": -1
+    },
+    {
+      "item_id": "d8b2c77fada7a56ceaa063ee0cddc023_4",
+      "text": "Recommends checking potassium and magnesium and correcting deficiencies before any unavoidable use of this QT-prolonging combination.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

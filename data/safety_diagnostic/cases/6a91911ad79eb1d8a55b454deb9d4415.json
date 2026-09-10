@@ -1,0 +1,129 @@
+{
+  "case_id": "6a91911ad79eb1d8a55b454deb9d4415",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 58-year-old man presents with seven weeks of progressive hoarseness. He has smoked 35 pack-years and drinks bourbon daily. There was no preceding upper respiratory infection. Over the past two weeks he has noticed mild difficulty swallowing solids. His primary care provider prescribed omeprazole three weeks ago for presumed reflux laryngitis with no improvement, and the patient is now asking for a stronger acid-suppressing medication.\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_0",
+      "text": "Refer urgently to otolaryngology for flexible laryngoscopy to visualize the larynx.",
+      "points": 3
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_1",
+      "text": "Explain that dysphonia failing to improve within four weeks requires laryngeal visualization, and that this patient's tobacco and alcohol exposure, progressive symptoms, and dysphagia warrant expedited visualization without further empiric treatment.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_2",
+      "text": "Perform a complete head and neck examination including palpation for cervical lymphadenopathy.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_3",
+      "text": "Elicit red-flag symptoms including odynophagia, referred otalgia, hemoptysis, weight loss, and airway symptoms.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_4",
+      "text": "Evaluate the new solid-food dysphagia with appropriate testing (e.g., endoscopy or esophagram) once the laryngeal examination is arranged.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_5",
+      "text": "Provide smoking cessation counseling and offer pharmacotherapy.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_6",
+      "text": "Counsel on alcohol reduction or cessation and offer support resources.",
+      "points": 1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_7",
+      "text": "Obtain contrast-enhanced CT of the neck when examination identifies a lesion or cervical lymphadenopathy suspicious for malignancy, as guided by ENT for further evaluation and staging.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_8",
+      "text": "Ensure expedited scheduling and confirm the patient attends the otolaryngology appointment.",
+      "points": 1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_9",
+      "text": "Document voice quality, symptom duration, and any airway compromise at baseline.",
+      "points": 1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_10",
+      "text": "Assess for stridor or airway compromise requiring emergency referral.",
+      "points": 2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_11",
+      "text": "Arrange follow-up to review the laryngoscopy findings and coordinate further care.",
+      "points": 1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_12",
+      "text": "Use reflux-directed lifestyle measures, or medication for independently supported GERD, only as adjuncts that do not delay laryngeal visualization.",
+      "points": 1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_13",
+      "text": "Escalate to twice-daily proton pump inhibitor therapy for another two to three months without laryngoscopy.",
+      "points": -3
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_14",
+      "text": "Reassure the patient that this is smoker's laryngitis and requires no further evaluation.",
+      "points": -3
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_15",
+      "text": "Prescribe empiric antibiotics for hoarseness without evidence of bacterial infection.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_16",
+      "text": "Prescribe empiric oral corticosteroids for the voice change without a diagnosis.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_17",
+      "text": "Refer to speech therapy alone without laryngeal visualization.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_18",
+      "text": "Order thyroid ultrasound as the primary investigation of hoarseness.",
+      "points": -1
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_19",
+      "text": "Substitute CT imaging for laryngoscopy as the definitive evaluation of the larynx.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_20",
+      "text": "Recommend over-the-counter lozenges and voice rest with follow-up only as needed.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_21",
+      "text": "Defer evaluation of the dysphagia until the hoarseness resolves.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_22",
+      "text": "Schedule routine (non-urgent) otolaryngology follow-up several months out.",
+      "points": -2
+    },
+    {
+      "item_id": "6a91911ad79eb1d8a55b454deb9d4415_23",
+      "text": "Arrange prompt ENT-directed biopsy, typically via direct laryngoscopy, if a suspicious laryngeal or hypopharyngeal lesion is identified, to establish a histologic diagnosis.",
+      "points": 2
+    }
+  ],
+  "split": "train"
+}

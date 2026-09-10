@@ -1,0 +1,19 @@
+{
+  "case_id": "967adeb9b9ccc5017a943d1edcb97893",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old man presents to the cardiology clinic with complaints of palpitations and fatigue. He has a history of hypertension and obesity (BMI 33 kg/m²). He was diagnosed with atrial fibrillation (AF) two years ago and has undergone two electrical cardioversions in the past year due to recurrent symptomatic episodes. His current medications include a beta-blocker and an oral anticoagulant. Despite good medication adherence, he continues to experience symptomatic AF episodes every few months. He reports loud snoring at night, witnessed apneas according to his partner, and daytime sleepiness.\n\nBased on current guidelines, what specific investigation should be performed to screen for obstructive sleep apnea as a potential contributing factor to this patient's recurrent symptomatic atrial fibrillation?",
+  "rubric_items": [
+    {
+      "item_id": "c2dfba58cb5045339432f7ec3c556dbd_0",
+      "text": "Recommends objective sleep testing for suspected obstructive sleep apnea using polysomnography or, when clinically appropriate, a technically adequate home sleep apnea test.",
+      "points": 2
+    },
+    {
+      "item_id": "c2dfba58cb5045339432f7ec3c556dbd_1",
+      "text": "Explicitly links the recommended sleep apnea testing to evaluating obstructive sleep apnea as a potential contributing factor to the patient's recurrent symptomatic atrial fibrillation.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

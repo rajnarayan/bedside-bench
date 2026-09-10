@@ -1,0 +1,34 @@
+{
+  "case_id": "5531c4dba27fa5bf9c55e185a1974d0f",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old gay man whose partner died last year has stopped attending his usual activities and reports poor sleep and low energy. He mentions he avoids senior programs because he does not feel welcome as a gay man. How should you approach his evaluation and care plan?",
+  "rubric_items": [
+    {
+      "item_id": "6cf73da73831c8ef1513e230bd4b5a6b_0",
+      "text": "Screens for depression with a validated instrument and assesses suicide risk.",
+      "points": 1
+    },
+    {
+      "item_id": "6cf73da73831c8ef1513e230bd4b5a6b_1",
+      "text": "Recognizes bereavement and social isolation as key contributors and asks about his support network.",
+      "points": 1
+    },
+    {
+      "item_id": "6cf73da73831c8ef1513e230bd4b5a6b_2",
+      "text": "Acknowledges his reported feeling of being unwelcome as a barrier to engaging with aging services and explores possible minority stress or discrimination without assuming a history of discriminatory experiences.",
+      "points": 1
+    },
+    {
+      "item_id": "6cf73da73831c8ef1513e230bd4b5a6b_3",
+      "text": "Recommends LGBTQ-affirming resources such as inclusive senior programs, support groups, or affirming mental health referral.",
+      "points": 1
+    },
+    {
+      "item_id": "6cf73da73831c8ef1513e230bd4b5a6b_4",
+      "text": "Uses respectful, nonjudgmental language that acknowledges his partner and the significance of the loss.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

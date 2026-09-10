@@ -1,0 +1,34 @@
+{
+  "case_id": "2c69ae24889e3d6ebbd4d5fa28ab5307",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A critically ill patient with COVID-19 is intubated in the ICU and receiving corticosteroids, and the team is considering adding baricitinib. The family asks whether this drug increases infections, thrombotic events, or cardiovascular complications in patients this sick.\n\nBased on the exploratory COV-BARRIER cohort of patients on invasive mechanical ventilation or ECMO, did baricitinib increase infections, thrombotic, or cardiovascular adverse events in intubated/ECMO COVID-19 patients, and how should that influence bedside risk–benefit discussions?",
+  "rubric_items": [
+    {
+      "item_id": "b038830a41c2537302c0652c15b2b70d_0",
+      "text": "States that infections, thrombosis, and cardiovascular adverse events were similar between the baricitinib and control groups in intubated/ECMO patients.",
+      "points": 2
+    },
+    {
+      "item_id": "b038830a41c2537302c0652c15b2b70d_1",
+      "text": "Identifies the observed mortality benefit in this exploratory cohort and provides an accurate quantitative estimate of its magnitude, such as 28-day mortality of 39% versus 58% (HR 0.54, 95% CI 0.31–0.96) or an absolute reduction of approximately 19 percentage points.",
+      "points": 1
+    },
+    {
+      "item_id": "b038830a41c2537302c0652c15b2b70d_2",
+      "text": "Notes that ventilator-free days and length of stay were not significantly different between groups.",
+      "points": 1
+    },
+    {
+      "item_id": "b038830a41c2537302c0652c15b2b70d_3",
+      "text": "States that most patients were receiving corticosteroids and uses the combination of mortality benefit without increased adverse events to frame shared decision-making and bedside risk–benefit discussions.",
+      "points": 1
+    },
+    {
+      "item_id": "b038830a41c2537302c0652c15b2b70d_4",
+      "text": "Explains that the small exploratory cohort (about 100 patients) had limited power to detect uncommon harms, so similar observed event rates do not establish absence of infection, thrombotic, or cardiovascular risk.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

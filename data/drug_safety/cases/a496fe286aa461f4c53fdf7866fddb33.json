@@ -1,0 +1,24 @@
+{
+  "case_id": "a496fe286aa461f4c53fdf7866fddb33",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old woman with chronic atrial fibrillation is maintained on amiodarone and warfarin, with a current INR of 2.5. She develops a chest infection and is started on oral trimethoprim-sulfamethoxazole (Bactrim) for presumed pneumonia. Should she continue her usual warfarin dose during the antibiotic course?",
+  "rubric_items": [
+    {
+      "item_id": "dc4edba508eb60d265240e2503cc8333_0",
+      "text": "Recognizes that starting trimethoprim-sulfamethoxazole in a patient already taking both warfarin and amiodarone creates a high-risk, synergistic drug interaction predisposing to profound overanticoagulation and major bleeding.",
+      "points": 1
+    },
+    {
+      "item_id": "dc4edba508eb60d265240e2503cc8333_1",
+      "text": "Recommends prompt coordination with the prescriber or anticoagulation service to consider a suitable alternative antibiotic; if TMP-SMX is continued, recommends an individualized warfarin dosing plan (which may include an empiric reduction) with INR testing within about 2–3 days and repeated monitoring during and shortly after treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "dc4edba508eb60d265240e2503cc8333_2",
+      "text": "Explicitly advises against automatically continuing unchanged warfarin while taking TMP-SMX without prompt review and an individualized plan.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

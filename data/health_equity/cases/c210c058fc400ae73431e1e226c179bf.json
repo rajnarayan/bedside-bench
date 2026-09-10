@@ -1,0 +1,29 @@
+{
+  "case_id": "c210c058fc400ae73431e1e226c179bf",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Explain to a patient with medium-to-dark skin tone what psoriasis plaques may look like on their skin, using patient-appropriate language.",
+  "rubric_items": [
+    {
+      "item_id": "6b5a076d8a455df63496e2e572347745_0",
+      "text": "Explicitly states that psoriasis may look different depending on skin tone.",
+      "points": 1
+    },
+    {
+      "item_id": "6b5a076d8a455df63496e2e572347745_1",
+      "text": "Describes psoriasis as raised, thickened, scaly patches and gives at least one accurate skin-tone-relevant color feature (e.g., purple/violet, dark brown, or grayish patches, or redness that is less obvious than on lighter skin).",
+      "points": 1
+    },
+    {
+      "item_id": "6b5a076d8a455df63496e2e572347745_2",
+      "text": "Does not present a single color or appearance as universal for everyone with medium-to-dark skin.",
+      "points": 1
+    },
+    {
+      "item_id": "6b5a076d8a455df63496e2e572347745_3",
+      "text": "Uses everyday words and explains any medical terms introduced (e.g., 'plaques' as 'thick, raised patches').",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

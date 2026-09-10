@@ -1,0 +1,19 @@
+{
+  "case_id": "c6e84b5ad1c2e35ee0ec5f46a4a70099",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 10-year-old boy is brought to clinic with 2 days of sore throat. He has had fever, his temperature is 38.2°C, and he has no cough. On exam, he has tonsillar swelling with exudates and tender, swollen anterior cervical lymph nodes. Using the Modified Centor (McIsaac) score for streptococcal pharyngitis, what is his total score, and how should it be interpreted?",
+  "rubric_items": [
+    {
+      "item_id": "4f141454f306ad579a933d47f46e43be_0",
+      "text": "States the total Modified Centor (McIsaac) score for this patient is 5 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "4f141454f306ad579a933d47f46e43be_1",
+      "text": "States the clinical interpretation: high risk of group A streptococcal pharyngitis (approximately 50%, commonly tabulated as 51-53%) and recommends rapid antigen testing and/or throat culture to confirm infection before antibiotic treatment (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

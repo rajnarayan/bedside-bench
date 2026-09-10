@@ -1,0 +1,149 @@
+{
+  "case_id": "00758e90cbb8bd2a584f0d1d745290ff",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 66-year-old woman undergoes MRI for nonspecific abdominal discomfort and is incidentally found to have a 2.7 cm cyst in the pancreatic head that communicates with a side branch. The main pancreatic duct measures 6 mm. There is no enhancing mural nodule, solid component, obstructive jaundice, pancreatitis, or weight loss. She is medically fit for surgery and has no family history of pancreatic cancer. How should this probable branch-duct intraductal papillary mucinous neoplasm be evaluated and monitored?\n\nProvide a stepwise management plan including appropriate diagnostic workup, referrals, procedures, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_0",
+      "text": "Review the MRI or MRCP with an experienced pancreatic radiologist to confirm cyst size, duct communication, main-duct caliber, and absence of a solid component.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_1",
+      "text": "Classify the 6 mm main pancreatic duct as a worrisome feature requiring further evaluation rather than as a high-risk stigma by itself.",
+      "points": 3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_2",
+      "text": "Refer the patient to gastroenterology or a multidisciplinary pancreatic cyst clinic.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_3",
+      "text": "Perform endoscopic ultrasound because main pancreatic duct dilation of 5 to 9 mm is a worrisome feature.",
+      "points": 3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_4",
+      "text": "Assess endoscopic ultrasound carefully for mural nodules, solid components, duct involvement, suspicious lymph nodes, and features of chronic pancreatitis.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_5",
+      "text": "Perform EUS-guided cyst fluid sampling only when the result is expected to change diagnosis or management.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_6",
+      "text": "Send aspirated cyst fluid for cytology when EUS-guided sampling is undertaken.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_7",
+      "text": "Measure cyst-fluid CEA or glucose when fluid is obtained to help distinguish mucinous from nonmucinous cysts.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_8",
+      "text": "Consider cyst-fluid molecular analysis when the diagnosis remains uncertain and the result would alter management.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_9",
+      "text": "Measure serum CA 19-9 as an adjunct while recognizing that it is neither sufficiently sensitive nor specific to exclude cancer.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_10",
+      "text": "Assess liver tests, glucose or hemoglobin A1c, pancreatitis history, weight change, and symptoms of duct obstruction.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_11",
+      "text": "Refer for pancreatic surgical evaluation if EUS identifies an enhancing mural nodule, solid component, suspicious cytology, or other high-risk findings.",
+      "points": 3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_12",
+      "text": "Recommend resection for obstructive jaundice attributable to the cyst, an enhancing mural nodule of at least 5 mm, or a main pancreatic duct of at least 10 mm in a surgically fit patient.",
+      "points": 3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_13",
+      "text": "Discuss any proposed resection in a multidisciplinary pancreatic conference at an experienced center.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_14",
+      "text": "Avoid immediate resection solely because an otherwise uncomplicated branch-duct cyst measures 2.7 cm.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_15",
+      "text": "Use MRI or MRCP as the preferred noninvasive surveillance modality when surgery is not indicated.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_16",
+      "text": "Repeat MRI or EUS in approximately 6 to 12 months if EUS shows no indication for surgery.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_17",
+      "text": "Adjust subsequent surveillance intervals according to cyst stability, size, duct changes, symptoms, and the guideline used by the treating specialty.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_18",
+      "text": "Shorten the surveillance interval and repeat EUS if the cyst grows, the duct enlarges, CA 19-9 rises, or new diabetes, pancreatitis, jaundice, or a mural nodule develops.",
+      "points": 2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_19",
+      "text": "Continue surveillance only while the patient remains a reasonable candidate for pancreatic surgery.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_20",
+      "text": "Counsel the patient to report jaundice, pancreatitis-type pain, unexplained weight loss, or new worsening diabetes promptly.",
+      "points": 1
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_21",
+      "text": "Proceed directly to pancreaticoduodenectomy solely because the cyst is larger than 2 cm.",
+      "points": -3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_22",
+      "text": "Ignore the 6 mm main pancreatic duct because no mural nodule is visible on MRI.",
+      "points": -3
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_23",
+      "text": "Perform ERCP routinely to sample or characterize this pancreatic cyst.",
+      "points": -2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_24",
+      "text": "Perform percutaneous biopsy of the pancreatic cyst as the initial sampling approach.",
+      "points": -2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_25",
+      "text": "Use a normal serum CA 19-9 level to exclude high-grade dysplasia or pancreatic cancer.",
+      "points": -2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_26",
+      "text": "Discharge the patient from follow-up after one reassuring EUS despite ongoing surgical fitness.",
+      "points": -2
+    },
+    {
+      "item_id": "5ba41a340bf1a9102fc2c00c37ff6504_27",
+      "text": "Order annual contrast-enhanced CT indefinitely when MRI provides adequate surveillance and no CT-specific indication exists.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

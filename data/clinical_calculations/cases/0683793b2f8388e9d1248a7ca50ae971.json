@@ -1,0 +1,14 @@
+{
+  "case_id": "0683793b2f8388e9d1248a7ca50ae971",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old male with a known history of hypertension and hyperlipidemia was recently diagnosed with clear-cell renal cell carcinoma (RCC) after presenting with hematuria and flank pain. Imaging studies revealed a substantial mass in the left kidney, leading to a planned radical nephrectomy. Post-surgical pathology reported the tumor to be in the stage pT3b, involving major veins but not beyond Gerota's fascia. Lymph node analysis showed no metastases, categorized as pN0, while distant metastasis examination was negative, categorized as M0. The tumor measured 8 cm in size, falling under the '>= 5 cm' category. Fuhrman grading indicated a Grade 3 tumor, and focal areas of necrosis were noted in the pathological report. Given these comprehensive findings, the attending oncologist seeks to calculate the patient's SSIGN score (original 2002 Mayo Clinic version) to better characterize prognosis and tailor ongoing surveillance and management protocols. What is the SSIGN score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "068544f1ac2a9ca86b4461b20262b4d0_0",
+      "text": "States the SSIGN score is 7 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,129 @@
+{
+  "case_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 55-year-old woman awakens with sudden hearing loss in her left ear accompanied by tinnitus and mild aural fullness. Symptoms began 24 hours ago. She has no ear pain, drainage, recent air travel, focal neurologic deficits, or prior hearing loss. Otoscopic examination shows a clear canal and intact tympanic membrane. How should this acute unilateral hearing loss be evaluated and managed?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_0",
+      "text": "Treat the presentation as possible sudden sensorineural hearing loss requiring urgent evaluation.",
+      "points": 3
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_1",
+      "text": "Perform bedside Weber and Rinne testing to help distinguish sensorineural from conductive hearing loss.",
+      "points": 2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_2",
+      "text": "Obtain urgent pure-tone audiometry to confirm and quantify sensorineural hearing loss.",
+      "points": 2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_3",
+      "text": "Arrange urgent otolaryngology assessment.",
+      "points": 3
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_4",
+      "text": "Offer prompt corticosteroid treatment when sudden sensorineural hearing loss is confirmed or strongly suspected and no contraindication exists.",
+      "points": 2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_5",
+      "text": "Discuss intratympanic corticosteroid therapy with otolaryngology when systemic treatment is contraindicated or recovery is incomplete.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_6",
+      "text": "Screen for stroke symptoms, severe imbalance, facial weakness, and other neurologic red flags.",
+      "points": 2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_7",
+      "text": "Review recent infections, ototoxic medications, trauma, autoimmune symptoms, and noise exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_8",
+      "text": "Arrange MRI of the internal auditory canals or equivalent retrocochlear evaluation after stabilization.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_9",
+      "text": "Use targeted laboratory testing only when history or examination suggests a specific systemic cause.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_10",
+      "text": "Repeat audiometry after treatment to document recovery.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_11",
+      "text": "Provide counseling about prognosis and instructions to seek emergency care for new neurologic symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_12",
+      "text": "Delay evaluation for several weeks to see whether hearing returns spontaneously.",
+      "points": -3
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_13",
+      "text": "Treat with oral antibiotics despite no evidence of otitis media or another bacterial infection.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_14",
+      "text": "Use decongestants or antihistamines as the sole treatment for presumed eustachian-tube dysfunction.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_15",
+      "text": "Perform ear irrigation despite a clear canal and no cerumen impaction.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_16",
+      "text": "Reassure the patient without audiometry or specialist follow-up.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_17",
+      "text": "Order routine head CT as the sole evaluation for retrocochlear disease.",
+      "points": -1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_18",
+      "text": "Prescribe antiviral therapy routinely in the absence of herpes zoster or another specific indication.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_19",
+      "text": "Start anticoagulation empirically for the hearing loss without a vascular indication.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_20",
+      "text": "Recommend high-dose aspirin for symptom treatment.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_21",
+      "text": "Fit a permanent hearing aid before completing the acute evaluation and reassessing recovery.",
+      "points": -1
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_22",
+      "text": "Perform exploratory middle-ear surgery as the initial intervention.",
+      "points": -2
+    },
+    {
+      "item_id": "2f0bcbeb4fc2dd6fc3c3de1f1bea66f8_23",
+      "text": "Ignore new focal neurologic symptoms because the ear examination is normal.",
+      "points": -3
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "dcaf4a5b7b93f1837c87dad434c62042",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 67-year-old woman with nonvalvular atrial fibrillation has hypertension but no heart failure, diabetes, prior stroke or transient ischemic attack, or vascular disease. What is her CHA2DS2-VASc score, and does the score meet the guideline threshold at which oral anticoagulation is recommended for a woman?",
+  "rubric_items": [
+    {
+      "item_id": "5c21a223a265a81ed1ffa469208b79ac_0",
+      "text": "States that the CHA2DS2-VASc score is 3; exact integer match required. The components are hypertension 1, age 65–74 years 1, and female sex 1.",
+      "points": 1
+    },
+    {
+      "item_id": "5c21a223a265a81ed1ffa469208b79ac_1",
+      "text": "States that oral anticoagulation is recommended because a score of at least 3 in a woman corresponds to the guideline high-risk threshold; exact threshold of 3 required.",
+      "points": 1
+    },
+    {
+      "item_id": "5c21a223a265a81ed1ffa469208b79ac_2",
+      "text": "Recognizes that female sex is a risk modifier: sex alone would not justify anticoagulation, but this patient has two non-sex risk factors in addition to the sex point.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

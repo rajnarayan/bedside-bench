@@ -1,0 +1,24 @@
+{
+  "case_id": "6ef1d5fcec40d2fc182b8b9e27d0df29",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 45-year-old man presents to your clinic with a 6-month history of heartburn and regurgitation, especially after meals and when lying down. He denies any alarm symptoms such as weight loss, dysphagia, or gastrointestinal bleeding. He has no significant past medical history and takes no regular medications. On examination, his vital signs are normal and abdominal examination is unremarkable. He has not previously undergone any investigations for gastrointestinal complaints. A colleague suggests testing him for Helicobacter pylori infection as part of his management for gastroesophageal reflux disease (GERD).\n\nBased on current guideline recommendations, should you screen this patient for Helicobacter pylori infection as part of his GERD management? Justify your answer.",
+  "rubric_items": [
+    {
+      "item_id": "f07ecf646f3f456f053f0556daf85bc6_0",
+      "text": "States that patients with gastroesophageal reflux disease should not be screened for Helicobacter pylori infection as part of management.",
+      "points": 2
+    },
+    {
+      "item_id": "f07ecf646f3f456f053f0556daf85bc6_1",
+      "text": "States that Helicobacter pylori eradication therapy should not be routinely administered as part of antireflux therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "f07ecf646f3f456f053f0556daf85bc6_2",
+      "text": "Explains that H. pylori is not an established cause of typical GERD, so testing solely for these reflux symptoms would not change standard GERD management.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

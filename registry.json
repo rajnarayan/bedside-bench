@@ -1,0 +1,96 @@
+{
+  "name": "bedside-bench",
+  "version": "0.2.0",
+  "description": "A 500-case clinical question-answering benchmark with public rubrics for factual, quantitative, false-premise, equity, and management-plan evaluation.",
+  "seed": 42,
+  "cases_per_panel": 50,
+  "published_cases_per_panel": 25,
+  "panel_count": 10,
+  "panels": [
+    {
+      "id": "drug_safety",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Drug interactions, contraindications, renal/hepatic dosing, cross-reactivity",
+      "path": "data/drug_safety",
+      "n": 50
+    },
+    {
+      "id": "guideline_adherence",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Guideline-concordant care and society recommendations",
+      "path": "data/guideline_adherence",
+      "n": 50
+    },
+    {
+      "id": "landmark_trials",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Pivotal trial evidence and outcome interpretation",
+      "path": "data/landmark_trials",
+      "n": 50
+    },
+    {
+      "id": "medical_hallucination",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Fictitious entities and appropriate refusal",
+      "path": "data/medical_hallucination",
+      "n": 50
+    },
+    {
+      "id": "health_equity",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Health equity vignettes and bias-aware clinical reasoning",
+      "path": "data/health_equity",
+      "n": 50
+    },
+    {
+      "id": "clinical_calculations",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Exact numeric answers: doses, scores, conversions",
+      "path": "data/clinical_calculations",
+      "n": 50
+    },
+    {
+      "id": "calculators_numerical",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Calculator tasks with primarily numeric rubric criteria",
+      "path": "data/calculators_numerical",
+      "n": 50
+    },
+    {
+      "id": "calculators_conditional",
+      "type": "Rubric",
+      "grading_method": "points_rubric",
+      "description": "Calculator tasks with conditional or mixed scoring rubrics",
+      "path": "data/calculators_conditional",
+      "n": 50
+    },
+    {
+      "id": "safety_diagnostic",
+      "type": "ManagementPlan",
+      "grading_method": "f1_weighted_rubric",
+      "description": "Free-text diagnostic workup, referral, procedure, and follow-up plans",
+      "path": "data/safety_diagnostic",
+      "n": 50
+    },
+    {
+      "id": "safety_therapeutic",
+      "type": "ManagementPlan",
+      "grading_method": "f1_weighted_rubric",
+      "description": "Free-text medication, counseling, and treatment plans",
+      "path": "data/safety_therapeutic",
+      "n": 50
+    }
+  ],
+  "totals": {
+    "all_cases": 500,
+    "published_cases": 250,
+    "expected_cases": 500
+  }
+}

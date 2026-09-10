@@ -1,0 +1,34 @@
+{
+  "case_id": "5f14cd9d713ca614d2f8d4530da86fde",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 53-year-old woman with a history of systemic lupus erythematosus (on chronic hydroxychloroquine), mild chronic kidney disease (eGFR 48), and new-onset atrial fibrillation (heart rate 120, blood pressure 132/83) presents to the emergency department. She is alert and in no distress, with labs notable only for mild hypokalemia (potassium 3.2). Cardiology recommends starting sotalol 80 mg twice daily for rhythm control. Can oral sotalol be started in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "f9d8abb80279c3be73d955c178eb2d38_0",
+      "text": "Recognizes the compounded QT-prolonging effects of sotalol and hydroxychloroquine, particularly in the context of hypokalemia and moderate renal dysfunction.",
+      "points": 1
+    },
+    {
+      "item_id": "f9d8abb80279c3be73d955c178eb2d38_1",
+      "text": "Explicitly identifies that starting sotalol is contraindicated or extremely unsafe without rigorous QT monitoring and electrolyte correction, and recommends correcting potassium first and considering alternative agents for rhythm or rate control.",
+      "points": 1
+    },
+    {
+      "item_id": "f9d8abb80279c3be73d955c178eb2d38_2",
+      "text": "Does not rely solely on adjusting the sotalol dose for renal function, and explicitly avoids combining these two agents without specialist input and ECG monitoring.",
+      "points": 1
+    },
+    {
+      "item_id": "f9d8abb80279c3be73d955c178eb2d38_3",
+      "text": "Recognizes that sotalol requires renal dose-interval adjustment based on calculated creatinine clearance (which cannot be reliably determined from the supplied eGFR alone), recommends obtaining the information needed to calculate CrCl before selecting an interval, and states that if CrCl is approximately 40-60 mL/min, 80 mg every 24 hours rather than twice daily is generally appropriate.",
+      "points": 1
+    },
+    {
+      "item_id": "f9d8abb80279c3be73d955c178eb2d38_4",
+      "text": "States that if sotalol is later selected after correcting contraindications, it should be initiated in a facility with continuous ECG monitoring and resuscitation capability for at least 3 days (or until steady state) with a baseline ECG/QTc, and that a baseline QTc greater than 450 ms contraindicates initiation for AF.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

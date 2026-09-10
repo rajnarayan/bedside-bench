@@ -1,0 +1,24 @@
+{
+  "case_id": "2c2b4b9d00f21a2857fd52dd57d4c706",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 24-year-old woman with a history of hereditary methemoglobinemia (type I) due to biallelic (compound heterozygous) pathogenic CYB5R3 variants presents for routine follow-up. She is otherwise healthy and has no current symptoms. She asks for advice on how to prevent future episodes of methemoglobinemia and whether there are any precautions she should take in her daily life.\n\nBased on current expert recommendations, what specific counseling should you provide to this patient regarding prevention of methemoglobinemia episodes?",
+  "rubric_items": [
+    {
+      "item_id": "5ac4cc503190780abc164b10c5f95d7e_0",
+      "text": "Advises the patient to avoid known precipitating factors that can increase methemoglobin levels, including certain medications and chemical substances.",
+      "points": 2
+    },
+    {
+      "item_id": "5ac4cc503190780abc164b10c5f95d7e_1",
+      "text": "Notes that precipitating chemical substances may be present in food, drinks, and well water.",
+      "points": 1
+    },
+    {
+      "item_id": "5ac4cc503190780abc164b10c5f95d7e_2",
+      "text": "Recommends use of a medical alert system to inform healthcare providers of her hereditary methemoglobinemia.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

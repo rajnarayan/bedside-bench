@@ -1,0 +1,19 @@
+{
+  "case_id": "d2920e4c2309b46e9c1a314b66b61c73",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 29-year-old man presents to primary care for worsening anxiety symptoms over the past few months. On the GAD-7 questionnaire, he reports the following over the last 2 weeks: feeling nervous, anxious, or on edge nearly every day; not being able to stop or control worrying more than half the days; worrying too much about different things nearly every day; trouble relaxing more than half the days; being so restless that it is hard to sit still on several days; becoming easily annoyed or irritable more than half the days; and feeling afraid as if something awful might happen nearly every day. What is his total GAD-7 score, and how should it be interpreted?",
+  "rubric_items": [
+    {
+      "item_id": "b91321c21452fe2fae3aa57b75ef7d27_0",
+      "text": "States the total GAD-7 score for this patient is 16 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "b91321c21452fe2fae3aa57b75ef7d27_1",
+      "text": "States the clinical interpretation: Severe anxiety symptoms (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

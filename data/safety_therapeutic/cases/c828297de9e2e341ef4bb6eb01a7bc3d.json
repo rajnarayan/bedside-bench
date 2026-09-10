@@ -1,0 +1,209 @@
+{
+  "case_id": "c828297de9e2e341ef4bb6eb01a7bc3d",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 39-year-old man presents for 5 weeks of persistent inflammation of the right index finger. He lives alone in an apartment. He uses gloves to wash dishes and has no known environmental exposures. He has been using bacitracin, and the condition looks substantially better than at initial presentation. I suspect chronic paronychia. Should I start a topical steroid?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_0",
+      "text": "Examine the nail fold for fluctuance, purulence, cellulitis, or another active infection before starting a topical corticosteroid.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_1",
+      "text": "If examination supports inflammatory paronychia without abscess or active infection, start a medium-potency topical corticosteroid such as triamcinolone 0.1%, applied thinly once or twice daily for 2 to 4 weeks, then reassess.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_2",
+      "text": "Discontinue bacitracin to reduce the risk of allergic contact sensitization.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_3",
+      "text": "Counsel the patient to minimize prolonged moisture and water exposure involving the affected finger.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_4",
+      "text": "Recommend cotton-lined waterproof gloves during dishwashing and other wet work.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_5",
+      "text": "Counsel the patient to avoid biting, pushing back, trimming, or otherwise manipulating the cuticle.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_6",
+      "text": "Recommend petrolatum or another bland emollient to the periungual skin after handwashing.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_7",
+      "text": "Instruct the patient to dry the nail fold before applying topical medication.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_8",
+      "text": "Obtain a detailed history of handwashing, wet work, chemical irritants, nail trauma, and grooming practices.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_9",
+      "text": "Examine the nails for onychomycosis, dystrophy, psoriasis, or other alternative diagnoses.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_10",
+      "text": "Ask about eczema, psoriasis, and other chronic inflammatory skin conditions.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_11",
+      "text": "Provide return precautions for worsening pain, purulent drainage, fever, or spreading erythema.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_12",
+      "text": "Arrange follow-up in 2 to 6 weeks to assess response.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_13",
+      "text": "Refer to dermatology if the condition remains refractory after appropriate topical therapy and irritant avoidance.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_14",
+      "text": "Perform patch testing for allergic contact dermatitis if the inflammation persists despite standard management.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_15",
+      "text": "Obtain a nail-fold biopsy when persistent single-digit disease has atypical features or the diagnosis remains unclear.",
+      "points": 2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_16",
+      "text": "Refer for surgical treatment such as marsupialization or nail plate removal only for disease refractory to medical management.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_17",
+      "text": "Use topical tacrolimus 0.1% as a steroid-sparing treatment for persistent inflammatory paronychia.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_18",
+      "text": "Apply topical mupirocin for a short course when secondary bacterial infection is clinically suspected.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_19",
+      "text": "Obtain a KOH preparation or fungal culture when nail dystrophy or other findings suggest fungal disease.",
+      "points": 1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_20",
+      "text": "Continue long-term bacitracin despite its contact-sensitization risk.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_21",
+      "text": "Replace bacitracin with another over-the-counter topical antibiotic without evidence of bacterial infection.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_22",
+      "text": "Prescribe empiric systemic antibiotics without cellulitis, abscess, or another bacterial indication.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_23",
+      "text": "Prescribe empiric oral fluconazole without confirmed or strongly suspected fungal infection.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_24",
+      "text": "Apply a topical antifungal routinely without clinical evidence of fungal disease.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_25",
+      "text": "Obtain a routine bacterial culture from a nonpurulent, undrained chronic paronychia.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_26",
+      "text": "Perform incision and drainage when clinical assessment, including ultrasound if needed, shows no drainable abscess.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_27",
+      "text": "Perform nail plate avulsion as first-line treatment for this improving presentation.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_28",
+      "text": "Initiate systemic corticosteroids for localized chronic paronychia.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_29",
+      "text": "Recommend continuing a high- or super-high-potency topical corticosteroid under occlusion indefinitely or for months without reassessment.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_30",
+      "text": "Start a high-potency topical corticosteroid without first assessing for abscess or active infection.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_31",
+      "text": "Recommend aggressive cuticle trimming or manicuring.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_32",
+      "text": "Recommend frequent warm-water soaks for chronic paronychia.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_33",
+      "text": "Recommend hydrogen peroxide soaks.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_34",
+      "text": "Advise frequent wet work without protective gloves.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_35",
+      "text": "Order MRI or CT for uncomplicated improving paronychia without signs of deep infection.",
+      "points": -2
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_36",
+      "text": "Order plain radiographs to evaluate for osteomyelitis without clinical evidence of bone involvement.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_37",
+      "text": "Order broad autoimmune serologies for isolated nail-fold inflammation.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_38",
+      "text": "Refer urgently to hand surgery for uncomplicated improving chronic paronychia.",
+      "points": -1
+    },
+    {
+      "item_id": "320306ea9bf24bfad62690744d3f935e_39",
+      "text": "Explain that chronic paronychia is exclusively a bacterial infection requiring antibiotics.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

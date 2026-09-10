@@ -1,0 +1,24 @@
+{
+  "case_id": "549b172a659aac9a625fdc0b3b41b60b",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 72-year-old woman presents with new-onset headache, scalp tenderness, and jaw claudication. Laboratory studies reveal an elevated erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP). Temporal artery biopsy confirms the diagnosis of giant cell arteritis (GCA). She has no prior history of cardiovascular disease, diabetes, or hyperlipidemia. Her lipid panel is within normal limits. During a multidisciplinary team meeting, a junior resident suggests starting a statin as part of her initial management for GCA.\n\nBased on current ACR guidelines, should statins be initiated specifically for the treatment of this patient's newly diagnosed giant cell arteritis? Justify your answer according to the guideline recommendation.",
+  "rubric_items": [
+    {
+      "item_id": "352158d2b876558758eb6eb38dfcf9c7_0",
+      "text": "States that statins should not be initiated specifically for the treatment of newly diagnosed giant cell arteritis.",
+      "points": 2
+    },
+    {
+      "item_id": "352158d2b876558758eb6eb38dfcf9c7_1",
+      "text": "References the ACR guideline recommendation to avoid using statins for this indication.",
+      "points": 1
+    },
+    {
+      "item_id": "352158d2b876558758eb6eb38dfcf9c7_2",
+      "text": "Clarifies that the recommendation is about statins being used for giant cell arteritis treatment rather than for lipid management.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

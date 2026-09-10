@@ -1,0 +1,24 @@
+{
+  "case_id": "76ce524d4601a346d15e4b89be27e765",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 45-year-old with type 1 diabetes and overt diabetic nephropathy (proteinuria >500 mg/day, serum creatinine ≤2.5 mg/dL) asks about starting an ACE inhibitor.\n\nBased on the CSG Captopril Trial, quantify the magnitude of renal function preservation: event counts and risk reduction for doubling of serum creatinine, and how creatinine clearance decline compared overall and in patients with baseline creatinine ≥1.5 mg/dL.",
+  "rubric_items": [
+    {
+      "item_id": "7f587d37ab8d997de0c8f0c0057701ba_0",
+      "text": "Reports doubling of serum creatinine in 25/207 captopril-treated patients versus 43/202 placebo-treated patients, with the trial-reported 48% risk reduction and P = 0.007.",
+      "points": 1
+    },
+    {
+      "item_id": "7f587d37ab8d997de0c8f0c0057701ba_1",
+      "text": "States materially incorrect trial event counts, reverses the direction of the treatment effect, or attributes a material finding to the trial that its results do not support.",
+      "points": -1
+    },
+    {
+      "item_id": "7f587d37ab8d997de0c8f0c0057701ba_2",
+      "text": "Reports annual creatinine-clearance decline of 11% with captopril versus 17% with placebo overall (P = 0.03), and 23% versus 37%, respectively, among patients with baseline serum creatinine ≥1.5 mg/dL (P = 0.01).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

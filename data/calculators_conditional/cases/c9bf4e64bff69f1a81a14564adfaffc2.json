@@ -1,0 +1,14 @@
+{
+  "case_id": "c9bf4e64bff69f1a81a14564adfaffc2",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male presents to the gastroenterology clinic with symptoms of abdominal pain, weight loss, and intermittent intestinal obstruction. He underwent endoscopy and biopsy, which revealed adenocarcinoma of the small bowel. Further imaging studies, including a CT scan and PET scan, were conducted, showing that the primary tumor invades the muscularis propria and through the muscularis propria into the subserosa without penetrating the serosa. Biopsy also reveals metastasis in 2 regional lymph nodes, but no evidence of distant metastases is apparent. The oncology team is prepared to determine the TNM stage of this small bowel adenocarcinoma to devise an appropriate treatment plan. What is the TNM stage classification for this patient with small bowel adenocarcinoma?",
+  "rubric_items": [
+    {
+      "item_id": "ddef597f7d37f098b09c6f9a4d6f556b_0",
+      "text": "States that the correct answer is \"Stage IIIA\" (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "f7f900b4383af2049085a19d6d3d0b43",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "53 yo F with history of rheumatoid arthritis (on methotrexate, weekly folate, and chronic low-dose prednisone) presents with new cough, malaise, and bilateral ground-glass opacities on CT chest; O2 sat 95% on room air, afebrile, normal WBC. Presumed Pneumocystis jirovecii pneumonia (PJP); you consider first-line tx: initiate TMP-SMX at standard dosing (15-20 mg/kg/day of TMP component), continue home low-dose methotrexate during treatment?",
+  "rubric_items": [
+    {
+      "item_id": "3f5bb880dab5b06c69d37ca030dddf74_0",
+      "text": "Recognizes the dangerous methotrexate–TMP-SMX interaction and recommends withholding methotrexate throughout TMP-SMX treatment because of severe myelosuppression/pancytopenia risk, noting that folic acid supplementation does not make coadministration safe.",
+      "points": 1
+    },
+    {
+      "item_id": "3f5bb880dab5b06c69d37ca030dddf74_1",
+      "text": "Recommends obtaining baseline CBC, renal function, and potassium and monitoring these during high-dose TMP-SMX therapy for hematologic, renal, and electrolyte toxicity.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

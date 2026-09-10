@@ -1,0 +1,139 @@
+{
+  "case_id": "d2b367d16f59b9840276c6c90dbfe765",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 34-year-old woman has chronic hepatitis B with HBeAg positivity, HBV DNA 1.2 million IU/mL, and alanine aminotransferase persistently three times the upper limit of normal. Elastography shows no cirrhosis, renal function is normal, and HIV testing is negative. She hopes to become pregnant in approximately two years. What treatment and monitoring should be recommended?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_0",
+      "text": "Initiate antiviral treatment because active hepatitis B is present with high HBV DNA and persistently elevated alanine aminotransferase.",
+      "points": 3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_1",
+      "text": "Select a guideline-concordant first-line regimen compatible with pregnancy planning: tenofovir (TDF or TAF); or entecavir with a planned switch to tenofovir before conception; or, in a suitable patient seeking finite treatment, peginterferon completed before conception with effective contraception during treatment.",
+      "points": 3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_2",
+      "text": "Discuss tenofovir alafenamide as an alternative, particularly when renal or bone considerations favor it, noting that current guidance also permits its use during pregnancy.",
+      "points": 1
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_3",
+      "text": "Discuss entecavir only with a plan to switch before pregnancy because it is not preferred during pregnancy.",
+      "points": 1
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_4",
+      "text": "Obtain pretreatment safety tests appropriate to the selected regimen: serum creatinine/eGFR for oral nucleos(t)ide analogues (adding serum phosphorus for TDF or with renal disease), or CBC, liver tests, TSH, and pregnancy testing for peginterferon.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_5",
+      "text": "Monitor alanine aminotransferase, HBV DNA, and treatment adherence every three to six months initially.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_6",
+      "text": "Monitor renal function during tenofovir treatment.",
+      "points": 1
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_7",
+      "text": "Assess fibrosis periodically and provide hepatocellular-carcinoma surveillance when age, ancestry, family history, or fibrosis confers sufficient risk.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_8",
+      "text": "Test for hepatitis D and document hepatitis C and HIV status.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_9",
+      "text": "Counsel that antiviral therapy suppresses HBV but usually does not eradicate covalently closed circular DNA.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_10",
+      "text": "Coordinate preconception and pregnancy management with hepatology and obstetrics.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_11",
+      "text": "Ensure the newborn receives hepatitis B vaccine and hepatitis B immune globulin at separate injection sites within 12 hours of birth.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_12",
+      "text": "Defer treatment solely because cirrhosis is absent despite active hepatitis.",
+      "points": -3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_13",
+      "text": "Use interferon during pregnancy.",
+      "points": -3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_14",
+      "text": "Continue entecavir through pregnancy without specialist review of a safer alternative.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_15",
+      "text": "Stop effective antiviral therapy abruptly when pregnancy occurs without a coordinated plan.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_16",
+      "text": "Use lamivudine as routine long-term first-line monotherapy when preferred high-barrier agents are available.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_17",
+      "text": "Use adefovir as first-line treatment.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_18",
+      "text": "Recommend cesarean delivery solely to prevent HBV transmission, without an obstetric indication.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_19",
+      "text": "Omit neonatal hepatitis B immune globulin and vaccination because maternal viral load is being treated.",
+      "points": -3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_20",
+      "text": "Advise avoidance of breastfeeding solely because the mother receives tenofovir.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_21",
+      "text": "Recommend pregnancy termination solely because the patient has chronic hepatitis B.",
+      "points": -3
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_22",
+      "text": "Monitor alanine aminotransferase alone without HBV DNA or adherence assessment.",
+      "points": -1
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_23",
+      "text": "Share razors or toothbrushes with household members because treatment makes transmission impossible.",
+      "points": -2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_24",
+      "text": "Recommend HBV testing and vaccination of susceptible sexual partners and household contacts, with barrier protection until sexual partners are immune.",
+      "points": 2
+    },
+    {
+      "item_id": "d2b367d16f59b9840276c6c90dbfe765_25",
+      "text": "Assess hepatitis A immunity and vaccinate if nonimmune.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

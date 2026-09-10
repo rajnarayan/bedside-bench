@@ -1,0 +1,14 @@
+{
+  "case_id": "75b714d4cf5f7033e90b0571483310c2",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 74-year-old woman with a history of hypertension and type 2 diabetes presents with newly diagnosed atrial fibrillation. She has no prior stroke, TIA, or thromboembolism, no heart failure, and no known vascular disease. Based on this information, what is her CHA2DS2-VASc score?",
+  "rubric_items": [
+    {
+      "item_id": "705069034a14387f3fc3375ad13f82c8_0",
+      "text": "States the CHA2DS2-VASc score is 4 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

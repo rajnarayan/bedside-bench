@@ -1,0 +1,24 @@
+{
+  "case_id": "d1bf4af13d28b9cca4efbc25f4ba71df",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 42-year-old woman presents with intermittent right upper quadrant abdominal pain. She has no history of jaundice, pancreatitis, or cholangitis. Her physical examination is unremarkable, and her laboratory tests, including liver function tests and bilirubin, are within normal limits. An abdominal ultrasound shows multiple gallstones but no dilation of the common bile duct and no evidence of choledocholithiasis. She is scheduled for an elective laparoscopic cholecystectomy.\n\nBased on the current ASGE risk stratification for choledocholithiasis, how should this patient be evaluated for common bile duct stones before or during cholecystectomy? Justify your answer according to the guideline.",
+  "rubric_items": [
+    {
+      "item_id": "01e215589c463ce47597728e71446e9a_0",
+      "text": "Classifies the patient as low risk for choledocholithiasis (no common bile duct stone on imaging, non-dilated common bile duct, and normal bilirubin/liver tests).",
+      "points": 2
+    },
+    {
+      "item_id": "01e215589c463ce47597728e71446e9a_1",
+      "text": "States that a low-risk patient should proceed directly to laparoscopic cholecystectomy without additional preoperative biliary evaluation for common bile duct stones (no MRCP, EUS, or ERCP).",
+      "points": 1
+    },
+    {
+      "item_id": "01e215589c463ce47597728e71446e9a_2",
+      "text": "Notes that ERCP is not indicated in a low-risk patient and should be reserved for high-risk features (common bile duct stone on imaging, ascending cholangitis, or total bilirubin > 4 mg/dL with a dilated common bile duct), and that routine intraoperative cholangiography is therefore not required to evaluate for stones in this patient.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

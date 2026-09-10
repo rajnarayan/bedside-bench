@@ -1,0 +1,199 @@
+{
+  "case_id": "57c98b8f7f8947498e93032f079d95c4",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "67 year old woman with 2 years of progressive bilateral knee pain worse with stairs and prolonged walking, morning stiffness lasting 15 minutes, BMI 33. Knee X-ray shows medial joint space narrowing and osteophytes. How should this be managed?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_0",
+      "text": "Counsel the patient to lose 5% to 10% of body weight.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_1",
+      "text": "Refer to physical therapy for quadriceps and hip strengthening.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_2",
+      "text": "Recommend a structured low-impact aerobic exercise program such as cycling, walking, or aquatic therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_3",
+      "text": "Provide education on osteoarthritis self-management and joint protection.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_4",
+      "text": "Prescribe topical diclofenac 1% gel for the affected knees.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_5",
+      "text": "Offer an oral NSAID such as naproxen or low-dose meloxicam after assessing gastrointestinal, renal, and cardiovascular risks.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_6",
+      "text": "Provide proton-pump inhibitor gastroprotection when oral NSAID use creates significant gastrointestinal risk.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_7",
+      "text": "Offer an intra-articular corticosteroid injection for persistent symptomatic knee pain.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_8",
+      "text": "Refer to a registered dietitian to support weight reduction.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_9",
+      "text": "Prescribe a medial-compartment unloader knee brace when appropriate.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_10",
+      "text": "Recommend an appropriate gait aid when pain or instability limits safe walking.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_11",
+      "text": "Consider topical capsaicin as adjunctive pain therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_12",
+      "text": "Schedule follow-up to reassess pain, function, and response to treatment.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_13",
+      "text": "Re-evaluate for an alternative diagnosis if symptoms fail to improve as expected.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_14",
+      "text": "Refer for total knee arthroplasty evaluation if substantial pain and functional limitation persist despite adequate conservative management.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_15",
+      "text": "Provide return precautions for acute swelling, fever, inability to bear weight, or calf swelling.",
+      "points": 2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_16",
+      "text": "Obtain weight-bearing knee radiographic views if the available films are not adequate for baseline assessment.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_17",
+      "text": "Consider short-term or episodic acetaminophen up to 3 g/day when NSAIDs are unsuitable or other measures give inadequate relief, with hepatic and total-dose precautions.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_18",
+      "text": "Consider duloxetine for persistent knee osteoarthritis pain when initial measures provide inadequate relief or NSAIDs are unsuitable, after reviewing contraindications and interactions.",
+      "points": 1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_19",
+      "text": "Use intra-articular hyaluronic acid injections.",
+      "points": 0
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_20",
+      "text": "Recommend oral glucosamine or chondroitin supplementation.",
+      "points": 0
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_21",
+      "text": "Order knee MRI for uncomplicated radiographic osteoarthritis.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_22",
+      "text": "Order rheumatoid factor, anti-CCP, or broad autoimmune serologies without inflammatory features.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_23",
+      "text": "Order a whole-body bone scan to evaluate this knee pain.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_24",
+      "text": "Perform routine arthrocentesis in the absence of an effusion or concern for infection or crystal disease.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_25",
+      "text": "Refer routinely to rheumatology despite a typical osteoarthritis presentation.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_26",
+      "text": "Prescribe systemic oral corticosteroids for chronic knee osteoarthritis.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_27",
+      "text": "Initiate chronic opioid therapy as first-line treatment.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_28",
+      "text": "Initiate methotrexate or another conventional DMARD for osteoarthritis.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_29",
+      "text": "Prescribe a TNF inhibitor or other biologic DMARD for knee osteoarthritis.",
+      "points": -3
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_30",
+      "text": "Refer for arthroscopic lavage or debridement for uncomplicated knee osteoarthritis.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_31",
+      "text": "Refer for immediate total knee arthroplasty without an adequate trial of conservative management.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_32",
+      "text": "Recommend strict bed rest or avoidance of all weight-bearing activity.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_33",
+      "text": "Prescribe chronic high-dose NSAID therapy without gastrointestinal, renal, and cardiovascular risk assessment.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_34",
+      "text": "Administer scheduled monthly intra-articular corticosteroid injections.",
+      "points": -2
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_35",
+      "text": "Recommend high-impact running as the primary exercise therapy.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_36",
+      "text": "Use platelet-rich plasma or stem-cell injections as first-line treatment.",
+      "points": -1
+    },
+    {
+      "item_id": "b8edafbf984ee62e7aa484665f8ee6de_37",
+      "text": "Prescribe doxycycline or a bisphosphonate as disease-modifying osteoarthritis therapy.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

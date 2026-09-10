@@ -1,0 +1,29 @@
+{
+  "case_id": "ff892f3c42e635a4ef30ded2ca460916",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old woman with chronic migraines was recently started on nortriptyline for prophylaxis. She presents to the clinic with sudden-onset eye pain and blurred vision that began after she spent time in a dark room. Ophthalmology recommends starting a topical beta-blocker (timolol) and pilocarpine for presumed acute angle-closure glaucoma. Should this therapy be started?",
+  "rubric_items": [
+    {
+      "item_id": "8c749d039b9f3e900eaeabc1080911d7_0",
+      "text": "Recognizes that when IOP is markedly elevated (commonly above approximately 40–50 mmHg), initial pressure lowering should precede pilocarpine because ischemia can make the iris sphincter unresponsive; once IOP falls, pilocarpine can help relieve pupillary block.",
+      "points": 1
+    },
+    {
+      "item_id": "8c749d039b9f3e900eaeabc1080911d7_1",
+      "text": "Notes that nortriptyline's anticholinergic effects may have precipitated pupillary-block angle closure and recommends prompt pressure-lowering treatment (including topical timolol if not contraindicated) with urgent ophthalmologic management.",
+      "points": 1
+    },
+    {
+      "item_id": "8c749d039b9f3e900eaeabc1080911d7_2",
+      "text": "Recommends definitive laser peripheral iridotomy for pupillary-block angle closure once initial medical treatment and sufficient corneal clarity permit the procedure.",
+      "points": 1
+    },
+    {
+      "item_id": "8c749d039b9f3e900eaeabc1080911d7_3",
+      "text": "Recommends withholding nortriptyline during acute management because it is the suspected precipitating (anticholinergic) medication.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

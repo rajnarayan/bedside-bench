@@ -1,0 +1,34 @@
+{
+  "case_id": "673ef4f611909bf1f23fca0f7ed9b40e",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "A 35-year-old Black woman with symptomatic uterine fibroids asks about treatment options and fertility preservation. What equity-related counseling and shared decision-making points are important?",
+  "rubric_items": [
+    {
+      "item_id": "8de380a6fafd2bf99a976e2bf46866be_0",
+      "text": "Notes higher fibroid prevalence and symptom burden in Black women without reducing care to race alone.",
+      "points": 1
+    },
+    {
+      "item_id": "8de380a6fafd2bf99a976e2bf46866be_1",
+      "text": "Discusses disparities in access to minimally invasive myomectomy/UFE and longer delays to definitive care.",
+      "points": 1
+    },
+    {
+      "item_id": "8de380a6fafd2bf99a976e2bf46866be_2",
+      "text": "Acknowledges historical dismissal of fibroid-related pain and heavy bleeding in minority patients.",
+      "points": 1
+    },
+    {
+      "item_id": "8de380a6fafd2bf99a976e2bf46866be_3",
+      "text": "Asks about or addresses practical barriers to her preferred treatment (insurance coverage, cost, time off work, transportation, specialist availability) and discusses relevant support or referral.",
+      "points": 1
+    },
+    {
+      "item_id": "8de380a6fafd2bf99a976e2bf46866be_4",
+      "text": "Reviews medical and surgical options with explicit discussion of fertility goals and contraceptive preferences.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

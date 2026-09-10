@@ -1,0 +1,34 @@
+{
+  "case_id": "43e413cf05eef2d7caa440d4ecc8dffe",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old man with type 2 diabetes mellitus is being considered for initiation of an SGLT2 inhibitor (empagliflozin) to improve glycemic control. He has a history of hypertension and mild chronic kidney disease (eGFR 55 mL/min/1.73m²). He is overweight and expresses interest in starting a ketogenic diet to lose weight. He also observes Ramadan and plans to fast during the upcoming month. He has never had diabetic ketoacidosis (DKA) before. You are the clinician responsible for his diabetes management and are about to prescribe the SGLT2 inhibitor.\n\nBased on the current ADA Standards of Care, what specific counseling and precautions should you provide to this patient regarding the initiation of SGLT2 inhibitor therapy?",
+  "rubric_items": [
+    {
+      "item_id": "c2ce76c79696ba8c97289a77e1efda4b_0",
+      "text": "Educates the patient on the signs and symptoms of DKA, and instructs him to withhold the SGLT2 inhibitor and seek immediate medical advice if symptoms develop; also states that the SGLT2 inhibitor should be discontinued if DKA develops.",
+      "points": 2
+    },
+    {
+      "item_id": "c2ce76c79696ba8c97289a77e1efda4b_1",
+      "text": "Advises against starting a ketogenic diet while on SGLT2 inhibitor therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "c2ce76c79696ba8c97289a77e1efda4b_2",
+      "text": "Provides sick day guidance, including when to temporarily stop the SGLT2 inhibitor if unwell.",
+      "points": 1
+    },
+    {
+      "item_id": "c2ce76c79696ba8c97289a77e1efda4b_3",
+      "text": "Discusses an individualized Ramadan plan, including whether to defer initiation or temporarily withhold empagliflozin during fasting when restricted intake or dehydration increases DKA risk (particularly given his CKD), with cautious initiation and clinical review before Ramadan.",
+      "points": 1
+    },
+    {
+      "item_id": "c2ce76c79696ba8c97289a77e1efda4b_4",
+      "text": "Explains that SGLT2 inhibitor-associated DKA can occur with normal or only modestly elevated glucose (euglycemic DKA) and advises blood ketone testing when DKA is suspected, without delaying urgent medical assessment.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

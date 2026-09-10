@@ -1,0 +1,139 @@
+{
+  "case_id": "43f77913a728711037b8e30ce803bf18",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 45-year-old woman with obesity and type 2 diabetes is found on routine labs to have an ALT of 96 U/L and AST of 78 U/L (roughly 2-3x the upper limit of normal), confirmed on repeat testing. She drinks alcohol rarely, takes metformin and occasional acetaminophen, and is asymptomatic with normal bilirubin and synthetic function. What is the appropriate evaluation of this persistent transaminitis?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_0",
+      "text": "Obtain clinically appropriate noninvasive liver imaging, such as right upper quadrant ultrasound for structural disease or elastography with controlled attenuation parameter for steatosis assessment.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_1",
+      "text": "Send viral hepatitis serologies, including hepatitis B surface antigen and hepatitis C antibody.",
+      "points": 3
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_2",
+      "text": "Review all medications, over-the-counter drugs, supplements, and alcohol exposure as potential contributors.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_3",
+      "text": "Evaluate for metabolic dysfunction-associated steatotic liver disease and provide weight-loss and glycemic-control counseling.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_4",
+      "text": "Perform targeted testing for alpha-1 antitrypsin deficiency and Wilson disease when clinical features or otherwise unexplained persistent aminotransferase elevation warrant it.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_5",
+      "text": "Calculate a noninvasive fibrosis score such as FIB-4 to risk-stratify for advanced fibrosis.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_6",
+      "text": "Consider hepatology referral for aminotransferase elevation lasting more than six months, an unexplained abnormality after initial evaluation, or suspected advanced fibrosis.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_7",
+      "text": "Recheck liver enzymes after intervention to document the trend and response.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_8",
+      "text": "Stop metformin reflexively as the presumed cause of the transaminitis.",
+      "points": -1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_9",
+      "text": "Attribute the elevation to fatty liver and forgo viral hepatitis testing.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_10",
+      "text": "Proceed directly to liver biopsy before completing noninvasive evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_11",
+      "text": "Advise that no follow-up is needed because the patient is asymptomatic.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_12",
+      "text": "Obtain a complete blood count with platelet count for fibrosis risk assessment.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_13",
+      "text": "Obtain ferritin and transferrin saturation to screen for hereditary hemochromatosis.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_14",
+      "text": "Check antinuclear antibody, anti-smooth muscle antibody, and serum IgG if the common causes do not fully explain the abnormalities.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_15",
+      "text": "Obtain secondary fibrosis assessment with transient elastography or another validated test, such as ELF, when FIB-4 is indeterminate or elevated.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_16",
+      "text": "Confirm active hepatitis C infection with HCV RNA if the hepatitis C antibody is positive.",
+      "points": 2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_17",
+      "text": "Consider liver biopsy when the transaminitis remains unexplained after appropriate noninvasive evaluation or when competing diagnoses require histology.",
+      "points": 1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_18",
+      "text": "Start corticosteroids empirically for presumed autoimmune hepatitis before diagnostic confirmation.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_19",
+      "text": "Perform ERCP for isolated aminotransferase elevation without evidence of biliary obstruction.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_20",
+      "text": "Repeat liver enzymes alone without investigating the cause of the persistent abnormality.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_21",
+      "text": "Omit fibrosis assessment because bilirubin and synthetic function are normal.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_22",
+      "text": "Use CT or MRI as routine first-line imaging instead of ultrasound.",
+      "points": -1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_23",
+      "text": "Order serum tumor markers as the primary evaluation for this mild transaminitis.",
+      "points": -1
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_24",
+      "text": "Initiate therapeutic phlebotomy before confirming iron overload.",
+      "points": -2
+    },
+    {
+      "item_id": "4ffc6cfa7bbd7185e8e0887667a31fc4_25",
+      "text": "Recommend unregulated herbal detoxification supplements to treat the liver enzyme elevation.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

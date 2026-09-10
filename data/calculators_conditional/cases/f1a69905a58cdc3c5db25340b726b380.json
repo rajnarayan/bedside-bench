@@ -1,0 +1,14 @@
+{
+  "case_id": "f1a69905a58cdc3c5db25340b726b380",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old man presents to the otolaryngology clinic with 6 months of progressive hoarseness and dysphagia. He has a 40 pack-year smoking history. Biopsy of a glottic laryngeal mass shows squamous cell carcinoma. Imaging and laryngoscopic examination show the tumor is confined to the larynx with vocal cord fixation and slight invasion of the paraglottic space. There is no regional lymph node metastasis and no distant metastasis on staging imaging. Based on the AJCC TNM classification for glottic laryngeal cancer, what is his stage?",
+  "rubric_items": [
+    {
+      "item_id": "ab1718d6e1d51cbb4961f727e5bc0a92_0",
+      "text": "States the clinical interpretation: Stage III (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

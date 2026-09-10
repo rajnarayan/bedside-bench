@@ -1,0 +1,24 @@
+{
+  "case_id": "48e1589da15ebfd1d582666839325708",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old patient with hypertension and ECG evidence of left ventricular hypertrophy is deciding between a losartan-based versus atenolol-based regimen. He has prediabetes and is concerned about medication side effects.\n\nBased on the LIFE trial, what did LIFE report about tolerability and metabolic effects (new-onset diabetes) of losartan versus atenolol, and how might that influence patient selection?",
+  "rubric_items": [
+    {
+      "item_id": "ffba993b09e91673e83b66abe1048b05_0",
+      "text": "States that losartan was better tolerated than atenolol and that new-onset diabetes was less frequent with losartan.",
+      "points": 2
+    },
+    {
+      "item_id": "ffba993b09e91673e83b66abe1048b05_1",
+      "text": "Notes that these findings would support choosing losartan for patients in whom metabolic profile or tolerability is especially important.",
+      "points": 1
+    },
+    {
+      "item_id": "ffba993b09e91673e83b66abe1048b05_2",
+      "text": "Notes that similar blood pressure lowering and outcome advantages may help contextualize selecting losartan over atenolol.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

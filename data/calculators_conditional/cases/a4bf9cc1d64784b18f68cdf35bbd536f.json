@@ -1,0 +1,14 @@
+{
+  "case_id": "a4bf9cc1d64784b18f68cdf35bbd536f",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old male who has been a long-time smoker presents to the ENT clinic with persistent hoarseness and difficulty swallowing that have worsened over the past few months. A comprehensive examination, including a laryngoscopy, reveals a lesion in the supraglottic region of the larynx. Biopsy confirms the presence of squamous cell carcinoma. Further imaging studies show that the tumor is invading the mucosa of multiple adjacent subsites of the supraglottis, including the vallecula, without fixation of the larynx. Additionally, an ultrasound of the neck demonstrates metastasis in a single ipsilateral lymph node measuring 2.5 cm, with no clinical evidence of extranodal extension. There are no signs of distant metastasis from the imaging. What is the TNM classification and overall stage group (AJCC 8th edition) of his supraglottic laryngeal cancer?",
+  "rubric_items": [
+    {
+      "item_id": "8c295278849d32272d872334a5bef29b_0",
+      "text": "Identifies the overall stage as Stage III and/or the equivalent TNM classification T2 N1 M0 (accept either; accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

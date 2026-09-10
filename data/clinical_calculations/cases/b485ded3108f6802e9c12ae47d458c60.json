@@ -1,0 +1,14 @@
+{
+  "case_id": "b485ded3108f6802e9c12ae47d458c60",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 32-year-old male motorcyclist is brought to the emergency department after a high-speed collision with a car. On arrival, he is in distress, with visible injuries to his pelvis and left femur. His vital signs show a heart rate of 130 bpm and a systolic blood pressure of 95 mmHg, indicating possible hypovolemic shock. Blood tests reveal a hemoglobin level of 8.5 g/dL and a base excess of -8 mmol/L, suggesting significant blood loss. An immediate FAST ultrasound is performed, revealing free intra-abdominal fluid suggesting possible internal bleeding. X-rays confirm an open fracture of the left femur and a clinically unstable pelvic fracture. The trauma team is considering the likelihood of requiring a massive transfusion to stabilize this patient. What is the TASH score for this patient, indicating the need for a massive transfusion?",
+  "rubric_items": [
+    {
+      "item_id": "c31c9948ee0622d327a7e7a8c017503e_0",
+      "text": "States the TASH score is 28 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

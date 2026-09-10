@@ -1,0 +1,189 @@
+{
+  "case_id": "e6a073bf2478694c7e5ef1674dd60855",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 68-year-old woman reports noticing an asymmetric smile over the past month and experienced a very brief episode of word-finding difficulty last night, but was entirely asymptomatic during today's video visit. There is no residual facial weakness or upper face involvement, no sensory loss, limb weakness, gait disturbance, or ongoing speech deficit, and she has no known modifiable vascular risk factors. I have low clinical suspicion for transient ischemic attack, and have held off on imaging and lab testing at this time. What, if any, further neurologic work-up is warranted?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_0",
+      "text": "Obtain urgent brain imaging, preferably MRI with diffusion-weighted imaging within 24 hours of symptom onset; use noncontrast CT initially if MRI is not promptly available.",
+      "points": 2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_1",
+      "text": "Arrange urgent in-person neurology/stroke specialist assessment, the same day and ideally within 24 hours of symptom onset, through emergency evaluation or a rapid-access TIA clinic.",
+      "points": 2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_2",
+      "text": "Perform a prompt in-person physical and neurologic examination.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_3",
+      "text": "Refer to the emergency department for urgent acute stroke evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_4",
+      "text": "Obtain noninvasive head and neck vascular imaging with CTA or MRA.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_5",
+      "text": "Obtain a 12-lead ECG.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_6",
+      "text": "Order baseline laboratory studies with a CBC and comprehensive metabolic panel.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_7",
+      "text": "Screen for vascular risk factors with a lipid panel and hemoglobin A1c or fasting glucose.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_8",
+      "text": "Measure and document blood pressure during the urgent in-person assessment.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_9",
+      "text": "Counsel the patient about stroke warning signs and the need for immediate emergency evaluation if symptoms recur.",
+      "points": 2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_10",
+      "text": "Advise the patient to avoid driving until the evaluation is complete.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_11",
+      "text": "Review old photographs to determine whether the facial asymmetry is longstanding.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_12",
+      "text": "Initiate prompt single-agent antiplatelet therapy for suspected noncardioembolic TIA when no contraindication is present, with guideline-concordant initiation and maintenance dosing.",
+      "points": 2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_13",
+      "text": "Order a transthoracic echocardiogram with bubble study.",
+      "points": 0
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_14",
+      "text": "Arrange prolonged ambulatory cardiac rhythm monitoring (e.g., 14-30 days) if TIA remains likely after the initial evaluation and occult atrial fibrillation or an otherwise unexplained embolic mechanism is suspected.",
+      "points": 1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_15",
+      "text": "Calculate an ABCD2 score as an adjunct to clinical assessment.",
+      "points": 0
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_16",
+      "text": "Perform cognitive screening with the MoCA.",
+      "points": 0
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_17",
+      "text": "Order PT/INR and aPTT.",
+      "points": 0
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_18",
+      "text": "Initiate empiric dual antiplatelet therapy with aspirin and clopidogrel.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_19",
+      "text": "Initiate therapeutic anticoagulation without an identified indication.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_20",
+      "text": "Administer intravenous alteplase or tenecteplase while the patient is asymptomatic.",
+      "points": -3
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_21",
+      "text": "Treat empirically with corticosteroids plus antiviral therapy for presumed Bell palsy.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_22",
+      "text": "Administer botulinum toxin for the facial asymmetry before establishing a diagnosis.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_23",
+      "text": "Perform conventional catheter cerebral angiography as the initial vascular study.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_24",
+      "text": "Perform lumbar puncture for CSF analysis.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_25",
+      "text": "Order a comprehensive hypercoagulability evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_26",
+      "text": "Order broad autoimmune or paraneoplastic antibody panels.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_27",
+      "text": "Order facial-muscle EMG and nerve conduction studies.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_28",
+      "text": "Refer for carotid endarterectomy or carotid stenting without documented clinically significant stenosis.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_29",
+      "text": "Order transesophageal echocardiography as the initial cardiac evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_30",
+      "text": "Use outpatient speech-language pathology as the sole intervention.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_31",
+      "text": "Order whole-body PET/CT to search for occult malignancy.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_32",
+      "text": "Refer to ENT as the primary specialist for this presentation.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_33",
+      "text": "Reassure and discharge the patient without timely neurologic evaluation or follow-up.",
+      "points": -2
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_34",
+      "text": "Advise the patient to ignore recurrent neurologic symptoms unless they persist for more than 24 hours.",
+      "points": -3
+    },
+    {
+      "item_id": "8916c172f3c0c39a041844c214e941a5_35",
+      "text": "Attribute the symptoms to functional neurologic disorder and defer further evaluation.",
+      "points": -3
+    }
+  ],
+  "split": "train"
+}

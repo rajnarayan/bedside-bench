@@ -1,0 +1,29 @@
+{
+  "case_id": "32adfb662838ccd555ac7b182617d86f",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 29-year-old woman presents to your clinic with a 2-year history of severe dysmenorrhea and chronic pelvic pain. She was diagnosed with endometriosis via laparoscopy 6 months ago. She has been taking combined oral contraceptives, which improved her pain, but she stopped them 2 months ago to try to conceive. Since stopping the medication, her pain has returned. She is now seeking advice regarding management options for both her pain and her desire to become pregnant.\n\nBased on current ACOG guidelines, what should you counsel this patient regarding the effectiveness of medical suppressive therapy and surgical management for her pain and fertility goals?",
+  "rubric_items": [
+    {
+      "item_id": "226d6283a8e6ecbbc780414cbaed1d8e_0",
+      "text": "States that medical suppressive therapy (for example, oral contraceptives) improves endometriosis-related pain symptoms but has a high recurrence rate after discontinuation.",
+      "points": 2
+    },
+    {
+      "item_id": "226d6283a8e6ecbbc780414cbaed1d8e_1",
+      "text": "States that medical suppressive therapies are ineffective for endometriosis-associated infertility.",
+      "points": 1
+    },
+    {
+      "item_id": "226d6283a8e6ecbbc780414cbaed1d8e_2",
+      "text": "States that conservative surgical treatment provides significant short-term pain relief but also has a significant rate of pain recurrence.",
+      "points": 1
+    },
+    {
+      "item_id": "226d6283a8e6ecbbc780414cbaed1d8e_3",
+      "text": "States that surgical management may improve pregnancy rates, although the magnitude of improvement is unclear.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

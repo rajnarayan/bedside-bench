@@ -1,0 +1,29 @@
+{
+  "case_id": "2d7dc5074d4e874476192235282a8a30",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A 55-year-old with intermediate high-risk pulmonary embolism has right ventricular strain and is hemodynamically stable (normotensive, with no vasopressor requirement).\n\nBased on the diuretics versus volume expansion trial in PE, why are these results clinically significant, and what are the key limitations?",
+  "rubric_items": [
+    {
+      "item_id": "15b3b390985e4597c245787e70844723_0",
+      "text": "Explains that the trial is clinically significant because it suggests a potential paradigm shift away from routine volume expansion and supports cautious diuresis in intermediate high-risk pulmonary embolism, while not claiming definitive clinical superiority or mortality benefit.",
+      "points": 2
+    },
+    {
+      "item_id": "15b3b390985e4597c245787e70844723_1",
+      "text": "Describes the reported BNP improvement with diuretic therapy, while noting that the troponin-normalization primary endpoint was not significantly improved and right ventricular echocardiographic parameters did not significantly differ between groups; does not infer a between-group treatment effect solely from within-group changes.",
+      "points": 1
+    },
+    {
+      "item_id": "15b3b390985e4597c245787e70844723_2",
+      "text": "Details the major limitations: small sample size (n=60), open-label design, reliance on surrogate endpoints, insufficient evidence to establish effects on patient-important clinical outcomes, and the need for confirmation.",
+      "points": 1
+    },
+    {
+      "item_id": "15b3b390985e4597c245787e70844723_3",
+      "text": "Notes the safety finding that there were no serious adverse events with one 40 mg furosemide dose.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

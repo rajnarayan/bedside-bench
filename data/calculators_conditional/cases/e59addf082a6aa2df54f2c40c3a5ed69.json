@@ -1,0 +1,14 @@
+{
+  "case_id": "e59addf082a6aa2df54f2c40c3a5ed69",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 62-year-old man is diagnosed with an appendiceal neuroendocrine tumor after evaluation for abdominal discomfort and altered bowel habits. Imaging shows a 3.5 cm primary tumor with subserosal invasion. Biopsy of a regional lymph node is positive for metastasis, and there is no evidence of distant metastatic disease on imaging. Based on the AJCC TNM classification for appendiceal neuroendocrine tumors, what stage does this patient have?",
+  "rubric_items": [
+    {
+      "item_id": "0239637af2ed54ae0c32a90b5f45847a_0",
+      "text": "States the clinical interpretation: Stage III (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

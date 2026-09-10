@@ -1,0 +1,19 @@
+{
+  "case_id": "30865e3f5a15a545ac0b9a3690e212b8",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man is evaluated by EMS after neighbors find him with new neurologic deficits. He was last seen normal the day before, so his symptoms began within the past 24 hours. He has no history of seizures or epilepsy, no known pre-existing neurologic or psychiatric disorder, was fully ambulatory (not wheelchair-bound or bedridden) at baseline, and his capillary blood glucose is 90 mg/dL. On exam, he has clear asymmetry with left facial droop, weakness of the left arm, and weak left hand grip. Based on the Los Angeles Prehospital Stroke Screen (LAPSS), what is his total LAPSS score, and how should it be interpreted?",
+  "rubric_items": [
+    {
+      "item_id": "8ce014a6b5a2d89c52b1d7d055516fa1_0",
+      "text": "States the total Los Angeles Prehospital Stroke Screen (LAPSS) score for this patient is 6 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "8ce014a6b5a2d89c52b1d7d055516fa1_1",
+      "text": "States the clinical interpretation: LAPSS is positive for stroke (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

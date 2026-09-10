@@ -1,0 +1,29 @@
+{
+  "case_id": "b7bd3f1e71cb05a8ae9362e4cc5080d9",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A mechanically ventilated ICU patient requiring continuous opioid analgesia is being considered for remifentanil- versus fentanyl-based sedation and analgesia. The team wants to understand whether remifentanil performs at least as well as fentanyl on the trial's primary endpoint.\n\nBased on the Remifentanil for Pain in ICU trial, interpret the reported difference in the primary endpoint (2.2%, 95% CI -0.8 to 5.3; p < 0.0001) for remifentanil vs fentanyl. What does this mean for noninferiority and superiority?",
+  "rubric_items": [
+    {
+      "item_id": "bd961e29684ce515a89750fd5f36b01b_0",
+      "text": "States that the reported 2.2% difference in the primary endpoint favors remifentanil over fentanyl.",
+      "points": 2
+    },
+    {
+      "item_id": "bd961e29684ce515a89750fd5f36b01b_1",
+      "text": "Reports that the 95% confidence interval was -0.8% to 5.3% and notes that it includes zero, implying the true effect could range from slight inferiority to superiority.",
+      "points": 1
+    },
+    {
+      "item_id": "bd961e29684ce515a89750fd5f36b01b_2",
+      "text": "States that noninferiority was demonstrated, with p < 0.0001, according to the prespecified noninferiority margin.",
+      "points": 1
+    },
+    {
+      "item_id": "bd961e29684ce515a89750fd5f36b01b_3",
+      "text": "States that superiority was not established because the confidence interval includes zero.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

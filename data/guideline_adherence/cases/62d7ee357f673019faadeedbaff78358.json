@@ -1,0 +1,24 @@
+{
+  "case_id": "62d7ee357f673019faadeedbaff78358",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 58-year-old man is admitted to the intensive care unit with severe abdominal pain, fever, and hypotension five days after undergoing emergency surgery for a perforated duodenal ulcer. On examination, he is tachycardic and has a distended, tender abdomen. Laboratory results show leukocytosis and elevated inflammatory markers. A CT scan reveals intra-abdominal fluid collections suggestive of an abscess near the surgical site. The surgical team is planning percutaneous drainage. Blood cultures and fluid cultures are pending. The patient has no known immunosuppression, but he has received broad-spectrum antibiotics since surgery.\n\nBased on current guidelines, should empiric antifungal therapy be initiated at this time? Justify your answer according to the guideline recommendation.",
+  "rubric_items": [
+    {
+      "item_id": "e27457551ca46c4256dfefdccd0776e6_0",
+      "text": "Recommends initiating empiric antifungal therapy.",
+      "points": 2
+    },
+    {
+      "item_id": "e27457551ca46c4256dfefdccd0776e6_1",
+      "text": "Explains that the justification is the presence of intra-abdominal infection after recent abdominal surgery.",
+      "points": 1
+    },
+    {
+      "item_id": "e27457551ca46c4256dfefdccd0776e6_2",
+      "text": "Identifies at least one additional risk factor documented in this patient supporting empiric antifungal therapy, such as upper gastrointestinal (gastroduodenal) perforation or persistent intra-abdominal infection with clinical deterioration despite broad-spectrum antibacterial therapy.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "f6aad8aadfe204549cb9c30d3c7b286b",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 28-year-old male is brought to the emergency department by his family, who report that he has been displaying unusual behaviors for the past week. According to his brother, he has been maintaining unusual postures for prolonged periods and does not respond to questions. The patient appears withdrawn, demonstrating mutism, and when approached by medical staff, he remains unresponsive. During the examination, the patient shows resistance when his arms are moved, suggestive of waxy flexibility. He occasionally engages in grimacing despite no apparent stimulus, and his movements are characterized by repetitive, non-goal-directed actions. Despite efforts to engage him, the patient remains in a state of stupor, not reacting to his environment. The medical team is concerned about the possibility of catatonia, possibly secondary to an underlying psychiatric disorder. They decide to utilize the DSM-5 diagnostic criteria for catatonia to confirm their suspicions. What is the number of DSM-5 catatonia signs present in this patient, and is the diagnostic threshold (≥3 signs) met?\n\nProvide the numeric count of DSM-5 catatonia signs present and state whether the diagnostic criteria for catatonia are met.",
+  "rubric_items": [
+    {
+      "item_id": "19dd369888c5458fe7ffc610175cc2f6_0",
+      "text": "States that 6 DSM-5 catatonia signs are present (posturing, mutism, waxy flexibility, grimacing, stereotypy, stupor) (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "19dd369888c5458fe7ffc610175cc2f6_1",
+      "text": "States the clinical interpretation: Diagnostic criteria are met (exact or equivalent wording acceptable).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

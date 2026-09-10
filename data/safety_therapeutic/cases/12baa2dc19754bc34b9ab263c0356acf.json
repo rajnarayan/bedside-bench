@@ -1,0 +1,129 @@
+{
+  "case_id": "12baa2dc19754bc34b9ab263c0356acf",
+  "benchmark": "safety_therapeutic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 52-year-old woman taking tamoxifen after treatment for estrogen-receptor-positive breast cancer has frequent disabling hot flashes and night sweats. She has no vaginal bleeding and wants to continue tamoxifen. Her oncologist advises avoiding systemic estrogen. She takes no antidepressant and has normal renal and hepatic function. What treatment should be offered for vasomotor symptoms?\n\nProvide a stepwise therapeutic management plan including medications, counseling, and follow-up.",
+  "rubric_items": [
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_0",
+      "text": "Offer a nonhormonal treatment because of the history of estrogen-receptor-positive breast cancer.",
+      "points": 3
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_1",
+      "text": "Offer venlafaxine or desvenlafaxine as an effective nonhormonal option with minimal CYP2D6 inhibition.",
+      "points": 2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_2",
+      "text": "Offer gabapentin, particularly when nocturnal symptoms and sleep disruption predominate.",
+      "points": 2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_3",
+      "text": "Consider citalopram or escitalopram when an SSRI is preferred.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_4",
+      "text": "If discussing clonidine, explain that it is not routinely recommended because of modest efficacy and adverse effects, and reserve consideration for situations in which better-supported options are unsuitable.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_5",
+      "text": "Discuss behavioral measures such as layered clothing, a cool sleep environment, and identification of individual triggers.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_6",
+      "text": "Encourage regular exercise and weight management for overall health while setting realistic expectations for hot-flash control.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_7",
+      "text": "Review drug interactions before selecting an antidepressant.",
+      "points": 2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_8",
+      "text": "Avoid strong CYP2D6 inhibitors such as paroxetine and fluoxetine while tamoxifen is used when alternatives are available.",
+      "points": 3
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_9",
+      "text": "Coordinate treatment choices with oncology.",
+      "points": 2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_10",
+      "text": "Reassess symptom frequency, adverse effects, and adherence within four to eight weeks.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_11",
+      "text": "Taper serotonergic or gabapentinoid therapy rather than stopping abruptly after sustained use.",
+      "points": 1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_12",
+      "text": "Start systemic estrogen therapy without oncology review in this patient with estrogen-receptor-positive breast cancer.",
+      "points": -3
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_13",
+      "text": "Prescribe paroxetine as the first choice despite concurrent tamoxifen and available alternatives.",
+      "points": -3
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_14",
+      "text": "Prescribe fluoxetine as the first choice despite concurrent tamoxifen and available alternatives.",
+      "points": -3
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_15",
+      "text": "Stop tamoxifen solely because of hot flashes without discussing symptom treatment with oncology.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_16",
+      "text": "Use compounded bioidentical hormones as a supposedly risk-free alternative.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_17",
+      "text": "Recommend black cohosh as proven safe and effective for breast-cancer survivors.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_18",
+      "text": "Recommend systemic progesterone or a systemic progestin as routine treatment for vasomotor symptoms in this ER-positive breast cancer survivor.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_19",
+      "text": "Prescribe an unregulated supplement without checking interactions or product safety.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_20",
+      "text": "Tell the patient that vasomotor symptoms cannot be treated without estrogen.",
+      "points": -1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_21",
+      "text": "Start multiple nonhormonal medications for vasomotor symptoms simultaneously without a clinical rationale or a plan to monitor treatment response and adverse effects.",
+      "points": -2
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_22",
+      "text": "Stop venlafaxine abruptly after regular use.",
+      "points": -1
+    },
+    {
+      "item_id": "12baa2dc19754bc34b9ab263c0356acf_23",
+      "text": "Dismiss new postmenopausal vaginal bleeding as a normal effect of hot flashes or tamoxifen.",
+      "points": -2
+    }
+  ],
+  "split": "train"
+}

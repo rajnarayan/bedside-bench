@@ -1,0 +1,14 @@
+{
+  "case_id": "370dfdf4ec329e4d3914601e8b508a5c",
+  "benchmark": "calculators_conditional",
+  "grading_method": "points_rubric",
+  "prompt": "A 65-year-old male with a history of hypertension and tobacco use presents to the neurology clinic after a recent transient ischemic attack (TIA). The patient reports experiencing brief episodes of left-sided weakness and dizziness over the past week. The neurologist orders a carotid duplex ultrasound to assess for possible carotid artery stenosis. During the ultrasound, the technologist notes an internal carotid artery peak systolic velocity of 140 cm/sec on the right side and identifies a visible plaque in the artery. Concern arises about the degree of stenosis and potential risk for future cerebrovascular events. Using the original 2003 Society of Radiologists in Ultrasound (SRU) consensus criteria, what is the SRU classification of internal carotid artery stenosis in this patient?",
+  "rubric_items": [
+    {
+      "item_id": "4ee61edaded3e34b155ce04ceb4f10c0_0",
+      "text": "States that the right internal carotid artery has moderate (50–69%) stenosis under the original 2003 SRU consensus criteria (accept equivalent wording or minor formatting differences).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

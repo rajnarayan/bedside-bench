@@ -1,0 +1,14 @@
+{
+  "case_id": "a6b400d8bd7e7907fe55bf987bc321e2",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A patient's height is 175 cm and weight is 70 kg. Using the Mosteller formula, what is the body surface area?",
+  "rubric_items": [
+    {
+      "item_id": "ffd7e5408304f64fb042ed8e4a8e3d08_0",
+      "text": "States the body surface area is 1.84 m² (±0.02 m² acceptable; Mosteller formula).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

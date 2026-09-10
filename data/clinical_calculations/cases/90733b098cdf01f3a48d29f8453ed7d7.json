@@ -1,0 +1,14 @@
+{
+  "case_id": "90733b098cdf01f3a48d29f8453ed7d7",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old woman with decompensated cirrhosis from metabolic dysfunction-associated steatotic liver disease is brought to the hospital after missing several days of lactulose. She is markedly somnolent but awakens to repeated verbal stimulation. When aroused, she is grossly disoriented to place and time, gives incoherent answers, exhibits bizarre behavior, and has pronounced asterixis. She can follow a simple command only after repeated prompting and is not comatose. According to the West-Haven Criteria, what grade of hepatic encephalopathy is present?",
+  "rubric_items": [
+    {
+      "item_id": "c38c3b8fa826fc8d615b6c70130a8c97_0",
+      "text": "States the West-Haven grade is 3 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

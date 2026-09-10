@@ -1,0 +1,24 @@
+{
+  "case_id": "40fc56c67c22eea9edbcf4314a65342d",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 2-year-old boy with a confirmed diagnosis of classic phenylketonuria (PKU) is being seen for a routine follow-up. His parents are concerned about his growth, and they ask about how much protein and phenylalanine he should be receiving. The child is currently on a low-phenylalanine diet, with a combination of measured intact protein from natural foods and a phenylalanine-free amino acid-based medical formula. His recent blood phenylalanine levels have been within the recommended range. The parents bring a food diary and ask for guidance on how to ensure their son is getting the right amount of protein and phenylalanine, and whether he needs more or less protein than other children his age.\n\nBased on current guidelines, what recommendations should you give regarding total protein intake and phenylalanine management for this 2-year-old child with PKU? Justify your answer with reference to the guideline recommendations.",
+  "rubric_items": [
+    {
+      "item_id": "e260f560ddd9341be436266827b7a9f9_0",
+      "text": "States that total protein intake from both intact protein and phenylalanine-free amino acid-based medical food should be approximately 50% higher than the dietary reference intake for healthy children of the same age.",
+      "points": 2
+    },
+    {
+      "item_id": "e260f560ddd9341be436266827b7a9f9_1",
+      "text": "Explains that intact protein intake should be adjusted to meet the recommended phenylalanine intake for anabolism and for maintaining appropriate blood phenylalanine concentration.",
+      "points": 1
+    },
+    {
+      "item_id": "e260f560ddd9341be436266827b7a9f9_2",
+      "text": "Notes the importance of accurate data on the phenylalanine content of foods and effective methods for planning and monitoring phenylalanine intake.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

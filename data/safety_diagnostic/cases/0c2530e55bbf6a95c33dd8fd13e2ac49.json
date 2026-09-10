@@ -1,0 +1,209 @@
+{
+  "case_id": "0c2530e55bbf6a95c33dd8fd13e2ac49",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "Patient is an 81-year-old woman, a retired school librarian who lives alone with her cat, with CAD (s/p CABG), paroxysmal atrial fibrillation (s/p ablation), hypertension, hyperlipidemia, osteoarthritis (knee replacements), and a history of alcohol use. Three weeks ago, the patient developed intense, bilateral, burning foot pain that occurs only at night. It is not exercise-induced. Exam reveals normal pedal pulses and decreased sensation to vibration at the great toes, light touch is intact. A CBC with differential, basic metabolic panel and B12 are normal. I suspected neuropathy but a trial of pregabalin 75 mg nightly has provided no relief. What are the next steps for work-up and symptomatic relief?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_0",
+      "text": "Order fasting glucose and hemoglobin A1c to evaluate for diabetes or prediabetes.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_1",
+      "text": "Order a 2-hour oral glucose tolerance test if initial glycemic testing is nondiagnostic.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_2",
+      "text": "Order TSH, with reflex free T4 if TSH is abnormal or central thyroid disease is suspected.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_3",
+      "text": "Order serum protein electrophoresis with immunofixation; add serum free light chains when monoclonal gammopathy or amyloidosis is a particular concern.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_4",
+      "text": "Order serum methylmalonic acid despite the normal serum B12 level.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_5",
+      "text": "Order thiamine, vitamin B6, and folate levels given the alcohol history and neuropathic symptoms.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_6",
+      "text": "Order liver function tests before selecting potentially hepatotoxic neuropathic pain therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_7",
+      "text": "Review the medication and supplement list for neurotoxic agents or excessive pyridoxine exposure.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_8",
+      "text": "Obtain a detailed alcohol history, including current intake, duration and pattern of use, and associated nutritional risk; a validated screen such as AUDIT-C may be used.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_9",
+      "text": "Perform a focused neurologic and foot examination including strength, reflexes, gait, and monofilament testing.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_10",
+      "text": "Order nerve conduction studies and electromyography to characterize the neuropathy.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_11",
+      "text": "Perform skin punch biopsy for intraepidermal nerve fiber density if small-fiber neuropathy remains suspected despite nondiagnostic electrodiagnostic testing.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_12",
+      "text": "Refer to neurology if symptoms persist, progress, or the initial evaluation is unrevealing.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_13",
+      "text": "Measure an ankle-brachial index if vascular disease remains a clinical concern.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_14",
+      "text": "Gradually titrate pregabalin to 75 mg twice daily or an equivalent renal-adjusted dose while monitoring sedation, dizziness, and edema.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_15",
+      "text": "Switch to duloxetine 30 mg daily with titration to 60 mg daily if pregabalin remains ineffective or poorly tolerated.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_16",
+      "text": "Use low-dose gabapentin with gradual titration as an alternative to pregabalin rather than as concurrent therapy.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_17",
+      "text": "Apply topical lidocaine 5% to the painful areas for up to 12 hours daily.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_18",
+      "text": "Apply low-concentration topical capsaicin to the painful areas three to four times daily.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_19",
+      "text": "Counsel on daily foot inspection, skin protection, and properly fitting footwear.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_20",
+      "text": "Provide fall-prevention counseling because neuropathy and sedating medications increase fall risk.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_21",
+      "text": "Refer to physical therapy for gait and balance training if instability is present.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_22",
+      "text": "Refer to podiatry if pressure lesions, skin or nail problems, deformity, or inability to perform safe foot care is identified.",
+      "points": 1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_23",
+      "text": "Schedule follow-up within 2 to 6 weeks to review test results, pain response, and medication adverse effects.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_24",
+      "text": "Provide urgent return precautions for new weakness, rapidly ascending sensory loss, bowel or bladder dysfunction, foot ulceration, or falls.",
+      "points": 2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_25",
+      "text": "Prescribe an opioid, including tramadol, for routine treatment of the neuropathic foot pain.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_26",
+      "text": "Initiate amitriptyline at 50 mg nightly or higher in this 81-year-old.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_27",
+      "text": "Start gabapentin at 900 mg three times daily without gradual titration.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_28",
+      "text": "Add gabapentin concurrently to ongoing pregabalin therapy.",
+      "points": -1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_29",
+      "text": "Abruptly escalate pregabalin to at least 300 mg daily without titration or reassessment.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_30",
+      "text": "Recommend nightly alcohol use for analgesia or sleep.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_31",
+      "text": "Prescribe NSAIDs as treatment for the neuropathic pain.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_32",
+      "text": "Initiate systemic corticosteroids for presumed neuropathy without evidence of an inflammatory cause.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_33",
+      "text": "Discontinue indicated anticoagulation solely because neuropathy treatment is being considered.",
+      "points": -3
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_34",
+      "text": "Order CT angiography or invasive lower-extremity arteriography as an initial test without objective evidence of limb ischemia or a vascular intervention-planning indication.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_35",
+      "text": "Perform a sural or other peripheral nerve biopsy during the initial evaluation.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_36",
+      "text": "Arrange lumbar puncture during the initial evaluation without clinical or electrodiagnostic evidence suggesting an inflammatory, demyelinating, or infectious neuropathy.",
+      "points": -2
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_37",
+      "text": "Order lumbar spine MRI in the absence of back pain, radicular findings, weakness, or bowel or bladder symptoms.",
+      "points": -1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_38",
+      "text": "Order a broad autoimmune serology panel without systemic features suggesting autoimmune disease.",
+      "points": -1
+    },
+    {
+      "item_id": "b403ffc696d84d0fc76c832095e1006f_39",
+      "text": "Prescribe ongoing empirical pyridoxine supplementation at 100 mg/day or more for neuropathy without a specific indication.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

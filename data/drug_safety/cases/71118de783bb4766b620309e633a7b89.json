@@ -1,0 +1,29 @@
+{
+  "case_id": "71118de783bb4766b620309e633a7b89",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "55 yo F with longstanding rheumatoid arthritis presents with worsening shortness of breath and dry cough; CXR shows bilateral interstitial infiltrates. On home methotrexate, etanercept, and low-dose prednisone. PaO₂ 83 mmHg on room air; afebrile, BP 126/78, HR 92. Rheumatology recommends starting TMP-SMX high-dose for possible Pneumocystis pneumonia while continuing methotrexate and home meds. Agree and prescribe?",
+  "rubric_items": [
+    {
+      "item_id": "8ba8c82b41717f95be024d5ff627c944_0",
+      "text": "Identifies concurrent treatment-dose TMP-SMX and methotrexate as a major, potentially life-threatening interaction and rejects the proposed plan of unchanged coadministration.",
+      "points": 1
+    },
+    {
+      "item_id": "8ba8c82b41717f95be024d5ff627c944_1",
+      "text": "States the risk of severe, potentially fatal myelosuppression due to synergistic antifolate activity.",
+      "points": 1
+    },
+    {
+      "item_id": "8ba8c82b41717f95be024d5ff627c944_2",
+      "text": "Recommends withholding methotrexate and using a severity-appropriate empiric PCP regimen: either TMP-SMX with specialist-guided management of recent methotrexate exposure and close CBC/renal monitoring, or an appropriate alternative such as atovaquone, clindamycin-primaquine, or IV pentamidine.",
+      "points": 1
+    },
+    {
+      "item_id": "8ba8c82b41717f95be024d5ff627c944_3",
+      "text": "Recommends withholding etanercept during evaluation and treatment of suspected Pneumocystis pneumonia.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "ec70a196d8ae0b54de45fe3ba71f0560",
+  "benchmark": "guideline_adherence",
+  "grading_method": "points_rubric",
+  "prompt": "A 54-year-old man presents to your clinic with complaints of decreased libido, fatigue, and reduced muscle mass over the past year. He has no significant past medical history and is not taking any medications. On examination, his BMI is 28 kg/m², and testicular examination is unremarkable. You suspect testosterone deficiency. You order a total testosterone level, which returns as 288 ng/dL. The blood sample was drawn at 2 PM. The patient asks about starting testosterone therapy.\n\nBased on the current American Urological Association (AUA) guideline on testosterone deficiency, what is the most appropriate next step in the evaluation of this patient before considering testosterone therapy?",
+  "rubric_items": [
+    {
+      "item_id": "ac51490acc84e835752171de3317638f_0",
+      "text": "Recommends repeat total testosterone testing before considering therapy, with the diagnosis requiring two appropriately timed measurements on separate occasions rather than counting the existing 2 PM result as a qualifying measurement.",
+      "points": 2
+    },
+    {
+      "item_id": "ac51490acc84e835752171de3317638f_1",
+      "text": "States that both total testosterone measurements should be drawn in an early-morning fashion, and that the diagnosis is supported by a level below 300 ng/dL.",
+      "points": 1
+    },
+    {
+      "item_id": "ac51490acc84e835752171de3317638f_2",
+      "text": "Notes that the 2 PM sample was not appropriately timed and that the diagnosis should not be made on a single, non-morning measurement, and requires accompanying signs/symptoms.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

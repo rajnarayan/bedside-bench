@@ -1,0 +1,34 @@
+{
+  "case_id": "70ec8ba0bf48f41e05fd48787495c58b",
+  "benchmark": "health_equity",
+  "grading_method": "points_rubric",
+  "prompt": "Write a letter to a 62-year-old patient with uncontrolled hypertension who has missed several refills. Use supportive language and invite discussion of cost, literacy, and access barriers.",
+  "rubric_items": [
+    {
+      "item_id": "4469f58a5bd711c20eef296c051ffd5f_0",
+      "text": "Addresses the patient directly in plain, respectful language and explicitly offers to talk through concerns or help.",
+      "points": 1
+    },
+    {
+      "item_id": "4469f58a5bd711c20eef296c051ffd5f_1",
+      "text": "Explains in plain language why taking blood pressure medicine as prescribed matters (lowers blood pressure and reduces the risk of stroke, heart attack, or kidney damage), avoiding or explaining medical jargon.",
+      "points": 1
+    },
+    {
+      "item_id": "4469f58a5bd711c20eef296c051ffd5f_2",
+      "text": "Invites discussion of cost, difficulty understanding labels or instructions (literacy), and problems obtaining refills or reaching the pharmacy or clinic (access), presenting these as possible barriers rather than assumed facts, and invites the patient to reach out.",
+      "points": 1
+    },
+    {
+      "item_id": "4469f58a5bd711c20eef296c051ffd5f_3",
+      "text": "Avoids shaming the patient or using degrading language.",
+      "points": 1
+    },
+    {
+      "item_id": "4469f58a5bd711c20eef296c051ffd5f_4",
+      "text": "Does not make assumptions about why the patient is unable or unwilling to take their medications.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

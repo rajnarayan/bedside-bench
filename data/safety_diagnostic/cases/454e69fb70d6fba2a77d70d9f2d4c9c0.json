@@ -1,0 +1,139 @@
+{
+  "case_id": "454e69fb70d6fba2a77d70d9f2d4c9c0",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "A 34-year-old man is brought to clinic after a witnessed first-ever generalized tonic-clonic seizure yesterday that lasted about 90 seconds with a typical postictal period. He is now back to baseline. He takes no medications, does not use alcohol or drugs, and has no prior neurologic history. What is the appropriate evaluation after this first unprovoked seizure?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_0",
+      "text": "Obtain brain MRI with an epilepsy protocol.",
+      "points": 3
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_1",
+      "text": "Obtain an electroencephalogram (EEG).",
+      "points": 3
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_2",
+      "text": "Check basic laboratory studies including glucose, electrolytes, calcium, and magnesium.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_3",
+      "text": "Counsel the patient on driving restrictions according to local regulations.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_4",
+      "text": "Counsel the patient on seizure safety precautions, including avoiding swimming alone, heights, and operating heavy machinery.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_5",
+      "text": "Assess for substance exposure and alcohol or drug withdrawal; obtain targeted toxicology testing when the history or examination suggests exposure or the history is unreliable.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_6",
+      "text": "Refer the patient to neurology.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_7",
+      "text": "Obtain a noncontrast head CT if MRI is not promptly available or acute intracranial pathology must be excluded.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_8",
+      "text": "Perform lumbar puncture only when central nervous system infection or subarachnoid hemorrhage is suspected.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_9",
+      "text": "Consider antiseizure medication after a single unprovoked seizure when MRI or EEG findings indicate a high recurrence risk.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_10",
+      "text": "Start lifelong antiseizure medication routinely after a single unprovoked seizure despite a normal evaluation.",
+      "points": -1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_11",
+      "text": "Reassure and discharge the patient without imaging, EEG, or driving counseling.",
+      "points": -2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_12",
+      "text": "Start two antiseizure medications empirically.",
+      "points": -2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_13",
+      "text": "Order carotid duplex ultrasonography as the primary diagnostic workup.",
+      "points": -1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_14",
+      "text": "Obtain a detailed history of the event, including a witness description.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_15",
+      "text": "Perform a complete neurologic examination.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_16",
+      "text": "Assess for potential provoking factors such as sleep deprivation, recent illness, head trauma, and metabolic disturbance.",
+      "points": 2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_17",
+      "text": "Obtain an ECG to evaluate for a cardiac event that could mimic a seizure.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_18",
+      "text": "Obtain a complete blood count to evaluate for infection or other systemic abnormalities.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_19",
+      "text": "Arrange prompt outpatient follow-up after the initial evaluation.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_20",
+      "text": "Use sleep-deprived or prolonged ambulatory EEG if the initial routine EEG is nondiagnostic and clinical suspicion remains.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_21",
+      "text": "Counsel the patient to seek emergency care for a seizure lasting at least five minutes or for recurrent seizures without recovery.",
+      "points": 1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_22",
+      "text": "Perform lumbar puncture routinely after this first seizure rather than reserving it for a specific clinical indication.",
+      "points": -2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_23",
+      "text": "Diagnose epilepsy solely on the basis of this single unprovoked seizure without assessing recurrence risk.",
+      "points": -2
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_24",
+      "text": "Order carotid or cerebral angiography routinely for this presentation.",
+      "points": -1
+    },
+    {
+      "item_id": "0d78663e640276bf910159a50cb03fe6_25",
+      "text": "Use a normal neurologic examination as a reason to omit brain imaging.",
+      "points": -1
+    }
+  ],
+  "split": "train"
+}

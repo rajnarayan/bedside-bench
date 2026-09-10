@@ -1,0 +1,24 @@
+{
+  "case_id": "25e91e9072db084a6197154441f34201",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "37 yo F with history of epilepsy (on valproic acid and lamotrigine), recently diagnosed with tuberculosis, presents for treatment initiation; ID recommends starting isoniazid, rifampin, ethambutol, and pyrazinamide—begin standard RIPE therapy with her current antiepileptics?",
+  "rubric_items": [
+    {
+      "item_id": "0c66d2a7e61ad2bf008ee39ab8225534_0",
+      "text": "Identifies rifampin enzyme induction as potentially substantially lowering both valproate and lamotrigine concentrations, increasing the risk of breakthrough seizures.",
+      "points": 1
+    },
+    {
+      "item_id": "0c66d2a7e61ad2bf008ee39ab8225534_1",
+      "text": "Recommends starting indicated TB therapy with an ID/neurology-coordinated interaction-management plan—monitoring antiseizure medication levels and seizure control and adjusting doses as indicated—or, if the interactions cannot be safely managed, an ID-selected rifampin-sparing regimen.",
+      "points": 1
+    },
+    {
+      "item_id": "0c66d2a7e61ad2bf008ee39ab8225534_2",
+      "text": "Recommends baseline liver tests and ongoing hepatotoxicity surveillance (symptom counseling and laboratory follow-up) when combining valproate with isoniazid, rifampin, and pyrazinamide.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

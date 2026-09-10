@@ -1,0 +1,14 @@
+{
+  "case_id": "8e384de70609011f289f0728908ad272",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A potassium level is 6.2 mEq/L. Using the UK Kidney Association severity categories (mild 5.5–5.9, moderate 6.0–6.4, severe ≥6.5 mEq/L), is this mild, moderate, or severe hyperkalemia?",
+  "rubric_items": [
+    {
+      "item_id": "d087ce53e0620ef7b30c8444c46dc0fd_0",
+      "text": "States this potassium level represents moderate hyperkalemia (K+ 6.0–6.4 mEq/L under UK Kidney Association categories).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

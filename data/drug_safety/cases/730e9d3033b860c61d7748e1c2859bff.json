@@ -1,0 +1,34 @@
+{
+  "case_id": "730e9d3033b860c61d7748e1c2859bff",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "55 yo F with history of epilepsy (on carbamazepine) and newly diagnosed atrial fibrillation, presents with HR 110, BP 118/72, normal renal and liver function. She has no other stroke risk factors, normal platelets and INR. You are asked to start apixaban 5 mg BID for stroke prevention—safe to initiate apixaban at this dose?",
+  "rubric_items": [
+    {
+      "item_id": "2affda5bf38714b317c14fa8091121ed_0",
+      "text": "Recognizes that carbamazepine is a significant CYP3A4 and P-gp inducer, which causes a clinically relevant reduction in apixaban levels and exposes the patient to a high risk of inadequate anticoagulation.",
+      "points": 1
+    },
+    {
+      "item_id": "2affda5bf38714b317c14fa8091121ed_1",
+      "text": "States that apixaban should be avoided with carbamazepine; if anticoagulation is indicated, warfarin with INR monitoring is a workable alternative, but carbamazepine also induces warfarin metabolism, requiring close INR monitoring and dose adjustment.",
+      "points": 1
+    },
+    {
+      "item_id": "2affda5bf38714b317c14fa8091121ed_2",
+      "text": "Notes that simply adjusting the apixaban dose is insufficient, because safe and effective dosing cannot be reliably achieved with this drug-drug interaction.",
+      "points": 1
+    },
+    {
+      "item_id": "2affda5bf38714b317c14fa8091121ed_3",
+      "text": "Explicitly advises against initiating either standard-dose or empirically reduced-dose apixaban while carbamazepine is continued.",
+      "points": 1
+    },
+    {
+      "item_id": "2affda5bf38714b317c14fa8091121ed_4",
+      "text": "Recognizes that anticoagulation is not indicated for the stated stroke-risk profile (CHA₂DS₂-VASc 1 for female sex alone) and recommends not starting any anticoagulant solely for stroke prevention at present.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

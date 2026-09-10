@@ -1,0 +1,19 @@
+{
+  "case_id": "a389f46c208e25e52dfe7a39ff4a7e40",
+  "benchmark": "drug_safety",
+  "grading_method": "points_rubric",
+  "prompt": "54 yo F with a history of hereditary angioedema (C1 esterase inhibitor deficiency), currently well-controlled on danazol, presents with community-acquired pneumonia. She is allergic to penicillin (hives). You consider prescribing a course of clarithromycin 500 mg BID × 7 days—proceed?",
+  "rubric_items": [
+    {
+      "item_id": "59946fd5f4602efd9a55987c058fa510_0",
+      "text": "Recognizes the dangerous CYP3A4-mediated interaction between clarithromycin and danazol, specifically the risk of danazol accumulation and toxicity.",
+      "points": 1
+    },
+    {
+      "item_id": "59946fd5f4602efd9a55987c058fa510_1",
+      "text": "Advises against using clarithromycin in a patient on danazol and recommends a non-interacting antibiotic alternative for pneumonia that accounts for the patient's penicillin allergy.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

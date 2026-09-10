@@ -1,0 +1,14 @@
+{
+  "case_id": "53a50207d2729e7aa12b1bd393445793",
+  "benchmark": "clinical_calculations",
+  "grading_method": "points_rubric",
+  "prompt": "A 59-year-old male (weight 82 kg) with a history of hypertension and type 2 diabetes presents to the emergency department with severe respiratory distress and hypotension. He had been experiencing symptoms of influenza for the past 5 days and was found unresponsive at home by family members. On arrival, cardiopulmonary resuscitation (CPR) was initiated due to cardiac arrest. After successful resuscitation, the patient remains in cardiogenic shock; there is no evidence of myocarditis, refractory ventricular tachycardia/fibrillation, congenital heart disease, or prior heart or lung transplantation (the shock falls into the 'other diagnoses' SAVE category). Initial blood work indicates acute renal failure with no pre-existing chronic renal failure, and the bicarbonate level measured before any intervention is 13 mmol/L. There is no liver failure or central nervous system dysfunction. The patient was intubated on arrival and has been mechanically ventilated for 15 hours at the time ECMO is initiated, with peak inspiratory pressures exceeding 20 cmH2O. His blood pressure immediately before ECMO is 80/46 mmHg. Given the refractory nature of his shock, the decision is made to initiate veno-arterial extracorporeal membrane oxygenation (VA-ECMO). The medical team seeks to estimate the patient's probability of survival post-VA-ECMO initiation. What is the SAVE Score for this patient?",
+  "rubric_items": [
+    {
+      "item_id": "ab3477ae5f3103ccd566f08299774393_0",
+      "text": "States the SAVE score is −8 (exact integer match required).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

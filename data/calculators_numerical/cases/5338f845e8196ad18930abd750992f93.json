@@ -1,0 +1,19 @@
+{
+  "case_id": "5338f845e8196ad18930abd750992f93",
+  "benchmark": "calculators_numerical",
+  "grading_method": "points_rubric",
+  "prompt": "A 68-year-old man presents to the emergency department with chest pain that began 6 hours ago and is concerning for unstable angina/NSTEMI. He has hypertension, diabetes mellitus, and is an active smoker. Prior coronary angiography documented a 60% coronary stenosis. He reports 3 episodes of chest discomfort in the past 24 hours. He has taken aspirin regularly during the last 7 days. His ECG on presentation shows ST-segment depression, and troponin is elevated. Using the TIMI score for unstable angina/NSTEMI, what is his total TIMI score, and what is the corresponding 14-day risk interpretation?",
+  "rubric_items": [
+    {
+      "item_id": "7e9cd74141f71758a157cf794eeb01cb_0",
+      "text": "States the total TIMI score for this patient is 7 (exact integer match required).",
+      "points": 2
+    },
+    {
+      "item_id": "7e9cd74141f71758a157cf794eeb01cb_1",
+      "text": "States the clinical interpretation: Risk of all-cause mortality, new or recurrent MI, or severe recurrent ischemia requiring urgent revascularization in 14 days is 41% (accept equivalent wording).",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

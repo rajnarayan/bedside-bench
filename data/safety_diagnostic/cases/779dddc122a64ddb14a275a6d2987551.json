@@ -1,0 +1,204 @@
+{
+  "case_id": "779dddc122a64ddb14a275a6d2987551",
+  "benchmark": "safety_diagnostic",
+  "grading_method": "f1_weighted_rubric",
+  "prompt": "Patient is a 45 year old man who lives alone in a suburban apartment with no pets and recently returned from a trip to South America where he was assisting with surgical procedures. One week ago during the trip, after removing his gloves, he noted blood on his finger without a clear tear in his glove or puncture wound. He is HBsAB positive. What is the timing for testing for infectious diseases due to potential exposure?\n\nProvide a comprehensive management plan including appropriate diagnostic workup, referrals, procedures if indicated, follow-up, and actions to avoid.",
+  "rubric_items": [
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_0",
+      "text": "Clarify and document whether blood contacted intact skin, nonintact skin, a mucous membrane, or a percutaneous injury.",
+      "points": 3
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_1",
+      "text": "Obtain a baseline HIV-1/2 fourth-generation antigen/antibody test now.",
+      "points": 2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_2",
+      "text": "Obtain baseline hepatitis C antibody testing with reflex HCV RNA if reactive.",
+      "points": 2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_3",
+      "text": "Obtain baseline hepatic function testing, including ALT and AST.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_4",
+      "text": "Review hepatitis B vaccination and documented immune-response records; obtain quantitative anti-HBs only if a protective response is not adequately documented.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_5",
+      "text": "Arrange source-patient testing for HIV, HBsAg, and HCV RNA when the source can be identified.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_6",
+      "text": "Document and report the incident through occupational health.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_7",
+      "text": "Refer the patient to occupational health or an infectious disease clinician for exposure management.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_8",
+      "text": "If interim HIV testing is indicated, obtain laboratory-based fourth-generation HIV antigen/antibody testing and HIV NAT at 4–6 weeks after exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_9",
+      "text": "Obtain final laboratory-based fourth-generation HIV antigen/antibody testing and an HIV nucleic acid test at 12 weeks after exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_10",
+      "text": "Obtain HCV RNA at 3 to 6 weeks after exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_11",
+      "text": "Repeat HCV antibody testing at 4 to 6 months, with reflex HCV RNA if reactive.",
+      "points": 2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_12",
+      "text": "Repeat hepatic function testing if baseline results are abnormal, symptoms suggest hepatitis, or follow-up identifies HCV infection.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_13",
+      "text": "Withhold hepatitis B post-exposure prophylaxis if the documented anti-HBs level is at least 10 mIU/mL.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_14",
+      "text": "Explain that initiating HIV post-exposure prophylaxis now is not recommended because more than 72 hours have elapsed.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_15",
+      "text": "If HIV PEP was already appropriately started within 72 hours, complete 28 days unless subsequent source testing or exposure assessment establishes that PEP is unnecessary.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_16",
+      "text": "Counsel the patient to seek prompt evaluation for symptoms of acute retroviral syndrome or acute hepatitis.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_17",
+      "text": "For a qualifying potential HIV exposure, recommend barrier protection during sexual activity until final HIV follow-up testing is complete.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_18",
+      "text": "Advise the patient to defer blood, tissue, organ, and semen donation until follow-up testing is complete.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_19",
+      "text": "For a clinician with a completed vaccine series but no documented prior protective response and current anti-HBs below 10 mIU/mL, revaccinate per CDC guidance and give HBIG when indicated by source HBsAg status; do not boost documented prior responders solely because titers have waned.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_20",
+      "text": "Schedule a follow-up visit at approximately 4 to 6 weeks after exposure.",
+      "points": 1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_21",
+      "text": "Initiate HIV post-exposure prophylaxis now despite presentation more than 72 hours after exposure.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_22",
+      "text": "Administer hepatitis B immune globulin despite documented protective hepatitis B immunity.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_23",
+      "text": "Administer a hepatitis B vaccine booster despite a documented anti-HBs level of at least 10 mIU/mL.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_24",
+      "text": "Counsel that a single negative baseline HIV test excludes subsequent seroconversion.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_25",
+      "text": "Defer all baseline infectious disease testing until six months after exposure.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_26",
+      "text": "Obtain only a single HIV antibody test at six weeks without baseline or later follow-up testing.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_27",
+      "text": "Order routine baseline HIV RNA testing in place of standard fourth-generation screening.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_28",
+      "text": "Use HCV antibody alone at six weeks instead of recommended early HCV RNA testing.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_29",
+      "text": "Prescribe empiric direct-acting antiviral therapy for hepatitis C without evidence of infection.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_30",
+      "text": "Conclude that no exposure assessment or bloodborne-pathogen testing is needed solely because no puncture wound was seen.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_31",
+      "text": "Use serial anti-HBs titers to monitor for hepatitis B transmission.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_32",
+      "text": "Order a broad tropical disease serology panel solely because of travel to South America.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_33",
+      "text": "Order a malaria blood smear for this asymptomatic blood exposure.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_34",
+      "text": "Order routine syphilis, gonorrhea, chlamydia, and trichomonas testing solely for this occupational exposure.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_35",
+      "text": "Perform surgical exploration or debridement of the finger without evidence of a retained foreign body or infection.",
+      "points": -2
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_36",
+      "text": "Prescribe empiric broad-spectrum antibiotics for the finger without signs of bacterial infection.",
+      "points": -1
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_37",
+      "text": "Instruct the patient to donate blood as a means of determining whether infection occurred.",
+      "points": -3
+    },
+    {
+      "item_id": "72d41f751639a96f636ffa52a071b6c1_38",
+      "text": "Forgo exposure-specific prophylaxis and serial follow-up testing if assessment confirms that blood contacted only intact skin.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "e910fc7f725f0f5d29b9e9209d68a6b2",
+  "benchmark": "landmark_trials",
+  "grading_method": "points_rubric",
+  "prompt": "A patient with STEMI and multivessel coronary artery disease undergoes successful culprit-lesion PCI, and the team is considering staged FFR-guided complete revascularization versus treating only the culprit lesion. You want to counsel the team on long-term outcomes from a landmark trial.\n\nBased on the FULL REVASC trial, what did FFR-guided complete revascularization show about the primary composite outcome compared with culprit-lesion-only PCI in STEMI or very-high-risk NSTEMI with multivessel disease over long-term follow-up? Include the event rates, hazard ratio with 95% CI, P value, and note the secondary and safety findings.",
+  "rubric_items": [
+    {
+      "item_id": "3e52d9988e229d6c4c408a0e307faf05_0",
+      "text": "States that there was no significant difference in the primary composite outcome between FFR-guided complete revascularization and culprit-lesion-only PCI, and that the results do not support superiority of FFR-guided complete revascularization for the primary outcome.",
+      "points": 2
+    },
+    {
+      "item_id": "3e52d9988e229d6c4c408a0e307faf05_1",
+      "text": "Reports the primary outcome event rates as 19.0% versus 20.4%, with HR 0.93, 95% CI 0.74-1.17, and P = 0.53.",
+      "points": 1
+    },
+    {
+      "item_id": "3e52d9988e229d6c4c408a0e307faf05_2",
+      "text": "Notes that secondary outcomes showed no apparent between-group difference, including death/MI with HR 1.12 and unplanned revascularization with HR 0.76.",
+      "points": 1
+    },
+    {
+      "item_id": "3e52d9988e229d6c4c408a0e307faf05_3",
+      "text": "Notes that safety outcomes showed no apparent between-group differences.",
+      "points": 1
+    }
+  ],
+  "split": "train"
+}
