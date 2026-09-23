@@ -7,6 +7,7 @@ import argparse
 import concurrent.futures
 import datetime as dt
 import hashlib
+import http.cookiejar
 import json
 import math
 import os
@@ -16,6 +17,7 @@ import sys
 import threading
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -499,6 +501,202 @@ def post_gemini(
     )
 
 
+# NeoMD (https://neomd.ai) -- not a hosted-provider API, an app_server this
+# project's own benchmark harnesses already talk to via NextAuth + SSE
+# (see the sibling forks vendoring donoharm/neomd_client.py and
+# medhelm/clients/neomd_chat_client.py). No third-party HTTP client here --
+# this file has zero runtime deps beyond stdlib, so auth uses
+# http.cookiejar + urllib rather than requests.
+#
+# Answer models are referenced by name string with no plugin architecture
+# (unlike HELM/MedHELM's model_deployments.yaml), so target + credentials are
+# resolved from the model name itself via this table rather than a config
+# file. Two named targets only -- add more here, never invent a third
+# resolution mechanism.
+NEOMD_TARGETS: dict[str, dict[str, str]] = {
+    "neomd-local": {
+        "base_url": "http://localhost:3000",
+        "email": "test@neomd.ai",
+        "password_env_var": "NEOMD_CHAT_PASSWORD",
+    },
+    "neomd-prod": {
+        "base_url": "https://neomd.ai",
+        # Real account, kept out of git -- email_env_var not an inline email,
+        # same pattern as donoharm's neomd-research-*-prod.yaml arms.
+        "email_env_var": "NEOMD_EMAIL",
+        "password_env_var": "NEOMD_CHAT_PASSWORD",
+    },
+}
+
+_NEOMD_SESSION_LOCK = threading.Lock()
+_NEOMD_SESSIONS: dict[str, urllib.request.OpenerDirector] = {}
+
+
+def is_neomd_model(model: str) -> bool:
+    return model in NEOMD_TARGETS
+
+
+def _neomd_target(model: str) -> dict[str, str]:
+    try:
+        return NEOMD_TARGETS[model]
+    except KeyError:
+        raise SystemExit(
+            f"Unknown NeoMD target '{model}'. Known: {', '.join(sorted(NEOMD_TARGETS))}"
+        )
+
+
+def _neomd_email(target: dict[str, str]) -> str:
+    env_var = target.get("email_env_var")
+    if not env_var:
+        return target["email"]
+    email = os.environ.get(env_var, "").strip()
+    if not email:
+        raise SystemExit(f"Set {env_var} for the NeoMD account email")
+    return email
+
+
+def _neomd_password(target: dict[str, str]) -> str:
+    env_var = target["password_env_var"]
+    password = os.environ.get(env_var, "").strip()
+    if not password:
+        raise SystemExit(f"Set {env_var} for the NeoMD account password")
+    return password
+
+
+def _neomd_session(model: str) -> tuple[urllib.request.OpenerDirector, str]:
+    """Authenticate once per (model target) and reuse the cookie session
+    across threads -- same one-login-many-requests shape as the other two
+    NeoMD clients in this project."""
+    with _NEOMD_SESSION_LOCK:
+        cached = _NEOMD_SESSIONS.get(model)
+        if cached:
+            return cached, NEOMD_TARGETS[model]["base_url"]
+
+        target = _neomd_target(model)
+        base_url = target["base_url"]
+        email = _neomd_email(target)
+        password = _neomd_password(target)
+
+        jar = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+
+        with opener.open(f"{base_url}/api/auth/csrf", timeout=30) as response:
+            csrf_token = json.load(response)["csrfToken"]
+
+        creds_body = urllib.parse.urlencode(
+            {
+                "csrfToken": csrf_token,
+                "email": email,
+                "password": password,
+                "redirect": "false",
+                "json": "true",
+            }
+        ).encode()
+        creds_request = urllib.request.Request(
+            f"{base_url}/api/auth/callback/credentials",
+            data=creds_body,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+        )
+        with opener.open(creds_request, timeout=30) as response:
+            response.read()
+
+        with opener.open(f"{base_url}/api/auth/session", timeout=30) as response:
+            session_payload = json.load(response)
+        if not session_payload.get("user"):
+            raise RuntimeError(
+                f"NextAuth login failed for {email} against {base_url}. "
+                "Check the account password env var and that the server is running."
+            )
+
+        _NEOMD_SESSIONS[model] = opener
+        return opener, base_url
+
+
+def post_neomd(
+    model: str,
+    messages: list[dict],
+    max_retries: int,
+    timeout: int = 300,
+) -> tuple[str, int | None]:
+    """Call NeoMD's expert-chat SSE endpoint.
+
+    single_shot + extended_thinking are pinned per request -- the server
+    resolves settings.<flag> with precedence over its own env-var default
+    (lib/expert-chat/research/reasoned-pipeline.ts in the app repo), so this
+    is what actually determines pipeline shape and model-thinking mode for
+    this arm, not whatever the target server's current defaults happen to
+    be. Matches the config already used for NeoMD's NOHARM/SCT/MedHELM arms.
+    """
+    opener, base_url = _neomd_session(model)
+    # BedsideBench cases are single-turn (evaluate_case sends one system
+    # message + one user message, no history) -- take the last non-system
+    # message as NeoMD's `message` field, same extraction MedHELM's
+    # NeoMDChatClient._split_conversation does for multi-turn cases.
+    message = next(
+        (m["content"] for m in reversed(messages) if m["role"] != "system"), ""
+    )
+    settings = {
+        "single_shot": True,
+        "extended_thinking": True,
+        "research_strategy": "reasoned_research",
+        "always_research": True,
+        "research_sources": ["pubmed", "tavily_clinical_reference"],
+        "pubmed_expansions": ["strict", "recency"],
+    }
+    body = json.dumps(
+        {"message": message, "settings": settings, "history": []}
+    ).encode()
+
+    last_error = None
+    for attempt in range(max_retries):
+        request = urllib.request.Request(
+            f"{base_url}/api/expert-chat/chat",
+            data=body,
+            headers={
+                "Accept": "text/event-stream",
+                "Content-Type": "application/json",
+            },
+        )
+        try:
+            with opener.open(request, timeout=timeout) as response:
+                parts: list[str] = []
+                for raw_line in response:
+                    line = raw_line.decode("utf-8", errors="replace").strip()
+                    if not line.startswith("data:"):
+                        continue
+                    data_str = line[len("data:"):].strip()
+                    if not data_str:
+                        continue
+                    try:
+                        event = json.loads(data_str)
+                    except json.JSONDecodeError:
+                        continue
+                    event_type = event.get("type")
+                    if event_type == "token":
+                        parts.append(event.get("content", ""))
+                    elif event_type == "done":
+                        break
+                    elif event_type == "error":
+                        raise RuntimeError(
+                            f"NeoMD chat API error: {event.get('message', 'unknown')}"
+                        )
+            answer = "".join(parts)
+            if not answer.strip():
+                raise RuntimeError("NeoMD returned an empty response (no token events)")
+            return answer, None
+        except urllib.error.HTTPError as error:
+            detail = error.read().decode(errors="replace")[:1000]
+            last_error = RuntimeError(f"HTTP {error.code}: {detail}")
+            if error.code not in (408, 409, 429, 500, 502, 503, 504):
+                raise last_error
+        except (urllib.error.URLError, TimeoutError, RuntimeError) as error:
+            last_error = error
+        if attempt + 1 < max_retries:
+            time.sleep(min(60, (2**attempt) + random.random()))
+
+    raise RuntimeError(f"NeoMD request failed after {max_retries} attempts: {last_error}")
+
+
 def render_judge_user(case: dict, answer: str) -> str:
     items = "\n".join(
         f"[{item['item_id']}] points={item['points']:+g} :: {item['text']}"
@@ -585,7 +783,14 @@ def evaluate_case(
         {"role": "user", "content": case["prompt"]},
     ]
     answer_timeout = 600 if reasoning_effort else 300
-    if is_gemini_model(answer_model):
+    if is_neomd_model(answer_model):
+        answer, answer_temperature = post_neomd(
+            answer_model,
+            answer_messages,
+            max_retries=max_retries,
+            timeout=max(answer_timeout, 300),
+        )
+    elif is_gemini_model(answer_model):
         answer, answer_temperature = post_gemini(
             answer_model,
             answer_messages,

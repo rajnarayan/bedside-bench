@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 
+import os
 import unittest
+from unittest.mock import patch
 
 from evaluation.run_benchmark import (
+    NEOMD_TARGETS,
     dataset_sha256,
+    is_neomd_model,
     parse_decisions,
     score_case,
     summarize,
 )
+from evaluation.run_benchmark import _neomd_email, _neomd_password, _neomd_target
 
 
 class ScoreCaseTest(unittest.TestCase):
@@ -130,6 +135,44 @@ class ScoreCaseTest(unittest.TestCase):
         self.assertEqual(summary["answer_temperature"], 0)
         self.assertEqual(summary["judge_passes_per_answer"], 1)
         self.assertEqual(summary["errors"], 0)
+
+
+class NeomdProviderTest(unittest.TestCase):
+    """NeoMD is referenced by name string with no plugin architecture in this
+    repo, so target/credential resolution is hand-rolled -- these pin that
+    resolution logic without making a real network call."""
+
+    def test_only_the_two_named_targets_are_neomd_models(self):
+        self.assertTrue(is_neomd_model("neomd-local"))
+        self.assertTrue(is_neomd_model("neomd-prod"))
+        self.assertFalse(is_neomd_model("gpt-5.6-sol"))
+        self.assertFalse(is_neomd_model("claude-opus-5"))
+
+    def test_unknown_neomd_target_raises_with_the_known_list(self):
+        with self.assertRaises(SystemExit) as ctx:
+            _neomd_target("neomd-staging")
+        self.assertIn("neomd-local", str(ctx.exception))
+        self.assertIn("neomd-prod", str(ctx.exception))
+
+    def test_local_target_uses_inline_test_email(self):
+        target = NEOMD_TARGETS["neomd-local"]
+        self.assertEqual(_neomd_email(target), "test@neomd.ai")
+
+    def test_prod_target_requires_neomd_email_env_var(self):
+        target = NEOMD_TARGETS["neomd-prod"]
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("NEOMD_EMAIL", None)
+            with self.assertRaises(SystemExit):
+                _neomd_email(target)
+        with patch.dict(os.environ, {"NEOMD_EMAIL": "raj@kanza.ai"}):
+            self.assertEqual(_neomd_email(target), "raj@kanza.ai")
+
+    def test_password_env_var_missing_raises(self):
+        target = NEOMD_TARGETS["neomd-local"]
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("NEOMD_CHAT_PASSWORD", None)
+            with self.assertRaises(SystemExit):
+                _neomd_password(target)
 
 
 if __name__ == "__main__":
