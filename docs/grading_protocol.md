@@ -109,6 +109,11 @@ score     = 2PR / (P + R), or 0 when P + R = 0
 This aligns with the published NOHARM F1 protocol (Wu et al., [arXiv:2512.01241](https://arxiv.org/abs/2512.01241)),
 which prices severity through an analogous severity weighting.
 
+There is no per-case veto: omitting a +3 item or endorsing a −3 item lowers
+recall or precision but does not zero the case. `severe_rate` (1 when a case
+has a severe omission or a severe endorsement, else 0) is reported per case as
+a diagnostic only.
+
 ## 4. Aggregation and uncertainty
 
 Each benchmark score is the arithmetic mean of its 50 case scores. The overall
